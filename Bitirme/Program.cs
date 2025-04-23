@@ -1,7 +1,10 @@
 using Bitirme.BLL;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Bitirme.DAL;
 using System.Text;
+using Bitirme;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,6 +39,14 @@ builder.Services.AddAuthentication(options =>
 });
 
 var app = builder.Build();
+
+// Başlangıçta migrationları uygulayın ve sahte verileri ekleyin
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<BitirmeDbContext>();
+    dbContext.Database.Migrate();
+    GenerateFakeData.Seed(scope.ServiceProvider);
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

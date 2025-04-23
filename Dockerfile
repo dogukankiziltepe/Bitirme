@@ -19,7 +19,7 @@ WORKDIR /app
 COPY --from=build /out .
 
 # Expose the port the application runs on
-EXPOSE 80
+EXPOSE 8080
 
 # Set the entry point for the application
 ENTRYPOINT ["dotnet", "Bitirme.dll"]

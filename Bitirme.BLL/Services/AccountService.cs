@@ -59,7 +59,7 @@ namespace Bitirme.BLL.Services
             return null; // Login failed
         }
 
-        public bool SignUp(string username, string password, string email, UserType userType)
+        public bool SignUp(string username, string password, string email,string name,string surname,DateTime birthDate, UserType userType)
         {
             // Check if the user already exists
             if (_context.Teachers.Any(t => t.Username == username) || _context.Students.Any(s => s.Username == username))
@@ -76,6 +76,9 @@ namespace Bitirme.BLL.Services
                     Username = username,
                     Password = password, // In a real-world scenario, hash the password before saving
                     Email = email,
+                    Name = name,
+                    Surname = surname,
+                    BirthDate = birthDate,
                     CreatedDate = DateTime.UtcNow,
                     UpdatedDate = DateTime.UtcNow
                 };
@@ -91,6 +94,9 @@ namespace Bitirme.BLL.Services
                     Username = username,
                     Password = password, // In a real-world scenario, hash the password before saving
                     Email = email,
+                    Name = name,
+                    BirthDate = birthDate,
+                    Surname = surname,
                     CreatedDate = DateTime.UtcNow,
                     UpdatedDate = DateTime.UtcNow
                 };

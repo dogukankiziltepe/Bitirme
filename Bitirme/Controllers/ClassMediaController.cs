@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using Bitirme.BLL.Interfaces;
 using Bitirme.DAL.Entities.Medias;
+using Bitirme.DAL.Entities.Courses;
 
 namespace Bitirme.Controllers
 {
@@ -20,29 +21,32 @@ namespace Bitirme.Controllers
         }
 
         [HttpPost("upload")]
-        public IActionResult UploadFile([FromForm] IFormFile file, [FromForm] string classId)
+        public IActionResult UploadFile([FromForm] MediaDTO model)
         {
-            if (file == null || file.Length == 0)
+            if (model.File == null || model.File.Length == 0)
                 return BadRequest("File is not selected.");
 
             if (!Directory.Exists(_mediaStoragePath))
                 Directory.CreateDirectory(_mediaStoragePath);
 
-            var fileName = Path.GetFileName(file.FileName);
+            var fileName = Path.GetFileName(model.File.FileName);
             var filePath = Path.Combine(_mediaStoragePath, fileName);
 
             using (var stream = new FileStream(filePath, FileMode.Create))
             {
-                file.CopyTo(stream);
+                model.File.CopyTo(stream);
+            }
+            if (!string.IsNullOrEmpty(model.ClassId))
+            {
+                var classMedia = new ClassMedia
+                {
+                    ClassId = model.ClassId,
+                    MediaName = fileName
+                };
+
+                _classMediaService.Add(classMedia);
             }
 
-            var classMedia = new ClassMedia
-            {
-                ClassId = classId,
-                MediaName = fileName
-            };
-
-            _classMediaService.Add(classMedia);
 
             return Ok(new { Message = "File uploaded successfully.", FileName = fileName });
         }
@@ -64,6 +68,12 @@ namespace Bitirme.Controllers
 
             var fileBytes = System.IO.File.ReadAllBytes(filePath);
             return File(fileBytes, "application/octet-stream", fileName);
+        }
+
+        public class MediaDTO
+        {
+            public IFormFile File { get; set; }
+            public string? ClassId { get; set; }
         }
     }
 }
