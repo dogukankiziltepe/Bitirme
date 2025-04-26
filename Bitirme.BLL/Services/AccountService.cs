@@ -19,6 +19,7 @@ namespace Bitirme.BLL.Services
         public string Id { get; set; }
         public string Name { get; set; }
         public UserType UserType { get; set; }
+        public string EMail { get; internal set; }
     }
 
     public class AccountService:IAccountService
@@ -32,37 +33,39 @@ namespace Bitirme.BLL.Services
             _configuration = configuration;
         }
 
-        public AccountViewModel Login(string username, string password)
+        public AccountViewModel Login(string email, string password)
         {
-            var teacher = _context.Teachers.FirstOrDefault(t => t.Username == username && t.Password == password);
+            var teacher = _context.Teachers.FirstOrDefault(t => t.Email == email && t.Password == password);
             if (teacher != null)
             {
                 return new AccountViewModel
                 {
                     Id = teacher.Id,
                     Name = teacher.Name,
-                    UserType = UserType.Teacher
+                    UserType = UserType.Teacher,
+                    EMail = teacher.Email,
                 };
             }
 
-            var student = _context.Students.FirstOrDefault(s => s.Username == username && s.Password == password);
+            var student = _context.Students.FirstOrDefault(s => s.Email == email && s.Password == password);
             if (student != null)
             {
                 return new AccountViewModel
                 {
                     Id = student.Id,
                     Name = student.Name,
-                    UserType = UserType.Student
+                    UserType = UserType.Student,
+                    EMail = teacher.Email,
                 };
             }
 
             return null; // Login failed
         }
 
-        public bool SignUp(string username, string password, string email,string name,string surname,DateTime birthDate, UserType userType)
+        public bool SignUp(string password, string email,string name, UserType userType)
         {
             // Check if the user already exists
-            if (_context.Teachers.Any(t => t.Username == username) || _context.Students.Any(s => s.Username == username))
+            if (_context.Teachers.Any(t => t.Email == email))
             {
                 return false; // User already exists
             }
@@ -73,12 +76,9 @@ namespace Bitirme.BLL.Services
                 var newTeacher = new Teacher
                 {
                     Id = Guid.NewGuid().ToString(),
-                    Username = username,
                     Password = password, // In a real-world scenario, hash the password before saving
                     Email = email,
                     Name = name,
-                    Surname = surname,
-                    BirthDate = birthDate,
                     CreatedDate = DateTime.UtcNow,
                     UpdatedDate = DateTime.UtcNow
                 };
@@ -91,12 +91,9 @@ namespace Bitirme.BLL.Services
                 var newStudent = new Student
                 {
                     Id = Guid.NewGuid().ToString(),
-                    Username = username,
                     Password = password, // In a real-world scenario, hash the password before saving
                     Email = email,
                     Name = name,
-                    BirthDate = birthDate,
-                    Surname = surname,
                     CreatedDate = DateTime.UtcNow,
                     UpdatedDate = DateTime.UtcNow
                 };

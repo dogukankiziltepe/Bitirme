@@ -19,7 +19,7 @@ namespace Bitirme.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
-            var result = _accountService.Login(request.Username, request.Password);
+            var result = _accountService.Login(request.EMail, request.Password);
             if (result == null)
             {
                 return Unauthorized("Invalid username or password.");
@@ -32,7 +32,7 @@ namespace Bitirme.Controllers
         [HttpPost("signup")]
         public IActionResult SignUp([FromBody] SignUpRequest request)
         {
-            var result = _accountService.SignUp(request.Username, request.Password, request.Email,request.Name,request.Surname,request.BirthDate, request.UserType);
+            var result = _accountService.SignUp(request.Password, request.Email,request.Name, request.UserType);
             if (!result)
             {
                 return BadRequest("Sign up failed. Please try again.");
@@ -55,18 +55,15 @@ namespace Bitirme.Controllers
 
     public class LoginRequest
     {
-        public string Username { get; set; }
+        public string EMail { get; set; }
         public string Password { get; set; }
     }
 
     public class SignUpRequest
     {
-        public string Username { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
         public string Name { get; set; }
-        public string Surname { get; set; }
-        public DateTime BirthDate { get; set; }
         public UserType UserType { get; set; }
     }
 }
