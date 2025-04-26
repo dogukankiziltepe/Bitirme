@@ -55,7 +55,7 @@ namespace Bitirme.BLL.Services
                     Id = student.Id,
                     Name = student.Name,
                     UserType = UserType.Student,
-                    EMail = teacher.Email,
+                    EMail = student.Email,
                 };
             }
 
