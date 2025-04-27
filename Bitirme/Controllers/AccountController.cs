@@ -34,7 +34,7 @@ namespace Bitirme.Controllers
         {
             if(string.IsNullOrEmpty(request.Name) && string.IsNullOrEmpty(request.Password) && string.IsNullOrEmpty(request.Email))
             {
-                return BadRequest("Lütfen Tüm Bilgileri Doldurunuz!");
+                return BadRequest("Please Fill All Fields!");
             }
             var result = _accountService.SignUp(request.Password, request.Email,request.Name, request.UserType);
             if (!result)
