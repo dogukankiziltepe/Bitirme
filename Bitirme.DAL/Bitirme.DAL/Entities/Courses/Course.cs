@@ -12,6 +12,7 @@ namespace Bitirme.DAL.Entities.Courses
         public string Description { get; set; }
         public int Duration { get; set; } // in hours
         public Level Level { get; set; }
+        public CourseType CourseType { get; set; }
         public List<Class> Classes { get; set; } = new List<Class>();
     }
 }

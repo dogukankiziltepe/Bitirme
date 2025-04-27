@@ -33,6 +33,8 @@ namespace Bitirme.DAL
             services.AddScoped<IMediaRepository, MediaRepository>();
             services.AddScoped<IStudentRepository, StudentRepository>();
             services.AddScoped<ITeacherRepository, TeacherRepository>();
+            services.AddScoped<ILessonRepository, LessonRepository>();
+            services.AddScoped<ILessonStudentRepository,LessonStudentRepository>();
 
 
             return services;

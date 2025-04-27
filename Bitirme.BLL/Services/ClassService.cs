@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System;
 using Bitirme.DAL.Entities.User;
+using Bitirme.BLL.Models;
 
 namespace Bitirme.BLL.Services
 {
@@ -12,32 +13,79 @@ namespace Bitirme.BLL.Services
     {
         private readonly IClassRepository _classRepository;
         private readonly IStudentService _studentService;
+        private readonly ILessonService _lessonService;
+        private readonly ITeacherService _teacherService;
+        private readonly ILessonStudentRepository _lessonStudentRepository;
 
-        public ClassService(IClassRepository classRepository, IStudentService studentService)
+        public ClassService(IClassRepository classRepository, IStudentService studentService,
+            ILessonService lessonService, ITeacherService teacherService,
+            ILessonStudentRepository lessonStudentRepository)
         {
             _classRepository = classRepository;
             _studentService = studentService;
+            _lessonService = lessonService;
+            _teacherService = teacherService;
+            _lessonStudentRepository = lessonStudentRepository;
         }
 
-        public IEnumerable<Class> GetAll()
+        public IEnumerable<ClassViewModel> GetAll()
         {
-            return _classRepository.GetAll();
+            return _classRepository.GetAll().Select(x => new ClassViewModel
+            {
+                Id = x.Id,
+                Capacity = x.Capacity,
+                Level = x.Level,
+                Name = x.Name,
+                TeacherId = x.TeacherId,
+                CurrentStudentCount = x.Students.Count
+            });
         }
 
-        public Class GetById(string id)
+        public ClassViewModel GetById(string id)
         {
-            return _classRepository.GetById(id);
+            var dbClass = _classRepository.GetById(id);
+            var lessons = _lessonService.GetLessonsWithClassId(id);
+            return new ClassViewModel
+            {
+                Id = dbClass.Id,
+                Capacity = dbClass.Capacity,
+                Level = dbClass.Level,
+                Name = dbClass.Name,
+                TeacherId = dbClass.TeacherId,
+                CurrentStudentCount = dbClass.Students.Count,
+                Lessons = lessons.Select(x => new LessonViewModel
+                {
+                    Students = x.Students,
+                    Content = x.Content,
+                    Order = x.Order,
+                    Id = x.Id,
+                    ClassId = x.ClassId,
+
+                }).ToList(),
+            };
         }
 
-        public void Add(Class classEntity)
+        public void Add(ClassDTO classEntity)
         {
-            _classRepository.Add(classEntity);
+            var teacher = _teacherService.GetById(classEntity.TeacherId);
+            _classRepository.Add(new Class
+            {
+                Capacity = classEntity.Capacity,
+                Level=classEntity.Level,
+                Name=classEntity.Name,
+                TeacherId=classEntity.TeacherId,
+                Teacher = teacher,
+                CreatedDate = DateTime.Now,
+            });
             _classRepository.SaveChanges();
         }
 
-        public void Update(Class classEntity)
+        public void Update(ClassDTO classEntity)
         {
-            _classRepository.Update(classEntity);
+            var dbClass = _classRepository.GetById(classEntity.Id);
+            dbClass.Level = classEntity.Level;
+            dbClass.Capacity = classEntity.Capacity;
+            _classRepository.Update(dbClass);
             _classRepository.SaveChanges();
         }
 
@@ -47,9 +95,30 @@ namespace Bitirme.BLL.Services
             _classRepository.SaveChanges();
         }
 
-        public IEnumerable<Class> GetClassesByStudentId(string studentId)
+        public IEnumerable<ClassViewModel> GetClassesByStudentId(string studentId)
         {
-            return _classRepository.GetAll().Where(c => c.Students.Any(s => s.Id == studentId));
+            return _classRepository.FindWithInclude(c => c.Students.Any(s => s.Id == studentId), c => c.Students, c => c.Teacher, c => c.Lessons).Select(x => new ClassViewModel
+            {
+                Id = x.Id,
+                Teacher = new TeacherViewModel
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                },
+                Capacity = x.Capacity,
+                CurrentStudentCount = x.Students.Count(),
+                Lessons = x.Lessons.Select(a => new LessonViewModel
+                {
+                    ClassId = x.Id,
+                    Content = a.Content,
+                    Id = a.Id,
+                    Order = a.Order,
+                    IsCompleted = _lessonStudentRepository.Any(studentId,a.Id)
+                }).ToList(),
+                Level = x.Level,
+                Name = x.Name,
+                TeacherId = x.TeacherId
+            }).ToList();
         }
 
         public void AddStudentToClass(string classId, string studentId)
@@ -87,30 +156,62 @@ namespace Bitirme.BLL.Services
             });
         }
 
-        public IEnumerable<ClassViewModel> GetClassesByCourseId(string courseId)
-        {
-            return _classRepository.GetAll()
-                .Where(c => c.CourseId == courseId)
-                .Select(c => new ClassViewModel
-                {
-                    Id = c.Id,
-                    Name = c.Name,
-                    Capacity = c.Capacity,
-                    CurrentStudentCount = c.Students.Count
-                });
-        }
 
         public Student GetStudentById(string studentId)
         {
             return _studentService.GetById(studentId);
         }
-    }
 
-    public class ClassViewModel
-    {
-        public string Id { get; set; }
-        public string Name { get; set; }
-        public int Capacity { get; set; } // Maximum number of students allowed in the class
-        public int CurrentStudentCount { get; set; } // Number of students currently in the class
+        public IEnumerable<ClassViewModel> GetClassesByCourseId(string courseId)
+        {
+            try
+            {
+                var classes = _classRepository.FindWithInclude(x => x.Course.Id == courseId, x => x.Students,x => x.Teacher);
+                return classes.Select(x => new ClassViewModel
+                {
+                    Id = x.Id,
+                    CurrentStudentCount = x.Students.Count,
+                    Capacity = x.Capacity,
+                    Level = x.Level,
+                    Name = x.Name,
+                    Teacher = new TeacherViewModel
+                    {
+                        Id = x.Teacher.Id,
+                        Name = x.Teacher.Name,
+                    }
+                }).ToList();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public ClassViewModel GetClassCourseIdAndStudentId(string courseId, string studentId)
+        {
+            var dbclass = _classRepository.FindWithInclude(x => x.Course.Id == courseId && x.Students.Any(s => s.Id == studentId), x => x.Students, x => x.Teacher, x => x.Lessons).FirstOrDefault();
+            return new ClassViewModel
+            {
+                Id = dbclass.Id,
+                CurrentStudentCount = dbclass.Students.Count,
+                Capacity = dbclass.Capacity,
+                Level = dbclass.Level,
+                Name = dbclass.Name,
+                Teacher = new TeacherViewModel
+                {
+                    Id = dbclass.Teacher.Id,
+                    Name = dbclass.Teacher.Name,
+                },
+                Lessons = dbclass.Lessons.Select(x => new LessonViewModel
+                {
+                    ClassId = dbclass.Id,
+                    Content = x.Content,
+                    Id = x.Id,
+                    Order = x.Order,
+                    IsCompleted = _lessonStudentRepository.Any(studentId, x.Id)
+                }).ToList()
+            };
+        }
     }
 }

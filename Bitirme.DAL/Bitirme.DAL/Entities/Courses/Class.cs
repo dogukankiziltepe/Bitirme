@@ -13,9 +13,10 @@ namespace Bitirme.DAL.Entities.Courses
         public int Capacity { get; set; } // Maximum number of students allowed in the class
         public Level Level { get; set; }
         public string TeacherId { get; set; }
+        public virtual Teacher Teacher { get; set; }
         public string CourseId { get; set; }
         public virtual Course Course { get; set; }
-        public virtual Teacher Teacher { get; set; }
         public virtual ICollection<Student> Students { get; set; } = new List<Student>();
+        public virtual ICollection<Lesson> Lessons { get; set; } = new List<Lesson>();
     }
 }

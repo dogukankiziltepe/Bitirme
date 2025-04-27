@@ -6,14 +6,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Services/" />
-  </ItemGroup>
-
 
   <ItemGroup>
     <ProjectReference Include="..\Bitirme.DAL\Bitirme.DAL\Bitirme.DAL.csproj" />

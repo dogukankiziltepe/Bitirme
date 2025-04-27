@@ -25,6 +25,7 @@ namespace Bitirme.BLL
             services.AddScoped<ICourseService, CourseService>();
             services.AddScoped<IStudentService, StudentService>();
             services.AddScoped<ITeacherService, TeacherService>();
+            services.AddScoped<ILessonService, LessonService>();
             
             return services;
         }

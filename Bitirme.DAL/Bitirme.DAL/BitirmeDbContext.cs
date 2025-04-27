@@ -25,6 +25,8 @@ namespace Bitirme.DAL
         #region COURSES
         public DbSet<Course> Courses { get; set; }
         public DbSet<Class> Classes { get; set; }
+        public DbSet<Lesson> Lesson { get; set; }
+        public DbSet<LessonStudent> LessonStudents { get; set; }
         #endregion
 
         #region Medias

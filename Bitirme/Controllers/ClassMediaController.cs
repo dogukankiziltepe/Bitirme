@@ -20,6 +20,11 @@ namespace Bitirme.Controllers
             _classMediaService = classMediaService;
         }
 
+        /// <summary>
+        /// File Yükleme Methodu
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost("upload")]
         public IActionResult UploadFile([FromForm] MediaDTO model)
         {
@@ -41,7 +46,8 @@ namespace Bitirme.Controllers
                 var classMedia = new ClassMedia
                 {
                     ClassId = model.ClassId,
-                    MediaName = fileName
+                    MediaName = fileName,
+                    LessonId = model.LessonId
                 };
 
                 _classMediaService.Add(classMedia);
@@ -51,13 +57,22 @@ namespace Bitirme.Controllers
             return Ok(new { Message = "File uploaded successfully.", FileName = fileName });
         }
 
+        /// <summary>
+        /// Class Id ile o Class'a ait medyalarý getirir.
+        /// </summary>
+        /// <param name="classId"></param>
+        /// <returns></returns>
         [HttpGet("class/{classId}")]
         public IActionResult GetClassMedia(string classId)
         {
             var mediaList = _classMediaService.GetAll().Where(m => m.ClassId == classId).ToList();
             return Ok(mediaList);
         }
-
+        /// <summary>
+        /// fileName ile medyayý file olarak döndüren controller
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <returns></returns>
         [HttpGet("media/{fileName}")]
         public IActionResult GetMedia(string fileName)
         {
@@ -74,6 +89,7 @@ namespace Bitirme.Controllers
         {
             public IFormFile File { get; set; }
             public string? ClassId { get; set; }
+            public string? LessonId { get; set; }
         }
     }
 }

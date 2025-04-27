@@ -1,9 +1,11 @@
 ﻿using Bitirme.DAL.Abstracts;
 using Bitirme.DAL.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,6 +34,22 @@ namespace Bitirme.DAL.Concretes
         {
             var entity = _entities.Find(id);
             _entities.Remove(entity);
+        }
+
+        public IEnumerable<T> FindWithInclude(Expression<Func<T, bool>> filter = null, params Expression<Func<T, object>>[] includes)
+        {
+            if (includes != null)
+            {
+                IQueryable<T> query = _entities;
+                query = includes.Aggregate(query,
+                (current, include) => current.Include(include));
+                return query.Where(filter);
+            }
+            else
+            {
+                return _entities.Where(filter);
+            }
+
         }
 
         public IQueryable<T> GetAll()

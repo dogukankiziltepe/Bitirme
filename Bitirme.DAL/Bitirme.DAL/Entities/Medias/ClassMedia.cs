@@ -11,6 +11,8 @@ namespace Bitirme.DAL.Entities.Medias
     {
         public string ClassId { get; set; }
         public virtual Class Class { get; set; }
+        public string? LessonId { get; set; }
+        public virtual Lesson? Lesson { get; set; }
         public string MediaName { get; set; }
         public string MediaType { get; set; } // Video, Audio, Document, etc.
         public string MediaUrl { get; set; } // URL or path to the media file

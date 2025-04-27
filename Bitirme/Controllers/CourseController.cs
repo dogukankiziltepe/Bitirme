@@ -10,14 +10,17 @@ namespace Bitirme.Controllers
     public class CourseController : ControllerBase
     {
         private readonly ICourseService _courseService;
-
+        
         public CourseController(ICourseService courseService)
         {
             _courseService = courseService;
         }
-
+        /// <summary>
+        /// Tüm courselarý çek.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
-        public ActionResult<IEnumerable<Course>> GetAll()
+        public IActionResult GetAll()
         {
             return Ok(_courseService.GetAll());
         }

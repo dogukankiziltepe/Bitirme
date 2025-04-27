@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,6 +17,8 @@ namespace Bitirme.DAL.Abstracts
         public void Delete(string id);
         public void SaveChanges();
         public void AddRange(IEnumerable<T> entities);
+        public IEnumerable<T> FindWithInclude(Expression<Func<T, bool>> filter = null, params Expression<Func<T, object>>[] includes);
+
 
     }
 }

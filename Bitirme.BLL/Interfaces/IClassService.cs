@@ -1,3 +1,4 @@
+using Bitirme.BLL.Models;
 using Bitirme.BLL.Services;
 using Bitirme.DAL.Entities.Courses;
 using Bitirme.DAL.Entities.User;
@@ -7,12 +8,15 @@ namespace Bitirme.BLL.Interfaces
 {
     public interface IClassService
     {
-        IEnumerable<Class> GetAll();
-        Class GetById(string id);
-        void Add(Class classEntity);
-        void Update(Class classEntity);
+        IEnumerable<ClassViewModel> GetAll();
+        ClassViewModel GetById(string id);
+        void Add(ClassDTO classEntity);
+        void Update(ClassDTO classEntity);
         void Delete(string id);
-        IEnumerable<Class> GetClassesByStudentId(string studentId);
+        IEnumerable<ClassViewModel> GetClassesByCourseId(string courseId);
+        IEnumerable<ClassViewModel> GetClassesByStudentId(string studentId);
+        ClassViewModel GetClassCourseIdAndStudentId(string courseId,string studentId);
+
         void AddStudentToClass(string classId, string studentId);
         IEnumerable<ClassViewModel> GetAllClassesWithDetails();
         Student GetStudentById(string studentId);
