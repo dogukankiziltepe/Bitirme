@@ -32,7 +32,7 @@ namespace Bitirme.Controllers
         [HttpPost("signup")]
         public IActionResult SignUp([FromBody] SignUpRequest request)
         {
-            if(string.IsNullOrEmpty(request.Name) && string.IsNullOrEmpty(request.Password) && string.IsNullOrEmpty(request.Email))
+            if(string.IsNullOrEmpty(request.Name) || string.IsNullOrEmpty(request.Password) || string.IsNullOrEmpty(request.Email))
             {
                 return BadRequest("Please Fill All Fields!");
             }
