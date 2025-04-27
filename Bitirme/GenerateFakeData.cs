@@ -72,12 +72,95 @@ namespace Bitirme
                     },
 
                 };
+                var newClasses = new List<Class>();
+                foreach (var course in courses)
+                {
+                    var classes = new List<Class>
+                {
+                    new Class
+                    {
+                        Capacity = 10000,
+                        Course = course,
+                        CourseId = course.Id,
+                        Level = Level.A1,
+                        Name = course.Name + " Class",
+                        CreatedDate = course.CreatedDate,
+                        Teacher = teacher,
+                    },
+                    new Class
+                    {
+                        Capacity = 10000,
+                        Course = course,
+                        CourseId = course.Id,
+                        Level = Level.A2,
+                        Name = course.Name + " Class",
+                        CreatedDate = course.CreatedDate,
+                        Teacher = teacher,
+                    },
+                    new Class
+                    {
+                        Capacity = 10000,
+                        Course = course,
+                        CourseId = course.Id,
+                        Level = Level.B1,
+                        Name = course.Name + " Class",
+                        CreatedDate = course.CreatedDate,
+                        Teacher = teacher,
+                    },
+                    new Class
+                    {
+                        Capacity = 10000,
+                        Course = course,
+                        CourseId = course.Id,
+                        Level = Level.B2,
+                        Name = course.Name + " Class",
+                        CreatedDate = course.CreatedDate,
+                        Teacher = teacher,
+                    },
+                    new Class
+                    {
+                        Capacity = 10000,
+                        Course = course,
+                        CourseId = course.Id,
+                        Level = Level.A1,
+                        Name = course.Name + " Class",
+                        CreatedDate = course.CreatedDate,
+                        Teacher = teacher,
+                    },
+                    new Class
+                    {
+                        Capacity = 10000,
+                        Course = course,
+                        CourseId = course.Id,
+                        Level = Level.C1,
+                        Name = course.Name + " Class",
+                        CreatedDate = course.CreatedDate,
+                        Teacher = teacher,
+                    },
+                    new Class
+                    {
+                        Capacity = 10000,
+                        Course = course,
+                        CourseId = course.Id,
+                        Level = Level.C2,
+                        Name = course.Name + " Class",
+                        CreatedDate = course.CreatedDate,
+                        Teacher = teacher,
+                    },
+                };
+                    newClasses.AddRange(classes);
+                   
+                }
+
 
                 context.Teachers.Add(teacher);
                 context.Students.AddRange(students);
                 context.Courses.AddRange(courses);
-
+                context.Students.AddRange(students);
                 context.SaveChanges();
+                context.Classes.AddRange(newClasses);
+                context.SaveChanges();
+
             }
         }
     }
