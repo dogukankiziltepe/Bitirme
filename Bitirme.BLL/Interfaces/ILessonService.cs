@@ -12,5 +12,6 @@ namespace Bitirme.BLL.Interfaces
         public bool CreateLesson(LessonViewModel lessonViewModel);
         public List<LessonViewModel> GetLessonsWithClassId(string classId);
         public bool CompleteLesson(string studentId, string lessonId);
+        public bool AddLessonQuestions(string lessonId, List<QuestionViewModel> questionViewModels);
     }
 }

@@ -158,5 +158,39 @@ namespace Bitirme.Controllers
         {
             return Ok(_classService.GetAllClassesWithDetails());
         }
+
+        /// <summary>
+        /// Class'ý bitirme sýnavýný ekleme
+        /// </summary>
+        /// <param name="questions"></param>
+        /// <param name="classId"></param>
+        /// <returns></returns>
+        [HttpPost("AddClassExam/{classId}")]
+        public IActionResult AddClassExam(List<QuestionViewModel> questions, string classId)
+        {
+            var result = _classService.AddClassExam(questions, classId);
+            if (result)
+            {
+                return Ok(result);
+            }
+            return BadRequest();
+        }
+
+        /// <summary>
+        /// Class'ý bitirip bir üst seviyeye çýkmasýný saðlayan endpoint
+        /// </summary>
+        /// <param name="classId"></param>
+        /// <param name="studentId"></param>
+        /// <returns></returns>
+        [HttpGet("CompleteClass/{classId}/{studentId}")]
+        public IActionResult CompletedClass(string classId, string studentId)
+        {
+            var result = _classService.CompletedClass(classId, studentId);
+            if (result)
+            {
+                return Ok(result);
+            }
+            return BadRequest();
+        }
     }
 }

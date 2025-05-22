@@ -5,6 +5,7 @@ using System.Linq;
 using Bitirme.BLL.Interfaces;
 using Bitirme.DAL.Entities.Medias;
 using Bitirme.DAL.Entities.Courses;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Bitirme.Controllers
 {
@@ -47,14 +48,14 @@ namespace Bitirme.Controllers
                 {
                     ClassId = model.ClassId,
                     MediaName = fileName,
-                    LessonId = model.LessonId
+                    LessonId = model.LessonId,
                 };
 
                 _classMediaService.Add(classMedia);
+                return Ok(new { Message = "File uploaded successfully.", FileName = fileName, MediaId = classMedia.Id });
             }
 
-
-            return Ok(new { Message = "File uploaded successfully.", FileName = fileName });
+            return BadRequest("File didn't uploaded successfully");
         }
 
         /// <summary>

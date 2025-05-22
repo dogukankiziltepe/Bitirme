@@ -14,5 +14,6 @@ namespace Bitirme.BLL.Models
         public string Content { get; set; }
         public bool? IsCompleted { get; set; }
         public List<StudentViewModel>? Students { get; set; }
+        public List<QuestionViewModel>? Questions { get; set; }
     }
 }

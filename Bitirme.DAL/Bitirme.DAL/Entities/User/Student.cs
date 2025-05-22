@@ -9,7 +9,7 @@ namespace Bitirme.DAL.Entities.User
 {
     public class Student:BaseUser
     {
-        public virtual ICollection<Class> Classes { get; set; } = new List<Class>();
+        public virtual ICollection<ClassStudent> Classes { get; set; } = new List<ClassStudent>();
         public bool IsEmailActivated { get; set; } = false;
     }
 }

@@ -60,5 +60,7 @@ namespace Bitirme.Controllers
             _courseService.Delete(id);
             return NoContent();
         }
+
+
     }
 }

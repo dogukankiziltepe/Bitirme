@@ -2,6 +2,7 @@
 using Bitirme.BLL.Models;
 using Bitirme.DAL.Abstracts.Courses;
 using Bitirme.DAL.Abstracts.Users;
+using Bitirme.DAL.Concretes.Courses;
 using Bitirme.DAL.Entities.Courses;
 using System;
 using System.Collections.Generic;
@@ -18,16 +19,40 @@ namespace Bitirme.BLL.Services
         private readonly IClassRepository _classRepository;
         private readonly IStudentRepository _studentRepository;
         private readonly ILessonStudentRepository _lessonStudentRepository;
+        private readonly IQuestionRepository _questionRepository;
+        private readonly IClassStudentRepository _classStudentRepository;
 
         public LessonService(ILessonRepository lessonRepository, 
             IClassRepository classRepository,
             IStudentRepository studentRepository,
-            ILessonStudentRepository lessonStudentRepository)
+            ILessonStudentRepository lessonStudentRepository,
+            IQuestionRepository questionRepository,
+            IClassStudentRepository classStudentRepository)
         {
             _lessonRepository = lessonRepository;
             _classRepository = classRepository;
             _studentRepository = studentRepository;
             _lessonStudentRepository = lessonStudentRepository;
+            _questionRepository = questionRepository;
+            _classStudentRepository = classStudentRepository;
+        }
+
+        public bool AddLessonQuestions(string lessonId, List<QuestionViewModel> questionViewModels)
+        {
+            var questions = questionViewModels.Select(x => new Question
+            {
+                QuestionString = x.QuestionString,
+                AnswerOne = x.AnswerOne,
+                AnswerTwo = x.AnswerTwo,
+                AnswerThree = x.AnswerThree,
+                AnswerFour = x.AnswerFour,
+                CorrectAnswer = x.CorrectAnswer,
+                Lesson = _lessonRepository.GetById(lessonId),
+                LessonId = lessonId
+            });
+            _questionRepository.AddRange(questions);
+            _questionRepository.SaveChanges();
+            return true;
         }
 
         public bool CompleteLesson(string studentId, string lessonId)
@@ -46,7 +71,7 @@ namespace Bitirme.BLL.Services
                 }
                 _lessonStudentRepository.Add(new LessonStudent
                 {
-                    CreatedDate = DateTime.Now,
+                    CreatedDate = DateTime.UtcNow,
                     Lesson = lesson,
                     Student = student
                 });
@@ -67,7 +92,7 @@ namespace Bitirme.BLL.Services
                 var dbclass = _classRepository.GetById(lessonViewModel.ClassId);
                 _lessonRepository.Add(new Lesson
                 {
-                    CreatedDate = DateTime.Now,
+                    CreatedDate = DateTime.UtcNow,
                     Content = lessonViewModel.Content,
                     Order = lessonViewModel.Order,
                     Class = dbclass,
@@ -84,17 +109,28 @@ namespace Bitirme.BLL.Services
 
         public List<LessonViewModel> GetLessonsWithClassId(string classId)
         {
-            var lessons = _lessonRepository.FindWithInclude(x => x.Class.Id == classId, x => x.Class, x => x.Class.Students, x => x.CompletedStudent);
+            var lessons = _lessonRepository.FindWithInclude(x => x.Class.Id == classId, x => x.Class, x => x.Class.Students,  x => x.CompletedStudent);
+            var classStudents = _classStudentRepository.FindWithInclude(x => x.Class.Id == classId, x => x.Student,x=> x.Class);
             return lessons.Select(x => new LessonViewModel
             {
                 Id = x.Id,
                 ClassId = x.Class.Id,
                 Content = x.Content,
                 Order = (int)x.Order,
-                Students = x.Class.Students.Select(a => new StudentViewModel
+                Questions = x.LessonQuestions.Select(a => new QuestionViewModel
                 {
-                    Id = a.Id,
-                    Name = a.Name,
+                    QuestionString = a.QuestionString,
+                    AnswerOne = a.AnswerOne,
+                    AnswerTwo = a.AnswerTwo,
+                    AnswerThree = a.AnswerThree,
+                    AnswerFour = a.AnswerFour,
+                    CorrectAnswer = a.CorrectAnswer,
+                    Id = x.Id
+                }).ToList(),
+                Students = classStudents.Select(a => new StudentViewModel
+                {
+                    Id = a.Student.Id,
+                    Name = a.Student.Name,
                 }).ToList()
             }).ToList();
         }

@@ -29,12 +29,13 @@ namespace Bitirme.DAL
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<ICourseRepository, CourseRepository>();
             services.AddScoped<IClassRepository, ClassRepository>();
-
+            services.AddScoped<IQuestionRepository, QuestionRepository>();
             services.AddScoped<IMediaRepository, MediaRepository>();
             services.AddScoped<IStudentRepository, StudentRepository>();
             services.AddScoped<ITeacherRepository, TeacherRepository>();
             services.AddScoped<ILessonRepository, LessonRepository>();
             services.AddScoped<ILessonStudentRepository,LessonStudentRepository>();
+            services.AddScoped<IClassStudentRepository, ClassStudentRepository>();
 
 
             return services;

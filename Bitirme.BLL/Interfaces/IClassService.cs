@@ -15,10 +15,12 @@ namespace Bitirme.BLL.Interfaces
         void Delete(string id);
         IEnumerable<ClassViewModel> GetClassesByCourseId(string courseId);
         IEnumerable<ClassViewModel> GetClassesByStudentId(string studentId);
-        ClassViewModel GetClassCourseIdAndStudentId(string courseId,string studentId);
-
+        List<ClassViewModel> GetClassCourseIdAndStudentId(string courseId,string studentId);
+        bool AddClassExam(List<QuestionViewModel> questionViewModels, string classId);
         void AddStudentToClass(string classId, string studentId);
         IEnumerable<ClassViewModel> GetAllClassesWithDetails();
         Student GetStudentById(string studentId);
+        public List<QuestionViewModel> GetClassExam(string classId);
+        bool CompletedClass(string classId, string studentId);
     }
 }

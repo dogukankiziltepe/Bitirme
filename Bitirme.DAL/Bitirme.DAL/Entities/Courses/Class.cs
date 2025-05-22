@@ -16,7 +16,9 @@ namespace Bitirme.DAL.Entities.Courses
         public virtual Teacher Teacher { get; set; }
         public string CourseId { get; set; }
         public virtual Course Course { get; set; }
-        public virtual ICollection<Student> Students { get; set; } = new List<Student>();
+        public virtual ICollection<ClassStudent> Students { get; set; } = new List<ClassStudent>();
         public virtual ICollection<Lesson> Lessons { get; set; } = new List<Lesson>();
+        public virtual List<Question> LessonQuestions { get; set; } = new List<Question>();
+
     }
 }
