@@ -158,6 +158,22 @@ namespace Bitirme.BLL.Services
                 }).ToList()
             }).ToList();
         }
+        
+        public List<QuestionViewModel> GetLessonQuestions(string lessonId)
+        {
+            var questions = _questionRepository.FindWithInclude(x => x.LessonId == lessonId).ToList();
+            return questions.Select(x => new QuestionViewModel
+            {
+                QuestionString = x.QuestionString,
+                AnswerFour = x.AnswerFour,
+                AnswerOne = x.AnswerOne,
+                AnswerTwo = x.AnswerTwo,
+                AnswerThree = x.AnswerThree,
+                CorrectAnswer = x.CorrectAnswer,
+                Id = x.Id,
+                ListeningSentence = x.ListeningSentence
+            }).ToList();
+        }
 
         public void AddStudentToClass(string classId, string studentId)
         {
