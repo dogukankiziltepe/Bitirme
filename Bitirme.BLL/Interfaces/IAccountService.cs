@@ -1,3 +1,4 @@
+using Bitirme.BLL.Models;
 using Bitirme.BLL.Services;
 
 namespace Bitirme.BLL.Interfaces
@@ -7,5 +8,6 @@ namespace Bitirme.BLL.Interfaces
         AccountViewModel Login(string email, string password);
         bool SignUp(string password, string email,string name,UserType userType);
         bool VerifyEmail(string userId);
+        IEnumerable<ClassViewModel> GetStudentInfo(string studentId);
     }
 }

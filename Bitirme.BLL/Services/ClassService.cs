@@ -217,8 +217,6 @@ namespace Bitirme.BLL.Services
                 });
             }
             return modelClasses;
-
-
         }
 
         public bool AddClassExam(List<QuestionViewModel> questionViewModels, string classId)

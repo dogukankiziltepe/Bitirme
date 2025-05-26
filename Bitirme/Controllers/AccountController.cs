@@ -1,5 +1,7 @@
 using Bitirme.BLL.Interfaces;
 using Bitirme.BLL.Services;
+using Bitirme.DAL.Entities.User;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Bitirme.Controllers
@@ -54,6 +56,17 @@ namespace Bitirme.Controllers
                 return BadRequest("Email verification failed."); 
             } 
             return Ok("Email verified successfully."); 
+        }
+
+        [HttpGet("GetStudentInfo/{studentId}")]
+        public IActionResult GetStudentInfo(string studentId)
+        {
+            var result = _accountService.GetStudentInfo(studentId);
+            if (result == null)
+            {
+                return BadRequest("Didn't find student classes please try again later.");
+            }
+            return Ok(result);
         }
     }
 

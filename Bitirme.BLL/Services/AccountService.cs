@@ -114,6 +114,12 @@ namespace Bitirme.BLL.Services
             return true; // Sign-up successful
         }
 
+        public IEnumerable<ClassViewModel> GetStudentInfo (string studentId)
+        {
+            var classes = _classService.GetClassesByStudentId(studentId);
+            return classes;
+        }
+
         public bool VerifyEmail(string userId)
         {
             throw new NotImplementedException();
