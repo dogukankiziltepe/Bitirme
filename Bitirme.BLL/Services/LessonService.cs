@@ -3,6 +3,7 @@ using Bitirme.BLL.Models;
 using Bitirme.DAL.Abstracts.Courses;
 using Bitirme.DAL.Abstracts.Users;
 using Bitirme.DAL.Concretes.Courses;
+using Bitirme.DAL.Entities;
 using Bitirme.DAL.Entities.Courses;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,6 @@ namespace Bitirme.BLL.Services
         private readonly ILessonStudentRepository _lessonStudentRepository;
         private readonly IQuestionRepository _questionRepository;
         private readonly IClassStudentRepository _classStudentRepository;
-
         public LessonService(ILessonRepository lessonRepository, 
             IClassRepository classRepository,
             IStudentRepository studentRepository,
@@ -55,7 +55,7 @@ namespace Bitirme.BLL.Services
             return true;
         }
 
-        public bool CompleteLesson(string studentId, string lessonId)
+        public bool CompleteLesson(string studentId, string lessonId, bool next = true)
         {
             try
             {
@@ -64,7 +64,7 @@ namespace Bitirme.BLL.Services
                 {
                     throw new Exception("This Student Not Found!");
                 }
-                var lesson = _lessonRepository.GetById(lessonId);
+                var lesson = _lessonRepository.FindWithInclude(x => x.Id == lessonId,x => x.Class).FirstOrDefault();
                 if(lesson == null)
                 {
                     throw new Exception("This Lesson Not Found!");
@@ -73,9 +73,33 @@ namespace Bitirme.BLL.Services
                 {
                     CreatedDate = DateTime.UtcNow,
                     Lesson = lesson,
-                    Student = student
+                    Student = student,
+                    Status = DAL.Entities.RecordStatus.Completed,
                 });
                 _lessonStudentRepository.SaveChanges();
+                var allLessons = _lessonRepository.FindWithInclude(x => x.Class.Id == lesson.Class.Id, x => x.Class).ToList();
+
+                
+                if(!allLessons.Any(x => x.Order > lesson.Order))
+                {
+                    var dbclassStudent = _classStudentRepository.FindWithInclude(x => x.Class.Id == lesson.Class.Id && x.Student.Id == studentId, x=> x.Student, x => x.Class).FirstOrDefault();
+                    dbclassStudent.RecordStatus = DAL.Entities.RecordStatus.Completed;
+                    _classStudentRepository.Update(dbclassStudent);
+                    _classStudentRepository.SaveChanges();
+                    if (next)
+                    {
+                        var isTheEnd = Enum.IsDefined(typeof(RecordStatus), (int)dbclassStudent.Class.Level + 1);
+                        if (!isTheEnd)
+                        {
+                            return true;
+                        }
+                        var newLevel = (int)dbclassStudent.Class.Level + 1;
+                        var dbclass = _classRepository.GetById(dbclassStudent.Class.Id);
+                        var newClass = _classRepository.FindWithInclude(x => x.Level == (Level)newLevel && x.Course.Id == dbclass.CourseId).FirstOrDefault();
+                        AddStudentToClass(newClass.Id, studentId);
+                    }
+
+                }
                 return true;
             }
             catch (Exception ex)
@@ -109,8 +133,8 @@ namespace Bitirme.BLL.Services
 
         public List<LessonViewModel> GetLessonsWithClassId(string classId)
         {
-            var lessons = _lessonRepository.FindWithInclude(x => x.Class.Id == classId, x => x.Class, x => x.Class.Students,  x => x.CompletedStudent);
-            var classStudents = _classStudentRepository.FindWithInclude(x => x.Class.Id == classId, x => x.Student,x=> x.Class);
+            var lessons = _lessonRepository.FindWithInclude(x => x.Class.Id == classId, x => x.Class, x => x.Class.Students,  x => x.CompletedStudent).ToList();
+            var classStudents = _classStudentRepository.FindWithInclude(x => x.Class.Id == classId, x => x.Student,x=> x.Class).ToList();
             return lessons.Select(x => new LessonViewModel
             {
                 Id = x.Id,
@@ -133,6 +157,36 @@ namespace Bitirme.BLL.Services
                     Name = a.Student.Name,
                 }).ToList()
             }).ToList();
+        }
+
+        public void AddStudentToClass(string classId, string studentId)
+        {
+            var classEntity = _classRepository.GetById(classId);
+            if (classEntity == null)
+            {
+                throw new Exception($"Class with ID {classId} not found.");
+            }
+
+            if (classEntity.Students.Count >= classEntity.Capacity)
+            {
+                throw new Exception($"Class with ID {classId} is already at full capacity.");
+            }
+
+            var student = _studentRepository.GetById(studentId);
+            if (student == null)
+            {
+                throw new Exception($"Student with ID {studentId} not found.");
+            }
+
+            classEntity.Students.Add(new ClassStudent
+            {
+                CreatedDate = DateTime.UtcNow,
+                RecordStatus = DAL.Entities.RecordStatus.Continue,
+                Student = student,
+                Class = classEntity,
+            });
+            _classRepository.Update(classEntity);
+            _classRepository.SaveChanges();
         }
     }
 }

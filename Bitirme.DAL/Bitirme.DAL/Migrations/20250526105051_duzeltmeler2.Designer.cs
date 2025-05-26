@@ -3,6 +3,7 @@ using System;
 using Bitirme.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Bitirme.DAL.Migrations
 {
     [DbContext(typeof(BitirmeDbContext))]
-    partial class BitirmeDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250526105051_duzeltmeler2")]
+    partial class duzeltmeler2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -219,6 +222,7 @@ namespace Bitirme.DAL.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("ListeningSentence")
+                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("QuestionMediaId")

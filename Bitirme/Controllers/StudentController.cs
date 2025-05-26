@@ -18,13 +18,13 @@ namespace Bitirme.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Student>> GetAll()
+        public IActionResult GetAll()
         {
             return Ok(_studentService.GetAll());
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Student> GetById(string id)
+        public IActionResult GetById(string id)
         {
             var student = _studentService.GetById(id);
             if (student == null)
@@ -34,10 +34,11 @@ namespace Bitirme.Controllers
             return Ok(student);
         }
 
-        [HttpPost]
+        [HttpPost("AllCourseRegister")]
         public IActionResult AllCourseRegister(AllCourseRegister allCourseRegister)
         {
             _studentService.AllCourseRegister(allCourseRegister);
+            return Ok();
         }
     }
 }

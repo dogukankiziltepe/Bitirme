@@ -1,4 +1,5 @@
 using Bitirme.BLL.Interfaces;
+using Bitirme.BLL.Models;
 using Bitirme.DAL;
 using Bitirme.DAL.Entities.User;
 using Microsoft.Extensions.Configuration;
@@ -20,6 +21,7 @@ namespace Bitirme.BLL.Services
         public string Name { get; set; }
         public UserType UserType { get; set; }
         public string EMail { get; internal set; }
+        public List<ClassViewModel> Classes { get; set; }
     }
 
     public class AccountService:IAccountService
@@ -53,13 +55,14 @@ namespace Bitirme.BLL.Services
             if (student != null)
             {
                 var classes = _classService.GetClassesByStudentId(student.Id);
-                
+
                 return new AccountViewModel
                 {
                     Id = student.Id,
                     Name = student.Name,
                     UserType = UserType.Student,
                     EMail = student.Email,
+                    Classes = classes.ToList()
                 };
             }
 

@@ -123,16 +123,6 @@ namespace Bitirme
                         Capacity = 10000,
                         Course = course,
                         CourseId = course.Id,
-                        Level = Level.A1,
-                        Name = course.Name + " Class",
-                        CreatedDate = course.CreatedDate,
-                        Teacher = teacher,
-                    },
-                    new Class
-                    {
-                        Capacity = 10000,
-                        Course = course,
-                        CourseId = course.Id,
                         Level = Level.C1,
                         Name = course.Name + " Class",
                         CreatedDate = course.CreatedDate,
@@ -182,7 +172,7 @@ namespace Bitirme
                         foreach (var file in jsonFiles)
                         {
                             string json = File.ReadAllText(file);
-                            var jsonLesson = JsonSerializer.Deserialize<JsonLesson>(json);
+                            var jsonLesson = JsonSerializer .Deserialize<JsonLesson>(json);
 
                             if (jsonLesson != null)
                             {

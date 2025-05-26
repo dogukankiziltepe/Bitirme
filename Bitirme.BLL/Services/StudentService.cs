@@ -65,7 +65,7 @@ namespace Bitirme.BLL.Services
                         var lessons = _lessonService.GetLessonsWithClassId(completedClass.Id);
                         foreach (var lesson in lessons)
                         {
-                            _lessonService.CompleteLesson(allCourseRegister.StudentId, lesson.Id);
+                            _lessonService.CompleteLesson(allCourseRegister.StudentId, lesson.Id,false);
                         }
                     }
                 }
