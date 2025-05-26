@@ -216,11 +216,9 @@ namespace Bitirme.BLL.Services
                     StudentStatus = studentLessons.Count() == 0 ? StudentClassProgress.NotStarted : studentLessons.Count() == item.Lessons.Count() ? StudentClassProgress.Completed : StudentClassProgress.Continue
                 });
             }
-            return dbclasses.Select(x => new ClassViewModel
-            {
-                
-            }).ToList();
-            
+            return modelClasses;
+
+
         }
 
         public bool AddClassExam(List<QuestionViewModel> questionViewModels, string classId)
