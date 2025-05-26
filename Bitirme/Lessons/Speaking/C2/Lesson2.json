@@ -1,0 +1,21 @@
+﻿{
+  "Order": 2,
+  "Content": "C2 Turkish Speaking Lesson 2",
+  "Questions": [
+    {
+      "QuestionString": "İklim değişikliği ile mücadelede bireylerin ve devletlerin rollerini nasıl tanımlarsınız?"
+    },
+    {
+      "QuestionString": "Sürdürülebilir kalkınma hedeflerinin gerçekleştirilmesinde yenilikçi teknolojilerin rolü nedir?"
+    },
+    {
+      "QuestionString": "Medyanın kamuoyu oluşturmadaki gücünü ve sorumluluklarını nasıl değerlendiriyorsunuz?"
+    },
+    {
+      "QuestionString": "Ekonomik kalkınma ve çevre koruma arasındaki çatışmalar nasıl dengelenebilir?"
+    },
+    {
+      "QuestionString": "Toplumsal cinsiyet eşitliği için alınması gereken önlemler nelerdir?"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿{
+  "Order": 1,
+  "Content": "A2 Turkish Speaking Lesson 1",
+  "Questions": [
+    { "QuestionString": "Dün pazardan taze sebzeler aldım ve yemek yaptım." },
+    { "QuestionString": "Hafta sonu pikniğe gitmek istiyorum çünkü hava çok güzel." },
+    { "QuestionString": "Kardeşim üniversitede mühendislik okuyor." },
+    { "QuestionString": "Bugün çok yoğundum ama her işi zamanında bitirdim." },
+    { "QuestionString": "Yaz tatilinde İstanbul’a gitmeyi planlıyoruz." }
+  ]
+}

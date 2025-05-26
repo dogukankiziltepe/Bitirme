@@ -1,0 +1,46 @@
+﻿{
+  "Order": 1,
+  "Content": "C2 Turkish Reading Lesson 1",
+  "Questions": [
+    {
+      "QuestionString": "Modern toplumlarda bireysel özgürlüklerin korunması, demokratik değerlerin sürdürülebilirliği için temel bir gereklilik olarak kabul edilmektedir.",
+      "AnswerOne": "Bireysel özgürlükler demokratik değerlerle ilgisizdir.",
+      "AnswerTwo": "Bireysel özgürlüklerin korunması demokratik değerleri güçlendirir.",
+      "AnswerThree": "Toplumlarda özgürlükler önemsizdir.",
+      "AnswerFour": "Demokrasi bireysel özgürlükleri kısıtlar.",
+      "CorrectAnswer": "Bireysel özgürlüklerin korunması demokratik değerleri güçlendirir."
+    },
+    {
+      "QuestionString": "Küreselleşme, ekonomik, kültürel ve politik alanlarda ulusal sınırları aşan karmaşık etkileşimlere yol açmıştır.",
+      "AnswerOne": "Küreselleşme sadece ekonomik etkiler yaratır.",
+      "AnswerTwo": "Küreselleşme sınırları aşan çok yönlü etkileşimlerdir.",
+      "AnswerThree": "Küreselleşmenin etkileri küçüktür.",
+      "AnswerFour": "Küreselleşme politikayla ilgisizdir.",
+      "CorrectAnswer": "Küreselleşme sınırları aşan çok yönlü etkileşimlerdir."
+    },
+    {
+      "QuestionString": "Bilgi çağında, bireylerin eleştirel düşünme ve medya okuryazarlığı becerileri hayati önem kazanmıştır.",
+      "AnswerOne": "Eleştirel düşünme önemsizdir.",
+      "AnswerTwo": "Medya okuryazarlığı önemlidir.",
+      "AnswerThree": "Bireyler sadece bilgi tüketir.",
+      "AnswerFour": "Bilgi çağı beceriler gerektirmez.",
+      "CorrectAnswer": "Medya okuryazarlığı önemlidir."
+    },
+    {
+      "QuestionString": "Sürdürülebilir kalkınma, çevresel, ekonomik ve sosyal hedeflerin dengeli bir şekilde gerçekleştirilmesini amaçlar.",
+      "AnswerOne": "Sürdürülebilir kalkınma sadece çevresel amaçlar taşır.",
+      "AnswerTwo": "Kalkınma sosyal hedeflere öncelik verir.",
+      "AnswerThree": "Dengeli hedefler sürdürülebilirliği sağlar.",
+      "AnswerFour": "Ekonomik hedefler göz ardı edilir.",
+      "CorrectAnswer": "Dengeli hedefler sürdürülebilirliği sağlar."
+    },
+    {
+      "QuestionString": "Teknolojik yenilikler, iş gücü piyasasında yeni becerilerin kazanılmasını zorunlu kılmıştır.",
+      "AnswerOne": "Yenilikler beceri gerektirmez.",
+      "AnswerTwo": "Yeni beceriler iş gücüne zarar verir.",
+      "AnswerThree": "Teknoloji beceri gelişimini teşvik eder.",
+      "AnswerFour": "İş gücü piyasası değişmez.",
+      "CorrectAnswer": "Teknoloji beceri gelişimini teşvik eder."
+    }
+  ]
+}

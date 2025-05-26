@@ -16,31 +16,6 @@ namespace Bitirme.Controllers
             _lessonService = lessonService;
         }
         /// <summary>
-        /// Class Id ile Lessonları Çekme methodu
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
-        [HttpGet("{id}")]
-        public IActionResult GetLessonsWithClassId(string id)
-        {
-           var lessons = _lessonService.GetLessonsWithClassId(id);
-           return Ok(lessons);
-        }
-        /// <summary>
-        /// Lesson oluşturma methodu
-        /// </summary>
-        /// <param name="lesson"></param>
-        /// <returns></returns>
-        [HttpPost]
-        public IActionResult CreateLesson(LessonViewModel lesson)
-        {
-            var result = _lessonService.CreateLesson(lesson);
-            if (result)
-                return Ok(result);
-            else
-                return BadRequest();
-        }
-        /// <summary>
         /// Lesson complete edildiğinde kaydedilmesi için gerekli method
         /// </summary>
         /// <param name="studentId"></param>

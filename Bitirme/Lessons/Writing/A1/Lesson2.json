@@ -1,0 +1,26 @@
+﻿{
+  "Order": 2,
+  "Content": "A1 Turkish Speaking Lesson 2",
+  "Questions": [
+    {
+      "QuestionString": "Kardeşimle _____ oynuyorum. (game)",
+      "CorrectAnswer": "oyun"
+    },
+    {
+      "QuestionString": "Ben Türkçe _____ öğreniyorum. (language)",
+      "CorrectAnswer": "dili"
+    },
+    {
+      "QuestionString": "Okula _____ gidiyorum. (by bus)",
+      "CorrectAnswer": "otobüsle"
+    },
+    {
+      "QuestionString": "Babam bir _____ çalışıyor. (bank)",
+      "CorrectAnswer": "bankada"
+    },
+    {
+      "QuestionString": "Ben elma ve _____ seviyorum. (banana)",
+      "CorrectAnswer": "muz"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
-﻿using Bitirme.DAL.Entities.Courses;
+﻿using Bitirme.DAL.Entities;
+using Bitirme.DAL.Entities.Courses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,12 +12,13 @@ namespace Bitirme.BLL.Models
     {
         public string? Id { get; set; }
         public Level Level { get; set; }
-        public int Capacity { get; set; } // Maximum number of students allowed in the class
-        public string TeacherId { get; set; }
+        public string CourseName { get; set; }
+        public string CourseId { get; set; }
         public string Name { get; set; }
-        public TeacherViewModel Teacher { get; set; }
-        public int? CurrentStudentCount { get; set; } // Number of students currently in the class
+        public int CompletedLessonCount { get; set; }
+        public StudentClassProgress StudentStatus { get; set; }
         public List<LessonViewModel>? Lessons { get; set; }
-
+        public int LessonCount { get;  set; }
+        public int MyProperty { get; set; }
     }
 }

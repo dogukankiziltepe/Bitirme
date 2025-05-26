@@ -1,0 +1,46 @@
+﻿{
+  "Order": 2,
+  "Content": "A1 Turkish Reading Lesson 2",
+  "Questions": [
+    {
+      "QuestionString": "Derya sabahları süt içer ve kitap okur. Sonra annesine yardım eder. Derya sabah ne yapmaz?",
+      "AnswerOne": "Süt içer",
+      "AnswerTwo": "Kitap okur",
+      "AnswerThree": "Televizyon izler",
+      "AnswerFour": "Annesine yardım eder",
+      "CorrectAnswer": "Televizyon izler"
+    },
+    {
+      "QuestionString": "Ahmet’in iki kardeşi var: biri kız, biri erkek. Onlarla parkta oyun oynar. Ahmet’in kaç kardeşi var?",
+      "AnswerOne": "Bir",
+      "AnswerTwo": "İki",
+      "AnswerThree": "Üç",
+      "AnswerFour": "Dört",
+      "CorrectAnswer": "İki"
+    },
+    {
+      "QuestionString": "Zeynep her gün saat dokuzda okula gider. Okulda arkadaşlarıyla buluşur ve ders çalışır. Zeynep ne zaman okula gider?",
+      "AnswerOne": "Saat sekizde",
+      "AnswerTwo": "Saat on ikide",
+      "AnswerThree": "Saat dokuzda",
+      "AnswerFour": "Öğleden sonra",
+      "CorrectAnswer": "Saat dokuzda"
+    },
+    {
+      "QuestionString": "Fatma pazarda meyve ve sebze alır. En çok elma ve domates almayı sever. Fatma pazarda ne alır?",
+      "AnswerOne": "Kıyafet",
+      "AnswerTwo": "Meyve ve sebze",
+      "AnswerThree": "Oyuncak",
+      "AnswerFour": "Kitap",
+      "CorrectAnswer": "Meyve ve sebze"
+    },
+    {
+      "QuestionString": "Hasan akşamları ailesiyle televizyon izler. En çok belgesel izlemeyi sever. Hasan akşamları ne yapar?",
+      "AnswerOne": "Yüzmeye gider",
+      "AnswerTwo": "Ders çalışır",
+      "AnswerThree": "Televizyon izler",
+      "AnswerFour": "Uyur",
+      "CorrectAnswer": "Televizyon izler"
+    }
+  ]
+}

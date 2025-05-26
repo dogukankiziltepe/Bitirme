@@ -1,0 +1,46 @@
+﻿{
+  "Order": 2,
+  "Content": "C2 Turkish Reading Lesson 2",
+  "Questions": [
+    {
+      "QuestionString": "Kültürel miras, toplumların tarihsel kimliğinin korunması ve gelecek nesillere aktarılması açısından kritik öneme sahiptir.",
+      "AnswerOne": "Kültürel miras geçmişle ilgisizdir.",
+      "AnswerTwo": "Toplumlar kültürel mirasa değer verir.",
+      "AnswerThree": "Gelecek nesillere aktarım gereksizdir.",
+      "AnswerFour": "Kimlik korunmaz.",
+      "CorrectAnswer": "Toplumlar kültürel mirasa değer verir."
+    },
+    {
+      "QuestionString": "Etik değerler, bireylerin ve kurumların karar alma süreçlerinde rehberlik eden temel prensiplerdir.",
+      "AnswerOne": "Etik kararları zorlaştırır.",
+      "AnswerTwo": "Bireyler etik kurallara uymalıdır.",
+      "AnswerThree": "Etik önemsenmez.",
+      "AnswerFour": "Kurumlar etik dışıdır.",
+      "CorrectAnswer": "Bireyler etik kurallara uymalıdır."
+    },
+    {
+      "QuestionString": "İklim değişikliği, uluslararası işbirliği gerektiren karmaşık ve acil bir küresel sorundur.",
+      "AnswerOne": "İklim değişikliği yerel bir sorundur.",
+      "AnswerTwo": "İşbirliği gereklidir.",
+      "AnswerThree": "Sorun acil değildir.",
+      "AnswerFour": "Uluslararası işbirliği gereksizdir.",
+      "CorrectAnswer": "İşbirliği gereklidir."
+    },
+    {
+      "QuestionString": "Eğitim politikalarında reformlar, daha kapsayıcı ve erişilebilir bir sistem yaratmayı hedeflemektedir.",
+      "AnswerOne": "Reformlar sistemi zorlaştırır.",
+      "AnswerTwo": "Kapsayıcı sistem hedeflenir.",
+      "AnswerThree": "Erişilebilirlik önemsenmez.",
+      "AnswerFour": "Sistem sabittir.",
+      "CorrectAnswer": "Kapsayıcı sistem hedeflenir."
+    },
+    {
+      "QuestionString": "Medya, toplumun bilgi edinme ve kamuoyu oluşturma süreçlerinde güçlü bir aktör konumundadır.",
+      "AnswerOne": "Medya etkisizdir.",
+      "AnswerTwo": "Bilgi edinme ve kamuoyu medya ile oluşur.",
+      "AnswerThree": "Kamuoyu medya olmadan oluşur.",
+      "AnswerFour": "Toplum medya ile ilgilenmez.",
+      "CorrectAnswer": "Bilgi edinme ve kamuoyu medya ile oluşur."
+    }
+  ]
+}

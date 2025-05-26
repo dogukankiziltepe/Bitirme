@@ -1,0 +1,46 @@
+﻿{
+  "Order": 1,
+  "Content": "B2 Turkish Reading Lesson 1",
+  "Questions": [
+    {
+      "QuestionString": "Gelecek yıl için büyük planlarım var; yeni bir işe başlayacağım ve bu yüzden şehir değiştirmem gerekebilir. Bu değişiklik hem heyecan verici hem de biraz endişe verici.",
+      "AnswerOne": "Gelecek yıl iş değiştirmeyecek.",
+      "AnswerTwo": "Şehir değiştirmekten korkuyor.",
+      "AnswerThree": "Yeni bir işe başlayacak ve şehir değiştirebilir.",
+      "AnswerFour": "Plan yapmıyor.",
+      "CorrectAnswer": "Yeni bir işe başlayacak ve şehir değiştirebilir."
+    },
+    {
+      "QuestionString": "Teknoloji hayatımızı kolaylaştırıyor ama bazen sosyal ilişkilerimiz üzerinde olumsuz etkileri oluyor. İnsanlar yüz yüze iletişim kurmak yerine dijital dünyaya daha çok yöneliyor.",
+      "AnswerOne": "Teknoloji sosyal ilişkileri geliştiriyor.",
+      "AnswerTwo": "İnsanlar daha çok yüz yüze iletişim kuruyor.",
+      "AnswerThree": "Teknoloji bazen sosyal ilişkileri olumsuz etkiliyor.",
+      "AnswerFour": "Dijital dünya önemsizdir.",
+      "CorrectAnswer": "Teknoloji bazen sosyal ilişkileri olumsuz etkiliyor."
+    },
+    {
+      "QuestionString": "Çevre kirliliği günümüzde en büyük sorunlardan biridir. Hava ve su kirliliği, canlıların yaşamını tehdit etmekte ve geleceğimizi tehlikeye sokmaktadır.",
+      "AnswerOne": "Çevre kirliliği sorun değildir.",
+      "AnswerTwo": "Çevre kirliliği canlıların yaşamını tehdit ediyor.",
+      "AnswerThree": "Suyun kirliliği önemsizdir.",
+      "AnswerFour": "Kirlilik sadece hava ile ilgilidir.",
+      "CorrectAnswer": "Çevre kirliliği canlıların yaşamını tehdit ediyor."
+    },
+    {
+      "QuestionString": "Birçok insan sağlıklı yaşam için spor yapmayı ve dengeli beslenmeyi tercih ediyor. Ancak yoğun iş temposu bazen sağlıklı alışkanlıkların sürdürülmesini zorlaştırıyor.",
+      "AnswerOne": "Herkes sağlıklı yaşam tarzını tercih etmiyor.",
+      "AnswerTwo": "İş temposu sağlıklı alışkanlıkları destekliyor.",
+      "AnswerThree": "Sağlıklı yaşam için spor yapmak önemlidir.",
+      "AnswerFour": "Dengeli beslenme önemsizdir.",
+      "CorrectAnswer": "Sağlıklı yaşam için spor yapmak önemlidir."
+    },
+    {
+      "QuestionString": "Sosyal medya platformları insanlara haberleri hızlıca ulaştırıyor ancak bazen yanlış bilgi yayılmasına da neden olabiliyor.",
+      "AnswerOne": "Sosyal medya sadece doğru bilgi verir.",
+      "AnswerTwo": "Yanlış bilgi yayılabilir.",
+      "AnswerThree": "Haberler yavaş ulaşır.",
+      "AnswerFour": "Sosyal medya kullanılmaz.",
+      "CorrectAnswer": "Yanlış bilgi yayılabilir."
+    }
+  ]
+}

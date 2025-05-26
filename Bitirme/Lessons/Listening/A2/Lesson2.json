@@ -1,0 +1,33 @@
+﻿{
+  "Order": 2,
+  "Content": "A2 Turkish Listening Lesson 2",
+  "Questions": [
+    {
+      "ListeningSentence": "Annem bana yeni bir gömlek aldı, çok beğendim.",
+      "QuestionString": "Annesi ona ne aldı?",
+      "AnswerOne": "Pantolon",
+      "AnswerTwo": "Gömlek",
+      "AnswerThree": "Ayakkabı",
+      "AnswerFour": "Şapka",
+      "CorrectAnswer": "Gömlek"
+    },
+    {
+      "ListeningSentence": "Her sabah gazete okurum ve kahve içerim.",
+      "QuestionString": "Kişi sabahları ne yapar?",
+      "AnswerOne": "Spor yapar",
+      "AnswerTwo": "Gazete okur ve kahve içer",
+      "AnswerThree": "Müzik dinler",
+      "AnswerFour": "Ders çalışır",
+      "CorrectAnswer": "Gazete okur ve kahve içer"
+    },
+    {
+      "ListeningSentence": "Öğle arasında arkadaşlarımla kafede buluştum.",
+      "QuestionString": "Kişi nerede buluştu?",
+      "AnswerOne": "Kütüphane",
+      "AnswerTwo": "Evde",
+      "AnswerThree": "Kafede",
+      "AnswerFour": "Parkta",
+      "CorrectAnswer": "Kafede"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+﻿{
+  "Order": 2,
+  "Content": "B1 Turkish Listening Lesson 2",
+  "Questions": [
+    {
+      "ListeningSentence": "Mehmet her akşam yemek yaptıktan sonra bulaşıkları yıkıyor.",
+      "QuestionString": "Mehmet ne zaman bulaşıkları yıkıyor?",
+      "AnswerOne": "Sabah kahvaltıdan önce.",
+      "AnswerTwo": "Öğle yemeğinden sonra.",
+      "AnswerThree": "Yemekten sonra.",
+      "AnswerFour": "Yemek yapmadan önce.",
+      "CorrectAnswer": "Yemekten sonra"
+    },
+    {
+      "ListeningSentence": "Film çok sıkıcıydı, yarısında kapattık.",
+      "QuestionString": "Film nasıldı?",
+      "AnswerOne": "Çok heyecanlıydı.",
+      "AnswerTwo": "Çok komikti.",
+      "AnswerThree": "Sıkıcıydı.",
+      "AnswerFour": "Sonuna kadar izlediler.",
+      "CorrectAnswer": "Sıkıcıydı"
+    },
+    {
+      "ListeningSentence": "Annem doğum günümde bana güzel bir kazak aldı.",
+      "QuestionString": "Annesi ne aldı?",
+      "AnswerOne": "Çanta.",
+      "AnswerTwo": "Ayakkabı.",
+      "AnswerThree": "Kazak.",
+      "AnswerFour": "Telefon.",
+      "CorrectAnswer": "Kazak"
+    },
+    {
+      "ListeningSentence": "Yarın sabah saat sekizde trenle Ankara’ya gidiyoruz.",
+      "QuestionString": "Yarın sabah nereye gidiyorlar?",
+      "AnswerOne": "İzmir’e.",
+      "AnswerTwo": "Ankara’ya.",
+      "AnswerThree": "Bursa’ya.",
+      "AnswerFour": "Edirne’ye.",
+      "CorrectAnswer": "Ankara’ya"
+    },
+    {
+      "ListeningSentence": "Hafta sonu sinemaya gitmek istiyoruz ama hava yağmurlu olabilir.",
+      "QuestionString": "Ne planlıyorlar ama ne olabilir?",
+      "AnswerOne": "Sinemaya gitmek – hava güzel olabilir.",
+      "AnswerTwo": "Alışveriş yapmak – trafik olabilir.",
+      "AnswerThree": "Sinemaya gitmek – yağmur olabilir.",
+      "AnswerFour": "Yürüyüş yapmak – rüzgar olabilir.",
+      "CorrectAnswer": "Sinemaya gitmek – yağmur olabilir"
+    }
+  ]
+}

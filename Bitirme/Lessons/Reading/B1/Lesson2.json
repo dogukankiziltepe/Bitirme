@@ -1,0 +1,46 @@
+﻿{
+  "Order": 2,
+  "Content": "B1 Turkish Reading Lesson 2",
+  "Questions": [
+    {
+      "QuestionString": "Ali, sporu çok seviyor. Özellikle futbol oynamaktan keyif alıyor. Hafta içi çalışsa da hafta sonları mutlaka futbol oynuyor.",
+      "AnswerOne": "Ali sadece hafta içi futbol oynar.",
+      "AnswerTwo": "Ali sporu sevmez.",
+      "AnswerThree": "Ali hiç spor yapmaz.",
+      "AnswerFour": "Ali hafta sonları futbol oynar.",
+      "CorrectAnswer": "Ali hafta sonları futbol oynar."
+    },
+    {
+      "QuestionString": "Merve yeni bir telefon aldı ama cihazın şarjı çok çabuk bitiyor. Bu durum onu biraz hayal kırıklığına uğrattı.",
+      "AnswerOne": "Yeni telefonundan memnun.",
+      "AnswerTwo": "Telefonun kamerası kötü.",
+      "AnswerThree": "Telefonun şarjı çabuk bitiyor.",
+      "AnswerFour": "Telefonu çok eski.",
+      "CorrectAnswer": "Telefonun şarjı çabuk bitiyor."
+    },
+    {
+      "QuestionString": "Sabah toplantıya geç kaldım çünkü metroda teknik bir arıza vardı. Bu yüzden patronum biraz kızdı.",
+      "AnswerOne": "Toplantıya zamanında geldi.",
+      "AnswerTwo": "Metro düzgün çalışıyordu.",
+      "AnswerThree": "Toplantıya geç kaldı çünkü metro bozuldu.",
+      "AnswerFour": "Patronu memnun kaldı.",
+      "CorrectAnswer": "Toplantıya geç kaldı çünkü metro bozuldu."
+    },
+    {
+      "QuestionString": "Ayşe sağlıklı beslenmeye dikkat eder. Genellikle sebze ve meyve yer, fast food yemekten kaçınır.",
+      "AnswerOne": "Fast food yemeyi sever.",
+      "AnswerTwo": "Sebze yemez.",
+      "AnswerThree": "Sağlıklı beslenmeye dikkat eder.",
+      "AnswerFour": "Sadece et yer.",
+      "CorrectAnswer": "Sağlıklı beslenmeye dikkat eder."
+    },
+    {
+      "QuestionString": "Yeni taşındığım şehirde arkadaş bulmak biraz zor oldu ama zamanla insanlarla tanıştım.",
+      "AnswerOne": "Hemen arkadaş buldu.",
+      "AnswerTwo": "Taşındığı şehirde kimseyle tanışmadı.",
+      "AnswerThree": "Arkadaş bulmak çok kolaydı.",
+      "AnswerFour": "İlk başta zorlandı ama sonra arkadaş edindi.",
+      "CorrectAnswer": "İlk başta zorlandı ama sonra arkadaş edindi."
+    }
+  ]
+}

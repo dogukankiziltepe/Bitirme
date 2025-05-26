@@ -1,0 +1,42 @@
+﻿{
+  "Order": 1,
+  "Content": "C2 Turkish Listening Lesson 1",
+  "Questions": [
+    {
+      "ListeningSentence": "Küresel iklim krizine karşı etkili politikalar geliştirilmediği sürece, ekolojik felaketler kaçınılmazdır.",
+      "QuestionString": "Ne tür sonuçlar kaçınılmazdır?",
+      "AnswerOne": "Ekonomik büyüme.",
+      "AnswerTwo": "Ekolojik felaketler.",
+      "AnswerThree": "Sosyal uyum.",
+      "AnswerFour": "Teknolojik ilerleme.",
+      "CorrectAnswer": "Ekolojik felaketler"
+    },
+    {
+      "ListeningSentence": "Teknoloji şirketleri, yapay zeka alanındaki gelişmelerle birlikte etik sorunlarla karşı karşıyadır.",
+      "QuestionString": "Teknoloji şirketleri hangi sorunlarla karşılaşıyor?",
+      "AnswerOne": "Ekonomik sorunlar.",
+      "AnswerTwo": "Etik sorunlar.",
+      "AnswerThree": "Yasal sorunlar.",
+      "AnswerFour": "Personel sorunları.",
+      "CorrectAnswer": "Etik sorunlar"
+    },
+    {
+      "ListeningSentence": "Eğitim politikalarının iyileştirilmesi, toplumsal eşitsizliklerin azaltılmasına katkıda bulunabilir.",
+      "QuestionString": "Eğitim politikalarının iyileştirilmesi neye katkı sağlar?",
+      "AnswerOne": "Toplumsal eşitsizliklerin artmasına.",
+      "AnswerTwo": "Toplumsal eşitsizliklerin azalmasına.",
+      "AnswerThree": "Ekonomik sorunlara.",
+      "AnswerFour": "Çevre kirliliğine.",
+      "CorrectAnswer": "Toplumsal eşitsizliklerin azalmasına"
+    },
+    {
+      "ListeningSentence": "Sürdürülebilir enerji çözümleri, gelecek nesiller için temiz ve güvenilir bir kaynak sunmayı amaçlar.",
+      "QuestionString": "Sürdürülebilir enerji çözümleri neyi amaçlar?",
+      "AnswerOne": "Kirli enerji üretimini.",
+      "AnswerTwo": "Gelecek nesillere temiz kaynak sunmayı.",
+      "AnswerThree": "Ekonomik büyümeyi engellemeyi.",
+      "AnswerFour": "Yenilenebilir enerji kullanımını azaltmayı.",
+      "CorrectAnswer": "Gelecek nesillere temiz kaynak sunmayı"
+    }
+  ]
+}

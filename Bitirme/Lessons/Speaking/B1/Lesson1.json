@@ -1,0 +1,24 @@
+﻿{
+  "Order": 1,
+  "Content": "B1 Turkish Speaking Lesson 1",
+  "Questions": [
+    {
+      "QuestionString": "Bugün iş yerinde çok yoğun bir gün geçirdim."
+    },
+    {
+      "QuestionString": "Yeni taşındığım mahallede birçok park ve kafe var."
+    },
+    {
+      "QuestionString": "Tatilde denize girmek ve güneşlenmek istiyorum."
+    },
+    {
+      "QuestionString": "Sabahları kahve içmeden kendime gelemem."
+    },
+    {
+      "QuestionString": "Dün akşam arkadaşlarımla dışarıda yemek yedik."
+    },
+    {
+      "QuestionString": "Film çok güzeldi ama sonu biraz tahmin edilebilirdi."
+    }
+  ]
+}

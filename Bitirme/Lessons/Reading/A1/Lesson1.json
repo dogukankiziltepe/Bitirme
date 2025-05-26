@@ -1,0 +1,46 @@
+﻿{
+  "Order": 1,
+  "Content": "A1 Turkish Reading Lesson 1",
+  "Questions": [
+    {
+      "QuestionString": "Ali sabah saat yedide uyanır. Kahvaltıda peynir, zeytin ve ekmek yer. Sonra okula gider. Ali sabah ne yapar?",
+      "AnswerOne": "Uyur",
+      "AnswerTwo": "Kahvaltı yapar ve okula gider",
+      "AnswerThree": "Oyun oynar",
+      "AnswerFour": "Markete gider",
+      "CorrectAnswer": "Kahvaltı yapar ve okula gider"
+    },
+    {
+      "QuestionString": "Ayşe’nin bir kedisi var. Kedinin adı Pamuk. Pamuk beyaz ve çok tatlı. Ayşe onu çok seviyor. Pamuk nedir?",
+      "AnswerOne": "Köpek",
+      "AnswerTwo": "Kuş",
+      "AnswerThree": "Kedi",
+      "AnswerFour": "Balık",
+      "CorrectAnswer": "Kedi"
+    },
+    {
+      "QuestionString": "Mehmet hafta sonları parkta yürüyüş yapar. Hava güzelse top oynar. Bugün hava yağmurlu, bu yüzden evde kalıyor. Mehmet neden evde?",
+      "AnswerOne": "Okula gitmek istemiyor",
+      "AnswerTwo": "Hasta",
+      "AnswerThree": "Hava yağmurlu",
+      "AnswerFour": "Misafir geliyor",
+      "CorrectAnswer": "Hava yağmurlu"
+    },
+    {
+      "QuestionString": "Elif pazartesi ve çarşamba günleri yüzmeye gider. Yüzmeyi çok seviyor. Bugün çarşamba. Elif bugün ne yapacak?",
+      "AnswerOne": "Kitap okuyacak",
+      "AnswerTwo": "Yüzmeye gidecek",
+      "AnswerThree": "Sinema izleyecek",
+      "AnswerFour": "Ders çalışacak",
+      "CorrectAnswer": "Yüzmeye gidecek"
+    },
+    {
+      "QuestionString": "Can’ın en sevdiği renk mavi. Odasında mavi perde, mavi masa ve mavi sandalye var. Can’ın odasında ne renk eşyalar var?",
+      "AnswerOne": "Kırmızı",
+      "AnswerTwo": "Sarı",
+      "AnswerThree": "Yeşil",
+      "AnswerFour": "Mavi",
+      "CorrectAnswer": "Mavi"
+    }
+  ]
+}

@@ -13,5 +13,6 @@ namespace Bitirme.DAL.Entities.Courses
         public Student Student { get; set; }
         public string LessonId { get; set; }
         public Lesson Lesson { get; set; }
+        public RecordStatus Status { get; set; } = RecordStatus.Unknown;
     }
 }

@@ -23,6 +23,6 @@ namespace Bitirme.DAL.Entities.Courses
         public string? QuestionMediaId { get; set; }
         public virtual Course? Course { get; set; }
         public string? CourseId { get; set; }
-
+        public string ListeningSentence { get; set; }
     }
 }

@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Bogus;
 using Bogus.DataSets;
 using System.Linq;
+using System.Text.Json;
 
 namespace Bitirme
 {
@@ -161,7 +162,75 @@ namespace Bitirme
                 context.Classes.AddRange(newClasses);
                 context.SaveChanges();
 
+                var lessonsRootPath = Path.Combine(Directory.GetCurrentDirectory(), "Lessons");
+
+                foreach (var course in courses)
+                {
+                    var courseFolder = Path.Combine(lessonsRootPath, course.CourseType.ToString());
+                    if (!Directory.Exists(courseFolder)) continue;
+
+                    foreach (var level in Enum.GetValues<Level>())
+                    {
+                        var levelFolder = Path.Combine(courseFolder, level.ToString());
+                        if (!Directory.Exists(levelFolder)) continue;
+
+                        var jsonFiles = Directory.GetFiles(levelFolder, "*.json");
+                        var relatedClass = newClasses.FirstOrDefault(c => c.Course.CourseType == course.CourseType && c.Level == level);
+
+                        if (relatedClass == null) continue;
+
+                        foreach (var file in jsonFiles)
+                        {
+                            string json = File.ReadAllText(file);
+                            var jsonLesson = JsonSerializer.Deserialize<JsonLesson>(json);
+
+                            if (jsonLesson != null)
+                            {
+                                var lesson = new Lesson
+                                {
+                                    Order = jsonLesson.Order,
+                                    Content = jsonLesson.Content,
+                                    Class = relatedClass,
+                                    CreatedDate = DateTime.UtcNow,
+                                    LessonQuestions = jsonLesson.Questions.Select(q => new Question
+                                    {
+                                        ListeningSentence = q.ListeningSentence,
+                                        QuestionString = q.QuestionString,
+                                        AnswerOne = q.AnswerOne,
+                                        AnswerTwo = q.AnswerTwo,
+                                        AnswerThree = q.AnswerThree,
+                                        AnswerFour = q.AnswerFour,
+                                        CorrectAnswer = q.CorrectAnswer
+                                    }).ToList()
+                                };
+
+                                context.Lesson.Add(lesson);
+                            }
+                        }
+                    }
+                }
+
+                context.SaveChanges();
+
             }
         }
+    }
+
+    public class JsonLesson
+    {
+        public int Order { get; set; }
+        public string Content { get; set; }
+        public List<JsonLessonQuestion> Questions { get; set; }
+    }
+
+    public class JsonLessonQuestion
+    {
+        public string ListeningSentence { get; set; }
+        public string QuestionString { get; set; }
+        public string AnswerOne { get; set; }
+        public string AnswerTwo { get; set; }
+        public string AnswerThree { get; set; }
+        public string AnswerFour { get; set; }
+        public string CorrectAnswer { get; set; }
     }
 }

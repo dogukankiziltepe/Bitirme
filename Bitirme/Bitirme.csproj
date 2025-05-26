@@ -10,6 +10,60 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <Content Remove="Lessons\Listening\A1\Lesson1.json" />
+    <Content Remove="Lessons\Listening\A2\Lesson1.json" />
+    <Content Remove="Lessons\Listening\B1\Lesson1.json" />
+    <Content Remove="Lessons\Listening\B2\Lesson1.json" />
+    <Content Remove="Lessons\Listening\C1\Lesson1.json" />
+    <Content Remove="Lessons\Listening\C2\Lesson1.json" />
+    <Content Remove="Lessons\Reading\A1\Lesson1.json" />
+    <Content Remove="Lessons\Reading\A2\Lesson1.json" />
+    <Content Remove="Lessons\Reading\B1\Lesson1.json" />
+    <Content Remove="Lessons\Reading\B2\Lesson1.json" />
+    <Content Remove="Lessons\Reading\C1\Lesson1.json" />
+    <Content Remove="Lessons\Reading\C2\Lesson1.json" />
+    <Content Remove="Lessons\Speaking\A1\Lesson1.json" />
+    <Content Remove="Lessons\Speaking\A2\Lesson1.json" />
+    <Content Remove="Lessons\Speaking\B1\Lesson1.json" />
+    <Content Remove="Lessons\Speaking\B2\Lesson1.json" />
+    <Content Remove="Lessons\Speaking\C1\Lesson1.json" />
+    <Content Remove="Lessons\Speaking\C2\Lesson1.json" />
+    <Content Remove="Lessons\Writing\A1\Lesson1.json" />
+    <Content Remove="Lessons\Writing\A2\Lesson1.json" />
+    <Content Remove="Lessons\Writing\B1\Lesson1.json" />
+    <Content Remove="Lessons\Writing\B2\Lesson1.json" />
+    <Content Remove="Lessons\Writing\C1\Lesson1.json" />
+    <Content Remove="Lessons\Writing\C2\Lesson1.json" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Include="Lessons\Listening\A1\Lesson1.json" />
+    <Compile Include="Lessons\Listening\A2\Lesson1.json" />
+    <Compile Include="Lessons\Listening\B1\Lesson1.json" />
+    <Compile Include="Lessons\Listening\B2\Lesson1.json" />
+    <Compile Include="Lessons\Listening\C1\Lesson1.json" />
+    <Compile Include="Lessons\Listening\C2\Lesson1.json" />
+    <Compile Include="Lessons\Reading\A1\Lesson1.json" />
+    <Compile Include="Lessons\Reading\A2\Lesson1.json" />
+    <Compile Include="Lessons\Reading\B1\Lesson1.json" />
+    <Compile Include="Lessons\Reading\B2\Lesson1.json" />
+    <Compile Include="Lessons\Reading\C1\Lesson1.json" />
+    <Compile Include="Lessons\Reading\C2\Lesson1.json" />
+    <Compile Include="Lessons\Speaking\A1\Lesson1.json" />
+    <Compile Include="Lessons\Speaking\A2\Lesson1.json" />
+    <Compile Include="Lessons\Speaking\B1\Lesson1.json" />
+    <Compile Include="Lessons\Speaking\B2\Lesson1.json" />
+    <Compile Include="Lessons\Speaking\C1\Lesson1.json" />
+    <Compile Include="Lessons\Speaking\C2\Lesson1.json" />
+    <Compile Include="Lessons\Writing\A1\Lesson1.json" />
+    <Compile Include="Lessons\Writing\A2\Lesson1.json" />
+    <Compile Include="Lessons\Writing\B1\Lesson1.json" />
+    <Compile Include="Lessons\Writing\B2\Lesson1.json" />
+    <Compile Include="Lessons\Writing\C1\Lesson1.json" />
+    <Compile Include="Lessons\Writing\C2\Lesson1.json" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Bogus" Version="35.6.3" />

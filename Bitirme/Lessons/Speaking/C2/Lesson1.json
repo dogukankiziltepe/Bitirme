@@ -1,0 +1,21 @@
+﻿{
+  "Order": 1,
+  "Content": "C2 Turkish Speaking Lesson 2",
+  "Questions": [
+    {
+      "QuestionString": "Küresel ısınmanın ekonomik, sosyal ve çevresel etkilerini nasıl değerlendiriyorsunuz?"
+    },
+    {
+      "QuestionString": "Teknolojinin insan ilişkileri ve toplumsal yapılar üzerindeki etkileri hakkında ne düşünüyorsunuz?"
+    },
+    {
+      "QuestionString": "Bireysel özgürlükler ve toplumsal sorumluluklar arasında nasıl bir denge kurulabilir?"
+    },
+    {
+      "QuestionString": "Eğitim sistemlerinde yapılacak reformların toplum üzerindeki uzun vadeli etkileri nelerdir?"
+    },
+    {
+      "QuestionString": "Kültürel çeşitliliğin sosyal uyum ve hoşgörüye katkıları hakkında görüşlerinizi paylaşınız."
+    }
+  ]
+}

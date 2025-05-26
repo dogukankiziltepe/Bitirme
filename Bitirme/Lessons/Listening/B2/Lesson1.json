@@ -1,0 +1,51 @@
+﻿{
+  "Order": 1,
+  "Content": "B2 Turkish Listening Lesson 1",
+  "Questions": [
+    {
+      "ListeningSentence": "Ayşe iş toplantısına geç kalınca önemli bir fırsatı kaçırdı.",
+      "QuestionString": "Ayşe ne yaptı?",
+      "AnswerOne": "Toplantıya erken gitti.",
+      "AnswerTwo": "Toplantıya geç kaldı.",
+      "AnswerThree": "Toplantıyı iptal etti.",
+      "AnswerFour": "Toplantıya katılmadı.",
+      "CorrectAnswer": "Toplantıya geç kaldı"
+    },
+    {
+      "ListeningSentence": "Geçen ay başlayan kurs, katılımcılar arasında oldukça popüler oldu.",
+      "QuestionString": "Kurs hakkında ne söyleniyor?",
+      "AnswerOne": "Kurs yeni başladı.",
+      "AnswerTwo": "Kurs popüler.",
+      "AnswerThree": "Kurs iptal edildi.",
+      "AnswerFour": "Kurs kısa sürdü.",
+      "CorrectAnswer": "Kurs popüler"
+    },
+    {
+      "ListeningSentence": "Mevsim normallerinin üzerinde sıcaklıklar birçok insanı etkiledi.",
+      "QuestionString": "Hava durumu nasıldı?",
+      "AnswerOne": "Soğuktu.",
+      "AnswerTwo": "Normaldi.",
+      "AnswerThree": "Sıcaktı.",
+      "AnswerFour": "Yağmurluydu.",
+      "CorrectAnswer": "Sıcaktı"
+    },
+    {
+      "ListeningSentence": "Yeni alınan araba yakıt tasarrufu sağlıyor ve çok sessiz çalışıyor.",
+      "QuestionString": "Yeni araba hakkında ne söyleniyor?",
+      "AnswerOne": "Yakıt tüketimi yüksek.",
+      "AnswerTwo": "Sessiz çalışıyor.",
+      "AnswerThree": "Eski model.",
+      "AnswerFour": "Bakımlı değil.",
+      "CorrectAnswer": "Sessiz çalışıyor"
+    },
+    {
+      "ListeningSentence": "Konserde ünlü sanatçı beklenenden daha uzun süre sahnede kaldı.",
+      "QuestionString": "Sanatçı konserde ne yaptı?",
+      "AnswerOne": "Erken çıktı.",
+      "AnswerTwo": "Beklenenden uzun kaldı.",
+      "AnswerThree": "Sahneye çıkmadı.",
+      "AnswerFour": "Konseri iptal etti.",
+      "CorrectAnswer": "Beklenenden uzun kaldı"
+    }
+  ]
+}

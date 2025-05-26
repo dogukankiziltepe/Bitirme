@@ -1,0 +1,51 @@
+﻿{
+  "Order": 1,
+  "Content": "C1 Turkish Listening Lesson 1",
+  "Questions": [
+    {
+      "ListeningSentence": "Hükümet, enerji tasarrufu ve yenilenebilir kaynaklara geçiş konusunda yeni politikalar geliştirmektedir.",
+      "QuestionString": "Hükümet ne yapmaktadır?",
+      "AnswerOne": "Enerji kullanımını artırıyor.",
+      "AnswerTwo": "Yenilenebilir kaynakları teşvik ediyor.",
+      "AnswerThree": "Politikaları kaldırıyor.",
+      "AnswerFour": "Hiçbir şey yapmıyor.",
+      "CorrectAnswer": "Yenilenebilir kaynakları teşvik ediyor"
+    },
+    {
+      "ListeningSentence": "Son yıllarda çevre kirliliği ciddi boyutlara ulaşmış ve önlemler alınması kaçınılmaz olmuştur.",
+      "QuestionString": "Çevre kirliliği hakkında ne söyleniyor?",
+      "AnswerOne": "Sorun küçüktür.",
+      "AnswerTwo": "Önlemler gereklidir.",
+      "AnswerThree": "Kirlilik azalmıştır.",
+      "AnswerFour": "Sorun yoktur.",
+      "CorrectAnswer": "Önlemler gereklidir"
+    },
+    {
+      "ListeningSentence": "Eğitim alanında yapılan reformlar, öğrencilere daha fazla fırsat sunmayı amaçlamaktadır.",
+      "QuestionString": "Eğitim reformlarının amacı nedir?",
+      "AnswerOne": "Fırsatları azaltmak.",
+      "AnswerTwo": "Öğrencilere daha fazla fırsat sunmak.",
+      "AnswerThree": "Okulları kapatmak.",
+      "AnswerFour": "Hiçbir değişiklik yapmamak.",
+      "CorrectAnswer": "Öğrencilere daha fazla fırsat sunmak"
+    },
+    {
+      "ListeningSentence": "Teknolojik gelişmeler, iş süreçlerinde büyük kolaylıklar sağlamıştır.",
+      "QuestionString": "Teknoloji iş süreçlerine nasıl etki etmiştir?",
+      "AnswerOne": "Zorluk çıkarmıştır.",
+      "AnswerTwo": "Kolaylık sağlamıştır.",
+      "AnswerThree": "Değişiklik olmamıştır.",
+      "AnswerFour": "İşleri zorlaştırmıştır.",
+      "CorrectAnswer": "Kolaylık sağlamıştır"
+    },
+    {
+      "ListeningSentence": "Kültürel etkinlikler, toplumun bir arada yaşama kültürünü güçlendirmektedir.",
+      "QuestionString": "Kültürel etkinlikler neyi güçlendirir?",
+      "AnswerOne": "Bireyselliği.",
+      "AnswerTwo": "Toplumsal dayanışmayı.",
+      "AnswerThree": "Yalnızlığı.",
+      "AnswerFour": "Çatışmayı.",
+      "CorrectAnswer": "Toplumsal dayanışmayı"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Order": 1,
+  "Content": "B2 Turkish Speaking Lesson 1",
+  "Questions": [
+    {
+      "QuestionString": "Son zamanlarda iş yoğunluğundan dolayı biraz stresliyim."
+    },
+    {
+      "QuestionString": "Yeni öğrendiğim bir beceriyi hemen uygulamak istiyorum."
+    },
+    {
+      "QuestionString": "Tatilde farklı kültürleri deneyimlemek çok keyifliydi."
+    },
+    {
+      "QuestionString": "Sağlıklı yaşam için düzenli spor yapmak çok önemli."
+    },
+    {
+      "QuestionString": "Hafta sonu arkadaşlarla sinemaya gitmeyi planlıyorum."
+    }
+  ]
+}

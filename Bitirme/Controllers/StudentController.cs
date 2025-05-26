@@ -1,4 +1,5 @@
 using Bitirme.BLL.Interfaces;
+using Bitirme.BLL.Models;
 using Bitirme.DAL.Entities.User;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -34,28 +35,9 @@ namespace Bitirme.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add([FromBody] Student student)
+        public IActionResult AllCourseRegister(AllCourseRegister allCourseRegister)
         {
-            _studentService.Add(student);
-            return CreatedAtAction(nameof(GetById), new { id = student.Id }, student);
-        }
-
-        [HttpPut("{id}")]
-        public IActionResult Update(string id, [FromBody] Student student)
-        {
-            if (id != student.Id)
-            {
-                return BadRequest();
-            }
-            _studentService.Update(student);
-            return NoContent();
-        }
-
-        [HttpDelete("{id}")]
-        public IActionResult Delete(string id)
-        {
-            _studentService.Delete(id);
-            return NoContent();
+            _studentService.AllCourseRegister(allCourseRegister);
         }
     }
 }

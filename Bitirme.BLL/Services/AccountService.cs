@@ -26,11 +26,13 @@ namespace Bitirme.BLL.Services
     {
         private readonly BitirmeDbContext _context;
         private readonly IConfiguration _configuration;
+        private readonly IClassService _classService;
 
-        public AccountService(BitirmeDbContext context, IConfiguration configuration)
+        public AccountService(BitirmeDbContext context, IConfiguration configuration, IClassService classService)
         {
             _context = context;
             _configuration = configuration;
+            _classService = classService;
         }
 
         public AccountViewModel Login(string email, string password)
@@ -50,6 +52,8 @@ namespace Bitirme.BLL.Services
             var student = _context.Students.FirstOrDefault(s => s.Email == email && s.Password == password);
             if (student != null)
             {
+                var classes = _classService.GetClassesByStudentId(student.Id);
+                
                 return new AccountViewModel
                 {
                     Id = student.Id,

@@ -6,6 +6,7 @@ using System.Linq;
 using System;
 using Bitirme.DAL.Entities.User;
 using Bitirme.BLL.Models;
+using Bitirme.DAL.Entities;
 
 namespace Bitirme.BLL.Services
 {
@@ -37,11 +38,8 @@ namespace Bitirme.BLL.Services
             return _classRepository.GetAll().Select(x => new ClassViewModel
             {
                 Id = x.Id,
-                Capacity = x.Capacity,
                 Level = x.Level,
                 Name = x.Name,
-                TeacherId = x.TeacherId,
-                CurrentStudentCount = x.Students.Count
             });
         }
 
@@ -52,11 +50,8 @@ namespace Bitirme.BLL.Services
             return new ClassViewModel
             {
                 Id = dbClass.Id,
-                Capacity = dbClass.Capacity,
                 Level = dbClass.Level,
                 Name = dbClass.Name,
-                TeacherId = dbClass.TeacherId,
-                CurrentStudentCount = dbClass.Students.Count,
                 Lessons = lessons.Select(x => new LessonViewModel
                 {
                     Students = x.Students,
@@ -101,28 +96,29 @@ namespace Bitirme.BLL.Services
 
         public IEnumerable<ClassViewModel> GetClassesByStudentId(string studentId)
         {
-            return _classRepository.FindWithInclude(c => c.Students.Any(s => s.Student.Id == studentId), c => c.Students, c => c.Teacher, c => c.Lessons).Select(x => new ClassViewModel
+            var classes  = _classRepository.FindWithInclude(c => c.Students.Any(s => s.Student.Id == studentId), c => c.Students, c => c.Teacher, c => c.Lessons, c=> c.Course).Select(x => new ClassViewModel
             {
                 Id = x.Id,
-                Teacher = new TeacherViewModel
-                {
-                    Id = x.Id,
-                    Name = x.Name,
-                },
-                Capacity = x.Capacity,
-                CurrentStudentCount = x.Students.Count(),
                 Lessons = x.Lessons.Select(a => new LessonViewModel
                 {
                     ClassId = x.Id,
                     Content = a.Content,
                     Id = a.Id,
                     Order = a.Order,
-                    IsCompleted = _lessonStudentRepository.Any(studentId,a.Id)
+                    IsCompleted = _lessonStudentRepository.FindWithInclude(x => x.LessonId == a.Id && x.StudentId == studentId && x.Status == RecordStatus.Completed).FirstOrDefault() != null ? true : false
                 }).ToList(),
                 Level = x.Level,
                 Name = x.Name,
-                TeacherId = x.TeacherId
+                CourseId = x.Course.Id,
+                CourseName = x.Course.Name
             }).ToList();
+
+            foreach (var classViewModel in classes)
+            {
+                classViewModel.CompletedLessonCount = _lessonStudentRepository.FindWithInclude(x => x.StudentId == studentId && x.Lesson.Class.Id == classViewModel.Id && x.Status == RecordStatus.Completed).Count();
+                classViewModel.LessonCount = classViewModel.Lessons.Count;
+            }
+            return classes;
         }
 
         public void AddStudentToClass(string classId, string studentId)
@@ -161,8 +157,7 @@ namespace Bitirme.BLL.Services
             {
                 Id = c.Id,
                 Name = c.Name,
-                Capacity = c.Capacity,
-                CurrentStudentCount = c.Students.Count
+
             });
         }
 
@@ -180,15 +175,8 @@ namespace Bitirme.BLL.Services
                 return classes.Select(x => new ClassViewModel
                 {
                     Id = x.Id,
-                    CurrentStudentCount = x.Students.Count,
-                    Capacity = x.Capacity,
                     Level = x.Level,
                     Name = x.Name,
-                    Teacher = new TeacherViewModel
-                    {
-                        Id = x.Teacher.Id,
-                        Name = x.Teacher.Name,
-                    }
                 }).ToList();
             }
             catch (Exception ex)
@@ -200,27 +188,31 @@ namespace Bitirme.BLL.Services
 
         public List<ClassViewModel> GetClassCourseIdAndStudentId(string courseId, string studentId)
         {
-            var dbclass = _classRepository.FindWithInclude(x => x.Course.Id == courseId && x.Students.Any(s => s.Student.Id == studentId), x => x.Students, x => x.Teacher, x => x.Lessons).ToList();
-            return dbclass.Select(x => new ClassViewModel
+            var dbclasses = _classRepository.FindWithInclude(x => x.Course.Id == courseId, x => x.Lessons).ToList();
+            var modelClasses = new List<ClassViewModel>();
+            foreach (var item in dbclasses)
             {
-                Id = x.Id,
-                CurrentStudentCount = x.Students.Count,
-                Capacity = x.Capacity,
-                Level = x.Level,
-                Name = x.Name,
-                Teacher = new TeacherViewModel
+                var lessonIds = item.Lessons.Select(x => x.Id).ToList();
+                var studentLessons = _lessonStudentRepository.FindWithInclude(x => lessonIds.Any(a => a == x.LessonId) && x.StudentId == studentId).ToList();
+                modelClasses.Add(new ClassViewModel
                 {
-                    Id = x.Teacher.Id,
-                    Name = x.Teacher.Name,
-                },
-                Lessons = x.Lessons.Select(a => new LessonViewModel
-                {
-                    ClassId = x.Id,
-                    Content = a.Content,
-                    Id = a.Id,
-                    Order = a.Order,
-                    IsCompleted = _lessonStudentRepository.Any(studentId, a.Id)
-                }).ToList()
+                    Id = item.Id,
+                    Level = item.Level,
+                    Name = item.Name,
+                    Lessons = item.Lessons.Select(a => new LessonViewModel
+                    {
+                        ClassId = item.Id,
+                        Content = a.Content,
+                        Id = a.Id,
+                        Order = a.Order,
+                        IsCompleted = _lessonStudentRepository.FindWithInclude(x => x.LessonId == a.Id && x.StudentId == studentId && x.Status == RecordStatus.Completed).FirstOrDefault() != null ? true : false
+                    }).ToList(),
+                    StudentStatus = studentLessons.Count() == 0 ? StudentClassProgress.NotStarted : studentLessons.Count() == item.Lessons.Count() ? StudentClassProgress.Completed : StudentClassProgress.Continue
+                });
+            }
+            return dbclasses.Select(x => new ClassViewModel
+            {
+                
             }).ToList();
             
         }
