@@ -194,7 +194,7 @@ namespace Bitirme.BLL.Services
 
         public List<ClassViewModel> GetClassCourseIdAndStudentId(string courseId, string studentId)
         {
-            var dbclasses = _classRepository.FindWithInclude(x => x.Course.Id == courseId, x => x.Lessons).ToList();
+            var dbclasses = _classRepository.FindWithInclude(x => x.Course.Id == courseId, x => x.Lessons, x=> x.Course).ToList();
             var modelClasses = new List<ClassViewModel>();
             foreach (var item in dbclasses)
             {
@@ -205,6 +205,8 @@ namespace Bitirme.BLL.Services
                     Id = item.Id,
                     Level = item.Level,
                     Name = item.Name,
+                    CourseName = item.Course.Name,
+                    CourseId = item.CourseId,
                     Lessons = item.Lessons.Select(a => new LessonViewModel
                     {
                         ClassId = item.Id,
