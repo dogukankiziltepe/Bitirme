@@ -24,7 +24,7 @@ namespace Bitirme.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetById(string id)
+        public IActionResult GetStudentProfile(string id)
         {
             var student = _studentService.GetById(id);
             if (student == null)

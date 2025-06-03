@@ -26,9 +26,20 @@ namespace Bitirme.BLL.Services
             return _studentRepository.GetAll();
         }
 
-        public Student GetById(string id)
+        public StudentViewModel GetById(string id)
         {
-            return _studentRepository.GetById(id);
+            var student = _studentRepository.GetById(id);
+            return new StudentViewModel
+            {
+                BirthDate = student.BirthDate,
+                Id = student.Id,
+                Name = student.Name,
+                PhoneNumber = student.PhoneNumber,
+                ProfilePicture = student.ProfilePicture,
+                Email = student.Email,
+                Username = student.Username,
+                Address = student.Address,
+            };
         }
 
         public void Add(Student student)

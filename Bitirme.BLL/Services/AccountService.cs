@@ -94,6 +94,7 @@ namespace Bitirme.BLL.Services
             }
             else if (userType == UserType.Student)
             {
+                var random = new Random();
                 // Create a new student
                 var newStudent = new Student
                 {
@@ -102,7 +103,8 @@ namespace Bitirme.BLL.Services
                     Email = email,
                     Name = name,
                     CreatedDate = DateTime.UtcNow,
-                    UpdatedDate = DateTime.UtcNow
+                    UpdatedDate = DateTime.UtcNow,
+                    ProfilePicture = random.Next(0,5)
                 };
 
                 _context.Students.Add(newStudent);
@@ -123,6 +125,23 @@ namespace Bitirme.BLL.Services
         public bool VerifyEmail(string userId)
         {
             throw new NotImplementedException();
+        }
+
+        public bool ResetPassword(string studentId, string oldPassword, string newPassword)
+        {
+            var user = _context.Students.FirstOrDefault(x => x.Id == studentId);
+            if (user == null)
+            {
+                return false;
+            }
+            if(user.Password != oldPassword)
+            {
+                return false;
+            }
+            user.Password = newPassword;
+            _context.Students.Update(user);
+            _context.SaveChanges();
+            return true;
         }
     }
 }

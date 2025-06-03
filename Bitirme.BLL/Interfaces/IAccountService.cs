@@ -9,5 +9,7 @@ namespace Bitirme.BLL.Interfaces
         bool SignUp(string password, string email,string name,UserType userType);
         bool VerifyEmail(string userId);
         IEnumerable<ClassViewModel> GetStudentInfo(string studentId);
+
+        bool ResetPassword(string studentId, string oldPassword, string newPassword);
     }
 }

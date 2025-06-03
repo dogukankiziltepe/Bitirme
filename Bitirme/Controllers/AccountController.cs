@@ -68,12 +68,30 @@ namespace Bitirme.Controllers
             }
             return Ok(result);
         }
+
+        [HttpPost("ResetPassword")]
+        public IActionResult ResetPassword(ResetPasswordRequest request)
+        {
+            var result = _accountService.ResetPassword(request.StudentId,request.OldPassword,request.NewPassword);
+            if (!result)
+            {
+                return BadRequest("Old password is wrong!");
+            }
+            return Ok();
+
+        }
     }
 
     public class LoginRequest
     {
         public string EMail { get; set; }
         public string Password { get; set; }
+    }
+    public class ResetPasswordRequest
+    {
+        public string StudentId { get; set; }
+        public string OldPassword { get; set; }
+        public string NewPassword { get; set; }
     }
 
     public class SignUpRequest
