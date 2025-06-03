@@ -5,6 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using Bitirme.DAL;
 using System.Text;
 using Bitirme;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -60,6 +61,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 
 }
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "pp")),
+    RequestPath = "/pp"
+});
 
 app.UseHttpsRedirection();
 

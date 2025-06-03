@@ -104,7 +104,7 @@ namespace Bitirme.BLL.Services
                     Name = name,
                     CreatedDate = DateTime.UtcNow,
                     UpdatedDate = DateTime.UtcNow,
-                    ProfilePicture = random.Next(0,5)
+                    ProfilePicture = random.Next(0, 4).ToString() + ".png"
                 };
 
                 _context.Students.Add(newStudent);
