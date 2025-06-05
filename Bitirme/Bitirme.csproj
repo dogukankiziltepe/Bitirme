@@ -30,9 +30,5 @@
     <ProjectReference Include="..\Bitirme.BLL\Bitirme.BLL.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="PP\" />
-  </ItemGroup>
-
   
 </Project>
