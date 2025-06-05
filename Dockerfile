@@ -15,6 +15,12 @@ RUN dotnet publish -c Release -o /out
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 
+COPY ./Bitirme/ProfilePictures/0.png /app/ProfilePictures/0.png
+COPY ./Bitirme/ProfilePictures/1.png /app/ProfilePictures/1.png
+COPY ./Bitirme/ProfilePictures/2.png /app/ProfilePictures/2.png
+COPY ./Bitirme/ProfilePictures/3.png /app/ProfilePictures/3.png
+COPY ./Bitirme/ProfilePictures/4.png /app/ProfilePictures/4.png
+
 # Copy the built application from the build stage
 COPY --from=build /out .
 
