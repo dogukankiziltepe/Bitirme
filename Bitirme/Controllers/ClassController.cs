@@ -35,5 +35,12 @@ namespace Bitirme.Controllers
             return Ok(classes);
         }
 
+        [HttpPost("CreateClass")]
+        public IActionResult CreateClass(ClassDTO model)
+        {
+            _classService.Add(model);
+            return Ok();
+        }
+
     }
 }

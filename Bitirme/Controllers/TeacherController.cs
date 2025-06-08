@@ -10,6 +10,7 @@ namespace Bitirme.Controllers
     public class TeacherController : ControllerBase
     {
         private readonly ITeacherService _teacherService;
+        private readonly IClassService _classService;
 
         public TeacherController(ITeacherService teacherService)
         {
@@ -56,6 +57,13 @@ namespace Bitirme.Controllers
         {
             _teacherService.Delete(id);
             return NoContent();
+        }
+
+        [HttpGet("GetTeacherClasses/{teacherId}")]
+        public IActionResult GetTeacherClasses(string teacherId)
+        {
+            var result = _classService.GetTeacherClasses(teacherId);
+            return Ok(result);
         }
     }
 }

@@ -10,7 +10,7 @@ namespace Bitirme.DAL.Entities.Courses
     public class Class: BaseEntity
     {
         public string Name { get; set; }
-        public int Capacity { get; set; } // Maximum number of students allowed in the class
+        public int? Capacity { get; set; } // Maximum number of students allowed in the class
         public Level Level { get; set; }
         public string TeacherId { get; set; }
         public virtual Teacher Teacher { get; set; }

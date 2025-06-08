@@ -41,6 +41,7 @@ namespace Bitirme.BLL.Services
         {
             var questions = questionViewModels.Select(x => new Question
             {
+                ListeningSentence = x.ListeningSentence,
                 QuestionString = x.QuestionString,
                 AnswerOne = x.AnswerOne,
                 AnswerTwo = x.AnswerTwo,

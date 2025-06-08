@@ -8,6 +8,7 @@ using Bitirme.DAL.Entities.User;
 using Bitirme.BLL.Models;
 using Bitirme.DAL.Entities;
 using Bitirme.DAL.Abstracts.Users;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Bitirme.BLL.Services
 {
@@ -266,6 +267,26 @@ namespace Bitirme.BLL.Services
             AddStudentToClass(nextClass.Id,studentId);
             _classRepository.SaveChanges();
             return true;
+        }
+
+        public List<ClassViewModel> GetTeacherClasses(string teacherId)
+        {
+            var classes = _classRepository.FindWithInclude(c => c.Teacher.Id == teacherId, c => c.Students, c => c.Teacher, c => c.Lessons, c => c.Course).ToList().Select(x => new ClassViewModel
+            {
+                Id = x.Id,
+                Lessons = x.Lessons.Select(a => new LessonViewModel
+                {
+                    ClassId = x.Id,
+                    Content = a.Content,
+                    Id = a.Id,
+                    Order = a.Order
+                }).ToList(),
+                Level = x.Level,
+                Name = x.Name,
+                CourseId = x.Course.Id,
+                CourseName = x.Course.Name,
+            }).ToList();
+            return classes;
         }
     }
 }
