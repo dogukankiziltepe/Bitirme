@@ -1,4 +1,5 @@
 using Bitirme.BLL.Interfaces;
+using Bitirme.BLL.Services;
 using Bitirme.DAL.Entities.User;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -12,9 +13,10 @@ namespace Bitirme.Controllers
         private readonly ITeacherService _teacherService;
         private readonly IClassService _classService;
 
-        public TeacherController(ITeacherService teacherService)
+        public TeacherController(ITeacherService teacherService,IClassService classService)
         {
             _teacherService = teacherService;
+            _classService = classService;
         }
 
         [HttpGet]
