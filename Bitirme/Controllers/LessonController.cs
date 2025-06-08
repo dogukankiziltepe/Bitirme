@@ -39,6 +39,15 @@ namespace Bitirme.Controllers
             else
                 return BadRequest();
         }
+        [HttpPost("AddLesson")]
+        public IActionResult AddLesson(LessonViewModel lesson)
+        {
+            var result = _lessonService.AddLesson(lesson);
+            if (result)
+                return Ok(result);
+            else
+                return BadRequest();
+        }
         [HttpGet("GetLessonQuestions/{lessonId}")]
         public IActionResult GetLessonQuestions(string lessonId)
         {
