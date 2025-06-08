@@ -205,5 +205,25 @@ namespace Bitirme.BLL.Services
             _classRepository.Update(classEntity);
             _classRepository.SaveChanges();
         }
+
+        public bool AddLesson(LessonViewModel model)
+        {
+            try
+            {
+                _lessonRepository.Add(new Lesson
+                {
+                    Class = _classRepository.GetById(model.ClassId),
+                    Content = model.Content,
+                    Order = model.Order,
+                    CreatedDate = DateTime.Now,
+                });
+                return true;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
     }
 }
