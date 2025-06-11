@@ -269,9 +269,9 @@ namespace Bitirme.BLL.Services
             return true;
         }
 
-        public List<ClassViewModel> GetTeacherClasses(string teacherId)
+        public List<ClassViewModel> GetTeacherClasses(string teacherId,string courseId)
         {
-            var classes = _classRepository.FindWithInclude(c => c.Teacher.Id == teacherId, c => c.Students, c => c.Teacher, c => c.Lessons, c => c.Course).ToList().Select(x => new ClassViewModel
+            var classes = _classRepository.FindWithInclude(c => c.Teacher.Id == teacherId && c.CourseId == courseId , c => c.Students, c => c.Teacher, c => c.Lessons, c => c.Course).ToList().Select(x => new ClassViewModel
             {
                 Id = x.Id,
                 Lessons = x.Lessons.Select(a => new LessonViewModel

@@ -61,10 +61,10 @@ namespace Bitirme.Controllers
             return NoContent();
         }
 
-        [HttpGet("GetTeacherClasses/{teacherId}")]
-        public IActionResult GetTeacherClasses(string teacherId)
+        [HttpGet("GetTeacherClasses/{teacherId}/{courseId}")]
+        public IActionResult GetTeacherClasses(string teacherId,string courseId)
         {
-            var result = _classService.GetTeacherClasses(teacherId);
+            var result = _classService.GetTeacherClasses(teacherId,courseId);
             return Ok(result);
         }
     }

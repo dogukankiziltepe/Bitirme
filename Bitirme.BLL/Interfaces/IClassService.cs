@@ -22,6 +22,6 @@ namespace Bitirme.BLL.Interfaces
         Student GetStudentById(string studentId);
         public List<QuestionViewModel> GetClassExam(string classId);
         bool CompletedClass(string classId, string studentId);
-        List<ClassViewModel> GetTeacherClasses(string teacherId);
+        List<ClassViewModel> GetTeacherClasses(string teacherId,string courseId);
     }
 }
