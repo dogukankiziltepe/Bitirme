@@ -47,13 +47,13 @@ namespace Bitirme.Controllers
             return Ok("Sign up successful.");
         }
 
-        [HttpGet("verify-email")] 
-        public IActionResult VerifyEmail(string userId) 
+        [HttpPost("VerifyEmail")] 
+        public IActionResult VerifyEmail(CodeCheckModel codeCheckModel) 
         { 
-            var result = _accountService.VerifyEmail(userId); 
+            var result = _accountService.VerifyEmail(codeCheckModel.UserId,codeCheckModel.Code); 
             if (!result) 
             { 
-                return BadRequest("Email verification failed."); 
+                return BadRequest("Verification code is incorrect."); 
             } 
             return Ok("Email verified successfully."); 
         }
@@ -80,6 +80,53 @@ namespace Bitirme.Controllers
             return Ok();
 
         }
+        /// <summary>
+        /// Forgot password mailini atmaya yarayan endpoint.
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost("ForgotPasswordMail")]
+        public IActionResult ForgotPasswordMail(ForgotPasswordMail model)
+        {
+            var result = _accountService.ForgotPasswordMail(model.Email);
+            if (string.IsNullOrEmpty(result))
+            {
+                return BadRequest("We didn't find this mail");
+            }
+            return Ok(result);
+        }
+
+        /// <summary>
+        /// Forgot password code unu kontrol etmeye yarayan endpoint
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost("ForgotPasswordCodeCheck")]
+        public IActionResult ForgotPasswordCodeCheck(CodeCheckModel model)
+        {
+            var result = _accountService.ForgotPasswordCodeControl(model.UserId,model.Code);
+            if (!result)
+            {
+                return BadRequest("Verification code is incorrect.");
+            }
+            return Ok(result);
+        }
+
+        /// <summary>
+        /// Forgot passwordun en son adýmý olarak þifre deðiþtirme endpointi.
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost("ForgotPasswordChange")]
+        public IActionResult ForgotPasswordChange(ForgotPasswordChangeModel model)
+        {
+            var result = _accountService.ForgotPasswordChange(model.UserId, model.NewPassword);
+            if (!result)
+            {
+                return BadRequest("An error occurred please try again later.");
+            }
+            return Ok(result);
+        }
     }
 
     public class LoginRequest
@@ -100,5 +147,21 @@ namespace Bitirme.Controllers
         public string Email { get; set; }
         public string Name { get; set; }
         public UserType UserType { get; set; }
+    }
+
+    public class ForgotPasswordMail
+    {
+        public string Email { get; set; }
+    }
+    public class CodeCheckModel
+    {
+        public string UserId { get; set; }
+        public string Code { get; set; }
+    }
+
+    public class ForgotPasswordChangeModel
+    {
+        public string UserId { get; set; }
+        public string NewPassword { get; set; }
     }
 }

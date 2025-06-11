@@ -36,6 +36,7 @@ namespace Bitirme.DAL
             services.AddScoped<ILessonRepository, LessonRepository>();
             services.AddScoped<ILessonStudentRepository,LessonStudentRepository>();
             services.AddScoped<IClassStudentRepository, ClassStudentRepository>();
+            services.AddScoped<IUserMailCodeRepository, UserMailCodeRepository>();
 
 
             return services;

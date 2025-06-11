@@ -11,5 +11,6 @@ namespace Bitirme.DAL.Entities.User
     {
         public bool IsMainTeacher { get; set; }
         public virtual ICollection<Class> Classes { get; set; } = new List<Class>();
+        public bool IsEmailActivated { get; set; }
     }
 }

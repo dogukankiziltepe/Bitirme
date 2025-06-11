@@ -1,52 +1,42 @@
 using System;
 using System.Net;
 using System.Net.Mail;
+using System.Text.RegularExpressions;
 
 namespace Bitirme.BLL.Services
 {
     public class EmailService
     {
-        private readonly string _smtpServer;
-        private readonly int _smtpPort;
-        private readonly string _smtpUser;
-        private readonly string _smtpPass;
 
-        public EmailService(string smtpServer, int smtpPort, string smtpUser, string smtpPass)
+        public static bool SendEmail(string to, string subject,string body)
         {
-            _smtpServer = smtpServer;
-            _smtpPort = smtpPort;
-            _smtpUser = smtpUser;
-            _smtpPass = smtpPass;
-        }
+            bool gonderimSonucu = false;
+            int mailAdresiSayisi = Regex.Matches(to, ";").Count + 1;
+            SmtpClient client = new SmtpClient("smtp.yandex.com.tr", 587);
+            MailMessage mail = new MailMessage();
+            mail.From = new MailAddress("learnTurkish1@yandex.com", "Learn Turkish"); //gönderici olarak görünen mail bilgileri
+            mail.Priority = MailPriority.Normal;
+            mail.Subject = subject;
+            mail.To.Add(new MailAddress(to, ""));
 
-        private string GetBaseUrl()
-        {
-            // Assuming this method returns the base URL of the project.
-            return "https://example.com";
-        }
+            mail.Body = body;
+            mail.IsBodyHtml = true;
 
-        public void SendEmail(string to, string subject, string body, string userId)
-        {
-            var verificationLink = $"{GetBaseUrl()}/verify-email?userId={userId}";
-
-            var smtpClient = new SmtpClient(_smtpServer)
+            NetworkCredential girisIzni = new NetworkCredential("learnTurkish1@yandex.com", "jetvlzjlbatdswsc");
+            client.UseDefaultCredentials = false;
+            client.EnableSsl = true;
+            client.Credentials = girisIzni;
+            try
             {
-                Port = _smtpPort,
-                Credentials = new NetworkCredential(_smtpUser, _smtpPass),
-                EnableSsl = true
-            };
-
-            var mailMessage = new MailMessage
+                client.Send(mail);
+                gonderimSonucu = true;
+                return gonderimSonucu;
+            }
+            catch (Exception ex)
             {
-                From = new MailAddress(_smtpUser),
-                Subject = subject,
-                Body = $"{body}\n\nVerification Link: {verificationLink}",
-                IsBodyHtml = true
-            };
-
-            mailMessage.To.Add(to);
-
-            smtpClient.Send(mailMessage);
+                gonderimSonucu = false;
+                return gonderimSonucu;
+            }
         }
     }
 }

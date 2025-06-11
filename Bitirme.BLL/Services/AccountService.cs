@@ -1,6 +1,7 @@
 using Bitirme.BLL.Interfaces;
 using Bitirme.BLL.Models;
 using Bitirme.DAL;
+using Bitirme.DAL.Abstracts.Users;
 using Bitirme.DAL.Entities.User;
 using Microsoft.Extensions.Configuration;
 using System.Linq;
@@ -22,6 +23,7 @@ namespace Bitirme.BLL.Services
         public UserType UserType { get; set; }
         public string EMail { get; internal set; }
         public List<ClassViewModel> Classes { get; set; }
+        public bool IsEmailActivated { get; internal set; }
     }
 
     public class AccountService:IAccountService
@@ -29,12 +31,13 @@ namespace Bitirme.BLL.Services
         private readonly BitirmeDbContext _context;
         private readonly IConfiguration _configuration;
         private readonly IClassService _classService;
-
-        public AccountService(BitirmeDbContext context, IConfiguration configuration, IClassService classService)
+        private readonly IUserMailCodeRepository _userMailCodeRepository;
+        public AccountService(BitirmeDbContext context, IConfiguration configuration, IClassService classService,IUserMailCodeRepository userMailCodeRepository)
         {
             _context = context;
             _configuration = configuration;
             _classService = classService;
+            _userMailCodeRepository = userMailCodeRepository;
         }
 
         public AccountViewModel Login(string email, string password)
@@ -48,6 +51,7 @@ namespace Bitirme.BLL.Services
                     Name = teacher.Name,
                     UserType = UserType.Teacher,
                     EMail = teacher.Email,
+                    IsEmailActivated = teacher.IsEmailActivated,
                 };
             }
 
@@ -62,7 +66,8 @@ namespace Bitirme.BLL.Services
                     Name = student.Name,
                     UserType = UserType.Student,
                     EMail = student.Email,
-                    Classes = classes.ToList()
+                    Classes = classes.ToList(),
+                    IsEmailActivated = student.IsEmailActivated,
                 };
             }
 
@@ -76,10 +81,12 @@ namespace Bitirme.BLL.Services
             {
                 return false; // User already exists
             }
-
             if (userType == UserType.Teacher)
             {
+                var random = new Random();
+                var code = random.Next(100000, 999999);
                 // Create a new teacher
+
                 var newTeacher = new Teacher
                 {
                     Id = Guid.NewGuid().ToString(),
@@ -87,14 +94,27 @@ namespace Bitirme.BLL.Services
                     Email = email,
                     Name = name,
                     CreatedDate = DateTime.UtcNow,
-                    UpdatedDate = DateTime.UtcNow
+                    IsEmailActivated = false,
+                    UpdatedDate = DateTime.UtcNow,
                 };
+
+                _userMailCodeRepository.Add(new UserMailCode
+                {
+                    Id = Guid.NewGuid().ToString(),
+                    Code = code.ToString(),
+                    Type = 0,
+                    UserId = newTeacher.Id
+                });
+                var body = "Registration Code: " + code;
+                EmailService.SendEmail(newTeacher.Email,"Verification Code",body);
+
 
                 _context.Teachers.Add(newTeacher);
             }
             else if (userType == UserType.Student)
             {
                 var random = new Random();
+                var code = random.Next(100000, 999999);
                 // Create a new student
                 var newStudent = new Student
                 {
@@ -104,8 +124,19 @@ namespace Bitirme.BLL.Services
                     Name = name,
                     CreatedDate = DateTime.UtcNow,
                     UpdatedDate = DateTime.UtcNow,
+                    IsEmailActivated = false,
                     ProfilePicture = random.Next(0, 4).ToString() + ".png"
                 };
+
+                _userMailCodeRepository.Add(new UserMailCode
+                {
+                    Id = Guid.NewGuid().ToString(),
+                    Code = code.ToString(),
+                    Type = 0,
+                    UserId = newStudent.Id
+                });
+                var body = "Registration Code: " + code;
+                EmailService.SendEmail(newStudent.Email, "Verification Code", body);
 
                 _context.Students.Add(newStudent);
             }
@@ -122,9 +153,41 @@ namespace Bitirme.BLL.Services
             return classes;
         }
 
-        public bool VerifyEmail(string userId)
+        public bool VerifyEmail(string userId,string code)
         {
-            throw new NotImplementedException();
+            var userCode = _userMailCodeRepository.FindWithInclude(x => x.UserId == userId).FirstOrDefault();
+            if (userCode == null)
+            {
+                return false;
+            }
+            if(userCode.Code == code)
+            {
+                var student = _context.Students.FirstOrDefault(x => x.Id == userId);
+                if (student == null)
+                {
+                    var teacher = _context.Teachers.FirstOrDefault(x => x.Id == userId);
+                    if (teacher == null)
+                    {
+                        return false;
+                    }
+                    teacher.IsEmailActivated = true;
+                    _context.Teachers.Update(teacher);
+                    _context.UserMailCodes.Remove(userCode);
+                    _context.SaveChanges();
+                }
+                else
+                {
+                    student.IsEmailActivated = true;
+                    _context.Students.Update(student);
+                    _context.UserMailCodes.Remove(userCode);
+                    _context.SaveChanges();
+                }
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public bool ResetPassword(string studentId, string oldPassword, string newPassword)
@@ -141,6 +204,79 @@ namespace Bitirme.BLL.Services
             user.Password = newPassword;
             _context.Students.Update(user);
             _context.SaveChanges();
+            return true;
+        }
+
+        public string ForgotPasswordMail(string mail)
+        {
+            var random = new Random();
+            var code = random.Next(100000, 999999);
+            var student = _context.Students.FirstOrDefault(x => x.Email == mail);
+            if (student != null)
+            {
+                EmailService.SendEmail(student.Email,"Forgot Password Code","Your Code: "+ code);
+                _userMailCodeRepository.Add(new UserMailCode
+                {
+                    Id = Guid.NewGuid().ToString(),
+                    Code = code.ToString(),
+                    Type = 0,
+                    UserId = student.Id
+                });
+                _context.SaveChanges();
+                return student.Id;
+            }
+            else
+            {
+                var teacher = _context.Teachers.FirstOrDefault(y => y.Email == mail);
+                if (teacher == null)
+                {
+                    return "";
+                }
+                EmailService.SendEmail(teacher.Email, "Forgot Password Code", "Your Code: " + code);
+                _userMailCodeRepository.Add(new UserMailCode
+                {
+                    Id = Guid.NewGuid().ToString(),
+                    Code = code.ToString(),
+                    Type = 0,
+                    UserId = teacher.Id 
+                });
+                _context.SaveChanges();
+
+                return teacher.Id;
+
+            }
+        }
+
+        public bool ForgotPasswordCodeControl(string userId,string code)
+        {
+            var userMailCode = _userMailCodeRepository.FindWithInclude(x => x.UserId == userId).FirstOrDefault();
+            if(userMailCode == null)
+            {
+                return false;
+            }
+            return userMailCode.Code == code;
+        }
+
+        public bool ForgotPasswordChange(string userId, string newPassword)
+        {
+            var student = _context.Students.FirstOrDefault(x => x.Id == userId);
+            if (student == null)
+            {
+                var teacher = _context.Teachers.FirstOrDefault(x => x.Id == userId);
+                if(teacher == null)
+                {
+                    return false;
+                }
+                teacher.Password = newPassword;
+                _context.Teachers.Update(teacher);
+                _context.SaveChanges();
+            }
+            else
+            {
+                student.Password = newPassword;
+                _context.Students.Update(student);
+                _context.SaveChanges();
+            }
             return true;
         }
     }

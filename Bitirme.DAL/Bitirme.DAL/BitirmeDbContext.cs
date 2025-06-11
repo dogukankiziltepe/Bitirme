@@ -20,6 +20,8 @@ namespace Bitirme.DAL
         #region USERS
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Student> Students { get; set; }
+        public DbSet<UserMailCode> UserMailCodes { get; set; }
+
         #endregion
 
         #region COURSES
