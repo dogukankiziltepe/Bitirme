@@ -90,7 +90,7 @@ namespace Bitirme.BLL.Services
                     if (next)
                     {
                         var isTheEnd = Enum.IsDefined(typeof(RecordStatus), (int)dbclassStudent.Class.Level + 1);
-                        if (!isTheEnd)
+                        if (isTheEnd)
                         {
                             return true;
                         }
@@ -115,11 +115,13 @@ namespace Bitirme.BLL.Services
             try
             {
                 var dbclass = _classRepository.GetById(lessonViewModel.ClassId);
+                var dbLessons = _lessonRepository.FindWithInclude(x => x.Class.Id == lessonViewModel.ClassId).OrderByDescending(x => x.Order).ToList();
+                var order = dbLessons.FirstOrDefault().Order;
                 _lessonRepository.Add(new Lesson
                 {
                     CreatedDate = DateTime.UtcNow,
                     Content = lessonViewModel.Content,
-                    Order = lessonViewModel.Order,
+                    Order = order+1,
                     Class = dbclass,
                 });
                 _lessonRepository.SaveChanges();
