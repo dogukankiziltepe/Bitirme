@@ -120,7 +120,7 @@ namespace Bitirme.BLL.Services
             {
                 classViewModel.CompletedLessonCount = _lessonStudentRepository.FindWithInclude(x => x.StudentId == studentId && x.Lesson.Class.Id == classViewModel.Id && x.Status == RecordStatus.Completed).Count();
                 classViewModel.LessonCount = classViewModel.Lessons.Count;
-                if(classViewModel.CompletedLessonCount >= 0 &&  classViewModel.LessonCount < classViewModel.CompletedLessonCount)
+                if(classViewModel.CompletedLessonCount >= 0 &&  classViewModel.LessonCount > classViewModel.CompletedLessonCount)
                 {
                     classviewModels.Add(classViewModel);
                 }
