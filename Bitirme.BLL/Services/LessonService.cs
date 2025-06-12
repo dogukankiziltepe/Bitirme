@@ -84,6 +84,8 @@ namespace Bitirme.BLL.Services
                 if(!allLessons.Any(x => x.Order > lesson.Order))
                 {
                     var dbclassStudent = _classStudentRepository.FindWithInclude(x => x.Class.Id == lesson.Class.Id && x.Student.Id == studentId, x=> x.Student, x => x.Class).FirstOrDefault();
+                    var dbclassStudents = _classStudentRepository.FindWithInclude(x => x.Class.Id == lesson.Class.Id && x.Student.Id == studentId, x => x.Student, x => x.Class).ToList();
+
                     dbclassStudent.RecordStatus = DAL.Entities.RecordStatus.Completed;
                     _classStudentRepository.Update(dbclassStudent);
                     _classStudentRepository.SaveChanges();

@@ -113,14 +113,17 @@ namespace Bitirme.BLL.Services
                 Level = x.Level,
                 Name = x.Name,
                 CourseId = x.Course.Id,
-                CourseName = x.Course.Name
+                CourseName = x.Course.Name,
             }).ToList();
 
             foreach (var classViewModel in classes)
             {
-                classViewModel.CompletedLessonCount = _lessonStudentRepository.FindWithInclude(x => x.StudentId == studentId && x.Lesson.Class.Id == classViewModel.Id && x.Status == RecordStatus.Completed).Count();
-                classViewModel.LessonCount = classViewModel.Lessons.Count;
-                if(classViewModel.CompletedLessonCount >= 0 &&  classViewModel.LessonCount > classViewModel.CompletedLessonCount)
+                var studentClass = _classStudentRepository.FindWithInclude(x => x.Student.Id == studentId && x.Class.Id == classViewModel.Id).FirstOrDefault();
+                if(studentClass == null)
+                {
+                    continue;
+                }
+                if(studentClass.RecordStatus != RecordStatus.Completed)
                 {
                     classviewModels.Add(classViewModel);
                 }

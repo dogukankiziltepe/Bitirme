@@ -20,5 +20,6 @@ namespace Bitirme.BLL.Models
         public List<LessonViewModel>? Lessons { get; set; }
         public int LessonCount { get;  set; }
         public int MyProperty { get; set; }
+        public bool? IsCompleted { get; set; }
     }
 }
