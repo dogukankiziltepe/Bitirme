@@ -243,13 +243,36 @@ namespace Bitirme.DAL.Migrations
                     b.ToTable("Questions");
                 });
 
+            modelBuilder.Entity("Bitirme.DAL.Entities.Medias.Book", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("text");
+
+                    b.Property<string>("CoverName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Books");
+                });
+
             modelBuilder.Entity("Bitirme.DAL.Entities.Medias.ClassMedia", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("text");
 
                     b.Property<string>("ClassId")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateTime>("CreatedDate")
@@ -508,9 +531,7 @@ namespace Bitirme.DAL.Migrations
                 {
                     b.HasOne("Bitirme.DAL.Entities.Courses.Class", "Class")
                         .WithMany()
-                        .HasForeignKey("ClassId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ClassId");
 
                     b.HasOne("Bitirme.DAL.Entities.Courses.Lesson", "Lesson")
                         .WithOne("ClassMedia")

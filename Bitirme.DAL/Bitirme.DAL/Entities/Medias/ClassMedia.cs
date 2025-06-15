@@ -9,8 +9,8 @@ namespace Bitirme.DAL.Entities.Medias
 {
     public class ClassMedia:BaseEntity
     {
-        public string ClassId { get; set; }
-        public virtual Class Class { get; set; }
+        public string? ClassId { get; set; }
+        public virtual Class? Class { get; set; }
         public string? LessonId { get; set; }
         public virtual Lesson? Lesson { get; set; }
         public string MediaName { get; set; }

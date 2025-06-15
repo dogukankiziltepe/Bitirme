@@ -35,6 +35,7 @@ namespace Bitirme.DAL
 
         #region Medias
         public DbSet<ClassMedia> Medias { get; set; }
+        public DbSet<Book> Books { get; set; }
         #endregion
 
     }

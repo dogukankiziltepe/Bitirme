@@ -21,6 +21,42 @@ namespace Bitirme.Controllers
             _classMediaService = classMediaService;
         }
 
-   
+        /// <summary>
+        /// File Yükleme Methodu
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost("upload")]
+        public IActionResult UploadFile([FromForm] MediaDTO model)
+        {
+            if (model.File == null || model.File.Length == 0)
+                return BadRequest("File is not selected.");
+
+            if (!Directory.Exists(_mediaStoragePath))
+                Directory.CreateDirectory(_mediaStoragePath);
+
+            var fileName = Path.GetFileName(model.File.FileName);
+            var filePath = Path.Combine(_mediaStoragePath, fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                model.File.CopyTo(stream);
+            }
+            var classMedia = new ClassMedia
+            {
+                MediaName = fileName,
+                MediaType="",
+                MediaUrl =""
+            };
+
+            _classMediaService.Add(classMedia);
+            return Ok(new { Message = "File uploaded successfully.", FileName = fileName });
+        }
+
+
+        public class MediaDTO
+        {
+            public IFormFile File { get; set; }
+        }
     }
 }
