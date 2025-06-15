@@ -42,7 +42,7 @@ namespace Bitirme.Controllers
         [HttpPost("AddLesson")]
         public IActionResult AddLesson(LessonViewModel lesson)
         {
-            var result = _lessonService.AddLesson(lesson);
+            var result = _lessonService.CreateLesson(lesson);
             if (result)
                 return Ok(result);
             else
