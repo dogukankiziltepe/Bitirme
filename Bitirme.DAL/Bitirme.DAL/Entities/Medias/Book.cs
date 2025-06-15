@@ -10,5 +10,6 @@ namespace Bitirme.DAL.Entities.Medias
     {
         public string CoverName { get; set; }
         public string FileName { get; set; }
+        public string Title { get; set; }
     }
 }

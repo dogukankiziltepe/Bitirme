@@ -24,6 +24,7 @@ namespace Bitirme.BLL.Services
                 CoverName = model.CoverName,
                 FileName = model.FileName,
                 CreatedDate = DateTime.UtcNow,
+                Title = model.Title,
             });
             _bookRepository.SaveChanges();
             return true;
@@ -36,6 +37,7 @@ namespace Bitirme.BLL.Services
                 CoverName = x.CoverName,
                 FileName = x.FileName,
                 Id = x.Id,
+                Title = x.Title,
             }).ToList();
         }
     }
