@@ -1,0 +1,257 @@
+﻿[
+  {
+    "Order": 6,
+    "Content": "C1 Turkish Reading Lesson 1",
+    "Questions": [
+      {
+        "QuestionString": "Yazarın 'kentlerin hafızası' ile kastettiği nedir?",
+        "ListeningSentence": "Modern kentleşme, beton yığınları arasında kaybolan tarihî dokuyu eleştiren yazar, 'kentlerin hafızası'nın sokak taşlarında, çeşme kitabelerinde ve nesiller arası aktarılan hikâyelerde saklı olduğunu savunuyor.",
+        "AnswerOne": "Arşiv belgeleri",
+        "AnswerTwo": "Mimari projeler",
+        "AnswerThree": "Sokak taşları ve sözlü kültür",
+        "AnswerFour": "Resmî tarih kitapları",
+        "CorrectAnswer": "Sokak taşları ve sözlü kültür"
+      },
+      {
+        "QuestionString": "Metne göre 'dijital göçebelik' kavramı neyi ifade eder?",
+        "ListeningSentence": "Çağımızın dijital göçebeleri, fiziksel mekânlardan bağımsız olarak bulut sistemlerde çalışıp, kültürlerarası sanal topluluklar inşa ediyorlar.",
+        "AnswerOne": "Geleneksel göçebe yaşamı",
+        "AnswerTwo": "Teknoloji bağımlılığı",
+        "AnswerThree": "Mekândan bağımsız çalışma kültürü",
+        "AnswerFour": "Sosyal medya fenomenliği",
+        "CorrectAnswer": "Mekândan bağımsız çalışma kültürü"
+      },
+      {
+        "QuestionString": "Yazarın 'post-gerçeklik çağı' eleştirisinin odağı nedir?",
+        "ListeningSentence": "Post-gerçeklik çağında algıların gerçekliğin önüne geçtiğini iddia eden yazar, sosyal medya algoritmalarının bireyleri paralel evrenlerde yaşamaya mahkûm ettiğini öne sürüyor.",
+        "AnswerOne": "Bilimsel gelişmeler",
+        "AnswerTwo": "Algoritmik filtre balonları",
+        "AnswerThree": "Eğitim sistemi",
+        "AnswerFour": "Ekonomik eşitsizlik",
+        "CorrectAnswer": "Algoritmik filtre balonları"
+      },
+      {
+        "QuestionString": "Metindeki 'antroposen çağı' terimiyle ne kastediliyor?",
+        "ListeningSentence": "İnsan etkisinin doğal süreçleri geri dönülemez biçimde değiştirdiği antroposen çağı, jeolojik katmanlarda plastik tortular bırakacak kadar derin izler bırakıyor.",
+        "AnswerOne": "Tarım devrimi dönemi",
+        "AnswerTwo": "İnsanın jeolojik etki çağı",
+        "AnswerThree": "Dinozorların yok oluşu",
+        "AnswerFour": "Buzul çağı",
+        "CorrectAnswer": "İnsanın jeolojik etki çağı"
+      },
+      {
+        "QuestionString": "Yazar 'dilsel relativizm' ile neyi vurgulamak istiyor?",
+        "ListeningSentence": "Dilsel relativizm kuramını örnekleyen yazar, farklı dil sistemlerinin dünyayı algılama biçimlerimizi kökten değiştirdiğini, örneğin Eskimo dillerindeki kar tanesi sınıflandırmalarının Batılı zihniyette bulunmadığını belirtiyor.",
+        "AnswerOne": "Evrensel dil arayışı",
+        "AnswerTwo": "Dilin algıyı şekillendirmesi",
+        "AnswerThree": "Çeviri zorlukları",
+        "AnswerFour": "Dil öğrenme teknikleri",
+        "CorrectAnswer": "Dilin algıyı şekillendirmesi"
+      }
+    ]
+  },
+  {
+    "Order": 7,
+    "Content": "C1 Turkish Reading Lesson 2",
+    "Questions": [
+      {
+        "QuestionString": "'Sessizlik kültürü' kavramı metinde nasıl tanımlanıyor?",
+        "ListeningSentence": "Toplumsal travmaları konuşmaktan kaçınan sessizlik kültürü, kolektif hafızayı nesiller boyu etkileyen bir iletişim bariyeri oluşturuyor.",
+        "AnswerOne": "Meditasyon pratikleri",
+        "AnswerTwo": "Travmaları konuşmama eğilimi",
+        "AnswerThree": "Kütüphane disiplini",
+        "AnswerFour": "Dini inziva geleneği",
+        "CorrectAnswer": "Travmaları konuşmama eğilimi"
+      },
+      {
+        "QuestionString": "Yazar 'dijital minimalizm'i nasıl açıklıyor?",
+        "ListeningSentence": "Dijital minimalizm savunucuları, teknoloji kullanımını bilinçli şekilde sınırlandırıp yalnızca yaşam kalitesini artıran uygulamalara izin vererek dijital detoks öneriyor.",
+        "AnswerOne": "Teknolojiden tamamen vazgeçme",
+        "AnswerTwo": "Bilinçli teknoloji sınırlaması",
+        "AnswerThree": "Sosyal medya bağımlılığı",
+        "AnswerFour": "Yapay zeka kullanımı",
+        "CorrectAnswer": "Bilinçli teknoloji sınırlaması"
+      },
+      {
+        "QuestionString": "Metindeki 'panoptikon metaforu' neyi sembolize ediyor?",
+        "ListeningSentence": "Günümüz gözetim toplumunu panoptikon metaforuyla açıklayan düşünürler, sosyal medyanın bireyleri sürekli izlendiği hissiyle özdenetim yapmaya zorladığını iddia ediyor.",
+        "AnswerOne": "Mimari tasarım trendleri",
+        "AnswerTwo": "Gönüllü gözetim mekanizması",
+        "AnswerThree": "Eğitim sistemi eleştirisi",
+        "AnswerFour": "Tıbbi gözlem cihazları",
+        "CorrectAnswer": "Gönüllü gözetim mekanizması"
+      },
+      {
+        "QuestionString": "'Post-hümanizm' akımının temel iddiası nedir?",
+        "ListeningSentence": "Post-hümanizm, biyoteknolojik gelişmelerle insanın fiziksel ve zihinsel sınırlarını aşarak yeni bir evrim aşamasına geçeceğini öngörüyor.",
+        "AnswerOne": "İnsanüstü yeteneklere ulaşma",
+        "AnswerTwo": "Hayvan hakları savunuculuğu",
+        "AnswerThree": "Tarih öncesi yaşam tarzı",
+        "AnswerFour": "Dini değerlerin yüceltilmesi",
+        "CorrectAnswer": "İnsanüstü yeteneklere ulaşma"
+      },
+      {
+        "QuestionString": "Yazar 'kolektif zeka' ile neyi kastediyor?",
+        "ListeningSentence": "Kolektif zeka, bireysel kapasitelerin ötesinde, çeşitlilik içeren grupların sinerjisiyle ortaya çıkan üstün problem çözme becerisi olarak tanımlanıyor.",
+        "AnswerOne": "Yapay zeka sistemleri",
+        "AnswerTwo": "Grup sinerjisiyle artan zeka",
+        "AnswerThree": "Genetik zeka potansiyeli",
+        "AnswerFour": "Eğitimle kazanılan beceriler",
+        "CorrectAnswer": "Grup sinerjisiyle artan zeka"
+      }
+    ]
+  },
+  {
+    "Order": 8,
+    "Content": "C1 Turkish Reading Lesson 3",
+    "Questions": [
+      {
+        "QuestionString": "'Ontolojik güvensizlik' kavramı metinde nasıl açıklanıyor?",
+        "ListeningSentence": "Modern bireyin ontolojik güvensizlik hali, kimliklerin sürekli değiştiği, sosyal rollerin istikrarsızlaştığı bir dünyada köksüz hissetme deneyimini ifade ediyor.",
+        "AnswerOne": "Dini inanç kaybı",
+        "AnswerTwo": "Kimlik istikrarsızlığı",
+        "AnswerThree": "Finansal belirsizlik",
+        "AnswerFour": "Siyasi kararsızlık",
+        "CorrectAnswer": "Kimlik istikrarsızlığı"
+      },
+      {
+        "QuestionString": "Metindeki 'simülakr' kavramı nasıl tanımlanıyor?",
+        "ListeningSentence": "Postmodern dünyada simülakrlar, orijinali olmayan kopyalar olarak gerçekliğin yerini alıp hipergerçeklik deneyimi yaratıyor.",
+        "AnswerOne": "Matematiksel modellemeler",
+        "AnswerTwo": "Orijinalsiz kopyalar",
+        "AnswerThree": "Sanat eseri taklitleri",
+        "AnswerFour": "Tarihi belgeler",
+        "CorrectAnswer": "Orijinalsiz kopyalar"
+      },
+      {
+        "QuestionString": "'Duygusal emek' terimi metinde neyi ifade ediyor?",
+        "ListeningSentence": "Hizmet sektörü çalışanlarının duygusal emeği, profesyonel rollerinin gerektirdiği belirli duyguları performatif şekilde sergileme zorunluluğunu anlatıyor.",
+        "AnswerOne": "Fiziksel iş yükü",
+        "AnswerTwo": "Rol gereği duygu sergileme",
+        "AnswerThree": "Gönüllü psikolojik destek",
+        "AnswerFour": "Sanatsal yaratım süreci",
+        "CorrectAnswer": "Rol gereği duygu sergileme"
+      },
+      {
+        "QuestionString": "Yazar 'algı yönetimi'ni nasıl ele alıyor?",
+        "ListeningSentence": "Algı yönetimi, medya manipülasyonu ve çerçeveleme teknikleriyle kamuoyunun gerçekliği çarpıtılmış lenslerden görmesini sağlayan bir ikna endüstrisi olarak tanımlanıyor.",
+        "AnswerOne": "Eğitim politikaları",
+        "AnswerTwo": "Medya manipülasyonu",
+        "AnswerThree": "Psikolojik terapi",
+        "AnswerFour": "Sanat eleştirisi",
+        "CorrectAnswer": "Medya manipülasyonu"
+      },
+      {
+        "QuestionString": "'Kültürel kod' ifadesiyle yazar neyi kastediyor?",
+        "ListeningSentence": "Bir toplumun kolektif bilinçdışında yer eden kültürel kodlar, mitlerden arketiplere uzanan sembolik sistemler olarak davranış kalıplarını şekillendiriyor.",
+        "AnswerOne": "Genetik miras",
+        "AnswerTwo": "Yazılı hukuk kuralları",
+        "AnswerThree": "Sembolik davranış şablonları",
+        "AnswerFour": "Dijital şifreleme",
+        "CorrectAnswer": "Sembolik davranış şablonları"
+      }
+    ]
+  },
+  {
+    "Order": 9,
+    "Content": "C1 Turkish Reading Lesson 4",
+    "Questions": [
+      {
+        "QuestionString": "'Epistemik kriz' terimi metinde nasıl açıklanıyor?",
+        "ListeningSentence": "Epistemik kriz, hakikat sonrası çağda uzman görüşlerinin değer kaybetmesi ve herkesin kendi gerçekliğini yaratmasıyla karakterize edilen bir bilgi güvencesizliği durumudur.",
+        "AnswerOne": "Bilimsel yöntemlerin çöküşü",
+        "AnswerTwo": "Bilgi güvencesizliği",
+        "AnswerThree": "Eğitim sistemi sorunları",
+        "AnswerFour": "Teknolojik veri kaybı",
+        "CorrectAnswer": "Bilgi güvencesizliği"
+      },
+      {
+        "QuestionString": "Metindeki 'heterotopya' kavramı neyi ifade eder?",
+        "ListeningSentence": "Foucault'nun heterotopya kavramı, gerçek mekânlar içinde yer alan ancak geleneksel mekân mantığını altüst eden alternatif uzamları tanımlar.",
+        "AnswerOne": "Ütopik toplum modelleri",
+        "AnswerTwo": "Alternatif uzamlar",
+        "AnswerThree": "Mimari restorasyon",
+        "AnswerFour": "Sanal gerçeklik",
+        "CorrectAnswer": "Alternatif uzamlar"
+      },
+      {
+        "QuestionString": "'Biyopolitika' yazarın metninde nasıl tanımlanıyor?",
+        "ListeningSentence": "Modern devletlerin biyopolitika uygulamaları, nüfus sağlığından üreme politikalarına kadar hayatın her alanını düzenleyen bir kontrol mekanizması olarak işliyor.",
+        "AnswerOne": "Biyolojik silahlar",
+        "AnswerTwo": "Nüfus kontrol mekanizmaları",
+        "AnswerThree": "Organik tarım",
+        "AnswerFour": "Genetik araştırmalar",
+        "CorrectAnswer": "Nüfus kontrol mekanizmaları"
+      },
+      {
+        "QuestionString": "Yazar 'dijital şizofreni'yi nasıl açıklıyor?",
+        "ListeningSentence": "Dijital şizofreni, sosyal medya kimlikleriyle gerçek yaşam kişilikleri arasında bölünen bireylerin tutarsız davranış kalıpları sergilemesi olarak tanımlanıyor.",
+        "AnswerOne": "Psikiyatrik bozukluk",
+        "AnswerTwo": "Kimlik bölünmesi",
+        "AnswerThree": "Bilgisayar virüsü",
+        "AnswerFour": "Veri depolama sorunu",
+        "CorrectAnswer": "Kimlik bölünmesi"
+      },
+      {
+        "QuestionString": "'Metamodernizm' akımının temel özelliği nedir?",
+        "ListeningSentence": "Metamodernizm, postmodern ironi ile modern samimiyet arasında salınan, naif bir inançla eleştirel mesafeyi bağdaştırmaya çalışan yeni bir kültürel paradigmadır.",
+        "AnswerOne": "Geleneksel değerlere dönüş",
+        "AnswerTwo": "İroni ve samimiyet sentezi",
+        "AnswerThree": "Teknolojik determinizm",
+        "AnswerFour": "Radikal feminist söylem",
+        "CorrectAnswer": "İroni ve samimiyet sentezi"
+      }
+    ]
+  },
+  {
+    "Order": 10,
+    "Content": "C1 Turkish Reading Lesson 5",
+    "Questions": [
+      {
+        "QuestionString": "'Öteki'nin inşası metinde nasıl açıklanıyor?",
+        "ListeningSentence": "Kimlik politikalarında 'öteki'nin inşası, egemen grup tarafından kendinden farklı olanın sınırlar çizilerek tanımlanması ve bu tanım üzerinden iktidar ilişkilerinin kurulması sürecidir.",
+        "AnswerOne": "Kültürel etkileşim",
+        "AnswerTwo": "Farklılıklar üzerinden iktidar kurma",
+        "AnswerThree": "Dil öğrenme süreci",
+        "AnswerFour": "Ticari rekabet",
+        "CorrectAnswer": "Farklılıklar üzerinden iktidar kurma"
+      },
+      {
+        "QuestionString": "Metindeki 'dromoloji' kavramı neyi ifade eder?",
+        "ListeningSentence": "Paul Virilio'nun dromoloji kuramı, toplumların gelişimini hız kavramı üzerinden okur ve teknolojik ilerlemeyi bir yarış mantığıyla açıklar.",
+        "AnswerOne": "Hız felsefesi",
+        "AnswerTwo": "Ulaşım sistemleri",
+        "AnswerThree": "Atletik performans",
+        "AnswerFour": "Beyin fonksiyonları",
+        "CorrectAnswer": "Hız felsefesi"
+      },
+      {
+        "QuestionString": "'Nomadik düşünce' yazar tarafından nasıl tanımlanıyor?",
+        "ListeningSentence": "Nomadik düşünce, sabit kategorilere direnen, sınırlarda dolaşan ve çoklu bağlantılar kuran bir zihniyet biçimi olarak Deleuze felsefesinde yer bulur.",
+        "AnswerOne": "Göçebe yaşam tarzı",
+        "AnswerTwo": "Sabitlenmeyen düşünce biçimi",
+        "AnswerThree": "Matematiksel model",
+        "AnswerFour": "Dini mistisizm",
+        "CorrectAnswer": "Sabitlenmeyen düşünce biçimi"
+      },
+      {
+        "QuestionString": "Yazar 'psikocoğrafya'yı nasıl açıklıyor?",
+        "ListeningSentence": "Psikocoğrafya, kent mekânlarının bireylerin duygusal durumları üzerindeki etkisini inceleyen ve gündelik rotaların bilinçaltı belirleyicilerini araştıran bir disiplindir.",
+        "AnswerOne": "Mekânın psikolojik etkileri",
+        "AnswerTwo": "Depresyon coğrafyası",
+        "AnswerThree": "Zihinsel haritalama",
+        "AnswerFour": "Nörolojik bozukluklar",
+        "CorrectAnswer": "Mekânın psikolojik etkileri"
+      },
+      {
+        "QuestionString": "'Üçüncü kültür çocukları' ifadesi neyi tanımlıyor?",
+        "ListeningSentence": "Üçüncü kültür çocukları, ebeveynlerinin kültürü, yaşadıkları ülkenin kültürü ve kendilerinin bu ikisi arasında oluşturdukları hibrit kültür arasında kimlik inşa eden bireylerdir.",
+        "AnswerOne": "Göçmen işçiler",
+        "AnswerTwo": "Hibrit kültür bireyleri",
+        "AnswerThree": "Üç dil bilenler",
+        "AnswerFour": "Kültür elçileri",
+        "CorrectAnswer": "Hibrit kültür bireyleri"
+      }
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Order": 21,
+    "Content": "C1 Turkish Writing Lesson 1",
+    "Questions": [
+      { "ListeningSentence": "The ethical implications of artificial intelligence extend beyond technology into philosophy, requiring interdisciplinary solutions." },
+      { "ListeningSentence": "Circular economy models challenge traditional linear production systems by emphasizing sustainability and resource efficiency." },
+      { "ListeningSentence": "Neuroplasticity research has revolutionized our understanding of the brain's ability to adapt throughout adulthood." },
+      { "ListeningSentence": "The democratization of information through digital platforms has paradoxically led to both greater awareness and misinformation." },
+      { "ListeningSentence": "Biophilic design in architecture demonstrates how incorporating natural elements can enhance human wellbeing in urban environments." }
+    ]
+  },
+  {
+    "Order": 22,
+    "Content": "C1 Turkish Writing Lesson 2",
+    "Questions": [
+      { "ListeningSentence": "Epigenetics has transformed our understanding of heredity by revealing how environmental factors can influence gene expression." },
+      { "ListeningSentence": "The precariat class emerging in modern economies faces unique challenges due to unstable employment and lack of benefits." },
+      { "ListeningSentence": "Quantum computing represents a paradigm shift in information processing, with potential applications across multiple industries." },
+      { "ListeningSentence": "The concept of digital minimalism has gained traction as a counterbalance to the overwhelming presence of technology." },
+      { "ListeningSentence": "Sustainable fashion initiatives attempt to reconcile environmental concerns with the fast-paced nature of the industry." }
+    ]
+  },
+  {
+    "Order": 23,
+    "Content": "C1 Turkish Writing Lesson 3",
+    "Questions": [
+      { "ListeningSentence": "The anthropocene epoch reflects humanity's significant impact on Earth's geology and ecosystems." },
+      { "ListeningSentence": "Behavioral economics challenges traditional rational choice theory by incorporating psychological insights into decision-making." },
+      { "ListeningSentence": "Microplastics pollution has become a pervasive environmental issue, affecting ecosystems from the deepest oceans to human bodies." },
+      { "ListeningSentence": "The fourth industrial revolution blurs the lines between physical, digital, and biological spheres in unprecedented ways." },
+      { "ListeningSentence": "Urban heat island effects demonstrate how city planning can significantly impact local climate conditions." }
+    ]
+  },
+  {
+    "Order": 24,
+    "Content": "C1 Turkish Writing Lesson 4",
+    "Questions": [
+      { "ListeningSentence": "The digital transformation of healthcare promises improved efficiency but raises concerns about data privacy and security." },
+      { "ListeningSentence": "Cognitive load theory has important implications for instructional design and educational practices." },
+      { "ListeningSentence": "The concept of biomimicry in engineering draws inspiration from nature to solve complex human challenges." },
+      { "ListeningSentence": "Post-growth economics challenges traditional measures of progress by prioritizing wellbeing over GDP growth." },
+      { "ListeningSentence": "The neuroscience of creativity explores how brain networks interact to produce innovative thinking." }
+    ]
+  },
+  {
+    "Order": 25,
+    "Content": "C1 Turkish Writing Lesson 5",
+    "Questions": [
+      { "ListeningSentence": "The ethics of gene editing technologies like CRISPR involve balancing medical potential with moral boundaries." },
+      { "ListeningSentence": "Dark patterns in user interface design manipulate consumer behavior while raising ethical questions." },
+      { "ListeningSentence": "The psychology of misinformation explains why false beliefs persist despite contradictory evidence." },
+      { "ListeningSentence": "Regenerative agriculture offers solutions to soil degradation while sequestering carbon from the atmosphere." },
+      { "ListeningSentence": "The concept of emotional intelligence has reshaped leadership development programs in corporate environments." }
+    ]
+  }
+]

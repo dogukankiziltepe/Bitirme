@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Order": 1,
+    "Content": "A1 Turkish Speaking Lesson 1",
+    "Questions": [
+      { "ListeningSentence": "Benim adım Ayşe, 20 yaşındayım." },
+      { "ListeningSentence": "Ankara'da yaşıyorum." },
+      { "ListeningSentence": "Bir kardeşim var." },
+      { "ListeningSentence": "Türk kahvesi içmeyi seviyorum." },
+      { "ListeningSentence": "Bugün hava güneşli." }
+    ]
+  },
+  {
+    "Order": 2,
+    "Content": "A1 Turkish Speaking Lesson 2",
+    "Questions": [
+      { "ListeningSentence": "Bu benim annem." },
+      { "ListeningSentence": "Akşam yemeğinde pilav yedim." },
+      { "ListeningSentence": "Yarın sinemaya gideceğim." },
+      { "ListeningSentence": "Kırmızı bir arabam var." },
+      { "ListeningSentence": "Pazartesi günleri İngilizce kursuna gidiyorum." }
+    ]
+  },
+  {
+    "Order": 3,
+    "Content": "A1 Turkish Speaking Lesson 3",
+    "Questions": [
+      { "ListeningSentence": "Kedim çok sevimli." },
+      { "ListeningSentence": "En sevdiğim meyve elma." },
+      { "ListeningSentence": "Hafta sonları geç kalkarım." },
+      { "ListeningSentence": "Marketten ekmek aldım." },
+      { "ListeningSentence": "Telefonum yeni." }
+    ]
+  },
+  {
+    "Order": 4,
+    "Content": "A1 Turkish Speaking Lesson 4",
+    "Questions": [
+      { "ListeningSentence": "Bugün çok yorgunum." },
+      { "ListeningSentence": "Mavi renk en sevdiğim renk." },
+      { "ListeningSentence": "Okulum evime yakın." },
+      { "ListeningSentence": "Yazın denize giderim." },
+      { "ListeningSentence": "Çantam ağır." }
+    ]
+  },
+  {
+    "Order": 5,
+    "Content": "A1 Turkish Speaking Lesson 5",
+    "Questions": [
+      { "ListeningSentence": "Sabah kahvaltısında peynir yedim." },
+      { "ListeningSentence": "Otobüsle işe gidiyorum." },
+      { "ListeningSentence": "Bu benim ilk Türkçe dersim." },
+      { "ListeningSentence": "Kışın kar yağar." },
+      { "ListeningSentence": "Televizyonda haber izliyorum." }
+    ]
+  }
+]

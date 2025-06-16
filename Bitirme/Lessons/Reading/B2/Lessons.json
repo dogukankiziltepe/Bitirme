@@ -1,0 +1,257 @@
+﻿[
+  {
+    "Order": 16,
+    "Content": "B2 Turkish Reading Lesson 1",
+    "Questions": [
+      {
+        "QuestionString": "Yazara göre 'dijital detoks' nedir?",
+        "ListeningSentence": "Son yıllarda popülerleşen dijital detoks kavramı, bireylerin belirli bir süre teknolojik cihazlardan uzak durarak zihinsel yorgunluğu azaltma çabası olarak tanımlanıyor. Uzmanlar, haftada bir gün telefon kullanmamanın stres seviyesini önemli ölçüde düşürdüğünü belirtiyor.",
+        "AnswerOne": "Yeni teknolojiler satın almak",
+        "AnswerTwo": "Teknolojiden bilinçli uzaklaşma",
+        "AnswerThree": "Sosyal medyada daha aktif olma",
+        "AnswerFour": "Bilgisayar tamiratı",
+        "CorrectAnswer": "Teknolojiden bilinçli uzaklaşma"
+      },
+      {
+        "QuestionString": "Metne göre 'yavaş şehir' (cittaslow) hareketinin amacı nedir?",
+        "ListeningSentence": "Cittaslow hareketi, küreselleşmenin getirdiği hızlı yaşam temposuna karşı yerel değerleri korumayı, geleneksel mimariyi yaşatmayı ve sakin bir yaşam tarzını teşvik etmeyi amaçlıyor. Bu harekete dahil olan şehirlerde trafik yavaşlatılıyor, yerel üreticiler destekleniyor.",
+        "AnswerOne": "Şehirleri teknolojisizleştirmek",
+        "AnswerTwo": "Hızlı yaşama alternatif oluşturmak",
+        "AnswerThree": "Nüfus artışını durdurmak",
+        "AnswerFour": "Turist sayısını azaltmak",
+        "CorrectAnswer": "Hızlı yaşama alternatif oluşturmak"
+      },
+      {
+        "QuestionString": "'Tükenmişlik sendromu' hangi belirtilerle kendini gösteriyor?",
+        "ListeningSentence": "Modern çağın yaygın sorunlarından tükenmişlik sendromu, sürekli yorgunluk, işe karşı ilgisizlik ve performans düşüklüğü gibi belirtilerle ortaya çıkıyor. Özellikle yoğun çalışma temposuna sahip bireylerde görülen bu durum, uzun süreli stresin sonucu olarak değerlendiriliyor.",
+        "AnswerOne": "Aşırı enerji ve mutluluk",
+        "AnswerTwo": "Sürekli yorgunluk ve ilgisizlik",
+        "AnswerThree": "Fiziksel ağrılar",
+        "AnswerFour": "İştah artışı",
+        "CorrectAnswer": "Sürekli yorgunluk ve ilgisizlik"
+      },
+      {
+        "QuestionString": "Metinde 'gıda milliyetçiliği' nasıl açıklanıyor?",
+        "ListeningSentence": "Pandemi döneminde artan gıda milliyetçiliği, ülkelerin kendi vatandaşlarını beslemek amacıyla gıda ihracatını kısıtlaması veya yerel üreticileri desteklemesi olarak tanımlanıyor. Bu durum küresel tedarik zincirlerinde aksamalara yol açabiliyor.",
+        "AnswerOne": "Yabancı gıdaları boykot",
+        "AnswerTwo": "Yerel gıda üretimini destekleme",
+        "AnswerThree": "Vejetaryenliği yaygınlaştırma",
+        "AnswerFour": "Gıda fiyatlarını düşürme",
+        "CorrectAnswer": "Yerel gıda üretimini destekleme"
+      },
+      {
+        "QuestionString": "Yazara göre 'sürdürülebilir moda' nedir?",
+        "ListeningSentence": "Sürdürülebilir moda, çevreye zarar vermeyen malzemeler kullanarak, adil çalışma koşullarında üretilen ve uzun süre giyilebilir kıyafetler tasarlama felsefesi olarak tanımlanıyor. Hızlı moda endüstrisine alternatif olarak doğan bu akım, tüketicileri daha bilinçli alışveriş yapmaya teşvik ediyor.",
+        "AnswerOne": "Ucuz kıyafet üretimi",
+        "AnswerTwo": "Çevreci ve etik üretim",
+        "AnswerThree": "Geleneksel kıyafetler",
+        "AnswerFour": "Lüks markaların yaygınlaşması",
+        "CorrectAnswer": "Çevreci ve etik üretim"
+      }
+    ]
+  },
+  {
+    "Order": 17,
+    "Content": "B2 Turkish Reading Lesson 2",
+    "Questions": [
+      {
+        "QuestionString": "'Duygusal zeka' neden önemli kabul ediliyor?",
+        "ListeningSentence": "Psikologlar, duygusal zekanın (EQ) akademik başarıdan daha önemli olduğunu savunuyor çünkü bu beceri, bireylerin stresle başa çıkmasını, ilişkileri yönetmesini ve zorlu durumlarda sakin kalabilmesini sağlıyor. İşverenler artık teknik becerilerden çok duygusal zekaya değer veriyor.",
+        "AnswerOne": "Matematiksel beceriyi artırdığı için",
+        "AnswerTwo": "İlişkileri ve stres yönetimini kolaylaştırdığı için",
+        "AnswerThree": "Fiziksel gücü artırdığı için",
+        "AnswerFour": "Yabancı dil öğrenmeyi hızlandırdığı için",
+        "CorrectAnswer": "İlişkileri ve stres yönetimini kolaylaştırdığı için"
+      },
+      {
+        "QuestionString": "Metne göre 'nesnelerin interneti' (IoT) hayatımızı nasıl değiştiriyor?",
+        "ListeningSentence": "Nesnelerin interneti sayesinde buzdolabından arabalara kadar pek çok cihaz birbiriyle iletişim kurabiliyor. Akıllı ev sistemleri, kullanıcıların enerji tasarrufu yapmasını sağlarken; akıllı saatler sağlık verilerini takip ederek olası riskleri önceden haber verebiliyor.",
+        "AnswerOne": "Cihazların birbiriyle iletişimini sağlayarak",
+        "AnswerTwo": "İnternet fiyatlarını düşürerek",
+        "AnswerThree": "Sosyal medyayı ortadan kaldırarak",
+        "AnswerFour": "Elektrik üretimini artırarak",
+        "CorrectAnswer": "Cihazların birbiriyle iletişimini sağlayarak"
+      },
+      {
+        "QuestionString": "'Karbon ayak izi' nasıl azaltılabilir?",
+        "ListeningSentence": "Karbon ayak izini azaltmak için toplu taşıma kullanmak, et tüketimini sınırlandırmak, yenilenebilir enerji kaynaklarına yönelmek ve geri dönüşüme önem vermek gibi önlemler alınabilir. Uzmanlar, bireysel çabaların küresel ısınmayla mücadelede kritik rol oynadığını vurguluyor.",
+        "AnswerOne": "Daha fazla araba kullanarak",
+        "AnswerTwo": "Plastik kullanımını artırarak",
+        "AnswerThree": "Toplu taşıma ve geri dönüşümle",
+        "AnswerFour": "Elektrik tüketimini artırarak",
+        "CorrectAnswer": "Toplu taşıma ve geri dönüşümle"
+      },
+      {
+        "QuestionString": "Metinde 'uzaktan çalışma'nın avantajlarından biri olarak ne gösteriliyor?",
+        "ListeningSentence": "Uzaktan çalışma modeli, işverenlerin ofis masraflarını azaltırken çalışanlara esnek zaman yönetimi ve trafik stresinden uzak bir yaşam sunuyor. Ancak bazı uzmanlar, ekip ruhunun zayıflaması ve mesai saatlerinin belirsizleşmesi gibi dezavantajlarına da dikkat çekiyor.",
+        "AnswerOne": "Ofis masraflarının artması",
+        "AnswerTwo": "Esnek çalışma saatleri",
+        "AnswerThree": "Daha fazla iş seyahati",
+        "AnswerFour": "Toplu taşıma kullanma zorunluluğu",
+        "CorrectAnswer": "Esnek çalışma saatleri"
+      },
+      {
+        "QuestionString": "Yazara göre 'minimalist yaşam'ın temel prensibi nedir?",
+        "ListeningSentence": "Minimalist yaşam tarzını benimseyenler, sadece gerçekten ihtiyaç duydukları eşyalara sahip olarak hem fiziksel alanlarını hem de zihinsel enerjilerini gereksiz yüklerden arındırmayı hedefliyor. Bu felsefe, tüketim çılgınlığına karşı bilinçli bir tercih olarak değerlendiriliyor.",
+        "AnswerOne": "Çok sayıda eşya biriktirmek",
+        "AnswerTwo": "Sadece temel ihtiyaçlara odaklanmak",
+        "AnswerThree": "Lüks ürünler satın almak",
+        "AnswerFour": "Büyük evlerde yaşamak",
+        "CorrectAnswer": "Sadece temel ihtiyaçlara odaklanmak"
+      }
+    ]
+  },
+  {
+    "Order": 18,
+    "Content": "B2 Turkish Reading Lesson 3",
+    "Questions": [
+      {
+        "QuestionString": "'Kültürel miras'ın korunması neden önemlidir?",
+        "ListeningSentence": "UNESCO, kültürel mirasın korunmasını sadece geçmişe saygı için değil, aynı zamanda gelecek nesillere kimliklerini anlama fırsatı sunmak ve turizm gelirleriyle yerel ekonomileri canlandırmak açısından kritik görüyor. Restorasyon çalışmaları, tarihi eserlerin doğal afetler ve insan etkisine karşı korunmasını amaçlıyor.",
+        "AnswerOne": "Sadece turizm için",
+        "AnswerTwo": "Gelecek nesillere kimlik aktarımı ve ekonomik fayda",
+        "AnswerThree": "Modern yapıları yıkmak için",
+        "AnswerFour": "Yabancı kültürleri taklit etmek için",
+        "CorrectAnswer": "Gelecek nesillere kimlik aktarımı ve ekonomik fayda"
+      },
+      {
+        "QuestionString": "Metne göre 'girişimcilik ekosistemi' neyi ifade ediyor?",
+        "ListeningSentence": "Sağlıklı bir girişimcilik ekosistemi; devlet destekleri, risk sermayesi yatırımları, mentorluk ağları ve yenilikçi fikirlere açık bir toplum yapısının birleşiminden oluşuyor. Bu tür sistemler, genç girişimcilerin başarı şansını önemli ölçüde artırıyor.",
+        "AnswerOne": "Sadece devlet yardımları",
+        "AnswerTwo": "Çok çalışmayı öven kültür",
+        "AnswerThree": "Destek mekanizmalarının bütünü",
+        "AnswerFour": "Yabancı yatırımcılar",
+        "CorrectAnswer": "Destek mekanizmalarının bütünü"
+      },
+      {
+        "QuestionString": "'Döngüsel ekonomi' modelinin amacı nedir?",
+        "ListeningSentence": "Döngüsel ekonomi, ürünlerin kullanım ömrünü uzatarak atık miktarını en aza indirmeyi ve kaynakları verimli kullanmayı hedefliyor. Bu modelde tasarımcılar, ürünlerin tamir edilebilir, yeniden kullanılabilir veya geri dönüştürülebilir olmasına özen gösteriyor.",
+        "AnswerOne": "Daha fazla atık üretmek",
+        "AnswerTwo": "Kaynak verimliliği ve atık azaltma",
+        "AnswerThree": "Tek kullanımlık ürünleri yaygınlaştırmak",
+        "AnswerFour": "Üretimi tamamen durdurmak",
+        "CorrectAnswer": "Kaynak verimliliği ve atık azaltma"
+      },
+      {
+        "QuestionString": "Yazara göre 'finansal okuryazarlık' neden gerekli?",
+        "ListeningSentence": "Finansal okuryazarlık, bireylerin bütçe yönetimi, yatırım araçları ve borçlanma konularında bilinçli kararlar almasını sağlıyor. Özellikle gençlerin bu becerileri erken yaşta öğrenmesi, gelecekte maddi sorunlar yaşama riskini azaltıyor.",
+        "AnswerOne": "Sadece bankacılar için gerekli",
+        "AnswerTwo": "Bilinçli finansal kararlar için",
+        "AnswerThree": "Lüks harcamaları artırmak için",
+        "AnswerFour": "Yabancı para birimlerini öğrenmek",
+        "CorrectAnswer": "Bilinçli finansal kararlar için"
+      },
+      {
+        "QuestionString": "Metindeki 'dijital vatandaşlık' kavramı nasıl tanımlanıyor?",
+        "ListeningSentence": "Dijital vatandaşlık, interneti etik kurallara uygun kullanmayı, kişisel verileri korumayı ve çevrimiçi ortamlarda sorumlu davranmayı içeren bir dizi beceri olarak açıklanıyor. Eğitimciler, bu kavramın okul müfredatlarına eklenmesi gerektiğini savunuyor.",
+        "AnswerOne": "Sosyal medyada çok vakit geçirmek",
+        "AnswerTwo": "Etik ve sorumlu internet kullanımı",
+        "AnswerThree": "Yasa dışı içerik paylaşmak",
+        "AnswerFour": "Anonim hesaplar açmak",
+        "CorrectAnswer": "Etik ve sorumlu internet kullanımı"
+      }
+    ]
+  },
+  {
+    "Order": 19,
+    "Content": "B2 Turkish Reading Lesson 4",
+    "Questions": [
+      {
+        "QuestionString": "'Akıllı şehir' projelerinin hedeflerinden biri nedir?",
+        "ListeningSentence": "Akıllı şehir uygulamaları, trafik sıkışıklığını azaltmak için anlık veri analizleri yapıyor, enerji tasarrufu sağlamak için aydınlatma sistemlerini optimize ediyor ve atık yönetimini dijital teknolojilerle iyileştiriyor. Bu projelerin temel amacı, yaşam kalitesini artırırken kaynak tüketimini minimize etmek.",
+        "AnswerOne": "Nüfusu azaltmak",
+        "AnswerTwo": "Yaşam kalitesini artırmak ve kaynak verimliliği",
+        "AnswerThree": "Altyapıyı tamamen kaldırmak",
+        "AnswerFour": "Göçmenleri engellemek",
+        "CorrectAnswer": "Yaşam kalitesini artırmak ve kaynak verimliliği"
+      },
+      {
+        "QuestionString": "Metne göre 'psikolojik dayanıklılık' nasıl geliştirilebilir?",
+        "ListeningSentence": "Psikolojik dayanıklılık; olumlu düşünme alıştırmaları, sosyal destek ağları kurma ve stres yönetimi teknikleriyle güçlendirilebilir. Uzmanlar, zorlukları geçici engeller olarak görmeyi öğrenmenin, kişilerin hayatın getirdiği zorluklarla daha iyi başa çıkmasını sağladığını belirtiyor.",
+        "AnswerOne": "Sadece ilaç kullanarak",
+        "AnswerTwo": "Stres yönetimi ve sosyal destekle",
+        "AnswerThree": "Sürekli şikayet ederek",
+        "AnswerFour": "İnsanlardan tamamen uzaklaşarak",
+        "CorrectAnswer": "Stres yönetimi ve sosyal destekle"
+      },
+      {
+        "QuestionString": "'Yaratıcı ekonomi' kavramı neyi kapsıyor?",
+        "ListeningSentence": "Yaratıcı ekonomi; tasarım, müzik, yazılım geliştirme ve dijital içerik üretimi gibi fikri sermayeye dayalı sektörleri kapsıyor. Bu alanlar, geleneksel sanayilerden farklı olarak yenilikçi fikirlerin ve kültürel değerlerin ekonomik kazanca dönüştürülmesini sağlıyor.",
+        "AnswerOne": "Sadece tarım sektörü",
+        "AnswerTwo": "Fikri sermayeye dayalı sektörler",
+        "AnswerThree": "Ağır sanayi üretimi",
+        "AnswerFour": "Rutin ofis işleri",
+        "CorrectAnswer": "Fikri sermayeye dayalı sektörler"
+      },
+      {
+        "QuestionString": "Yazara göre 'aktif dinleme' neden önemli?",
+        "ListeningSentence": "Aktif dinleme, karşıdaki kişinin sözlerini yargılamadan anlamaya çalışmayı, uygun sorular sormayı ve geri bildirim vermeyi içeren bir iletişim becerisidir. Bu yöntem, hem kişisel ilişkilerde hem de iş hayatında anlaşmazlıkları azaltıyor ve verimliliği artırıyor.",
+        "AnswerOne": "Daha çok konuşmak için",
+        "AnswerTwo": "İletişim kalitesini artırmak için",
+        "AnswerThree": "Karşıdakini susturmak için",
+        "AnswerFour": "Toplantıları uzatmak için",
+        "CorrectAnswer": "İletişim kalitesini artırmak için"
+      },
+      {
+        "QuestionString": "Metindeki 'biyomimikri' kavramı nasıl açıklanıyor?",
+        "ListeningSentence": "Biyomimikri, doğadaki modelleri ve sistemleri taklit ederek insan problemlerine çözüm üreten bir tasarım felsefesidir. Örneğin, yüksek hızlı trenlerin burun tasarımı, havayı verimli şekilde yaran kuş gagalarından esinlenilerek geliştirilmiştir.",
+        "AnswerOne": "Doğayı taklit eden tasarımlar",
+        "AnswerTwo": "Hayvanları evcilleştirme",
+        "AnswerThree": "Bitki yetiştirme teknikleri",
+        "AnswerFour": "Biyolojik silah geliştirme",
+        "CorrectAnswer": "Doğayı taklit eden tasarımlar"
+      }
+    ]
+  },
+  {
+    "Order": 20,
+    "Content": "B2 Turkish Reading Lesson 5",
+    "Questions": [
+      {
+        "QuestionString": "'Kolektif bilgelik' kavramı neyi ifade ediyor?",
+        "ListeningSentence": "Kolektif bilgelik, bir grubun bireysel üyelerinin bilgilerinin toplamından daha doğru ve yaratıcı çözümler üretebilmesi olgusunu tanımlıyor. Wikipedia'nın başarısı veya açık kaynak yazılım projeleri, bu olgunun teknolojik uygulamalarına örnek gösteriliyor.",
+        "AnswerOne": "Sadece uzmanların bilgisi",
+        "AnswerTwo": "Bireysel yeteneklerin toplamı",
+        "AnswerThree": "Grubun ortak çözüm üretme kapasitesi",
+        "AnswerFour": "Gizli kalmış bilgiler",
+        "CorrectAnswer": "Grubun ortak çözüm üretme kapasitesi"
+      },
+      {
+        "QuestionString": "Metne göre 'mikro öğrenme'nin avantajı nedir?",
+        "ListeningSentence": "Mikro öğrenme, karmaşık konuları 3-5 dakikalık kısa modüllere bölerek sunan ve mobil cihazlar aracılığıyla erişim sağlayan bir eğitim metodudur. Araştırmalar, bu yöntemin özellikle dikkat süresi kısıtlı olan bireylerde bilgi kalıcılığını artırdığını gösteriyor.",
+        "AnswerOne": "Uzun ders saatleri",
+        "AnswerTwo": "Kısa modüllerle etkili öğrenme",
+        "AnswerThree": "Sadece sınıf içi eğitim",
+        "AnswerFour": "Yüksek maliyet",
+        "CorrectAnswer": "Kısa modüllerle etkili öğrenme"
+      },
+      {
+        "QuestionString": "'Kültürel zeka' (CQ) neden önem kazanıyor?",
+        "ListeningSentence": "Küreselleşen dünyada kültürel zeka, farklı değer sistemlerini anlama, uygun iletişim stratejileri geliştirme ve çok kültürlü ortamlarda etkili çalışabilme becerisi olarak tanımlanıyor. Şirketler, uluslararası ekipleri yönetebilmek için bu beceriyi önemsiyor.",
+        "AnswerOne": "Sadece turistler için gerekli",
+        "AnswerTwo": "Çok kültürlü ortamlarda başarı için",
+        "AnswerThree": "Yabancı dil bilmeyi gerektirmeyen",
+        "AnswerFour": "Sadece diplomatların ihtiyacı",
+        "CorrectAnswer": "Çok kültürlü ortamlarda başarı için"
+      },
+      {
+        "QuestionString": "Yazara göre 'şehir ekolojisi' neyi inceler?",
+        "ListeningSentence": "Şehir ekolojisi, kentsel alanlardaki bitki ve hayvan popülasyonlarını, insan faaliyetlerinin doğal sistemlere etkisini ve sürdürülebilir kentleşme modellerini araştıran bir disiplindir. Yeşil çatılar ve ekolojik koridorlar gibi uygulamalar bu alandaki çözüm önerilerindendir.",
+        "AnswerOne": "Sadece kırsal yaşamı",
+        "AnswerTwo": "Kentsel doğal sistemleri",
+        "AnswerThree": "Deniz altı yaşamını",
+        "AnswerFour": "Tarım tekniklerini",
+        "CorrectAnswer": "Kentsel doğal sistemleri"
+      },
+      {
+        "QuestionString": "Metindeki 'dijital ikiz' teknolojisi ne işe yarıyor?",
+        "ListeningSentence": "Dijital ikiz teknolojisi, fiziksel bir sistemin sanal kopyasını oluşturarak olası sorunları önceden tespit etmeyi ve iyileştirmeler yapmayı sağlıyor. Örneğin bir fabrikanın dijital ikizi, üretim hattındaki aksaklıkları gerçekleşmeden simüle edebiliyor.",
+        "AnswerOne": "Sanal gerçeklik oyunları",
+        "AnswerTwo": "Fiziksel sistemlerin sanal simülasyonu",
+        "AnswerThree": "Bilgisayar donanımı",
+        "AnswerFour": "Sosyal medya profilleri",
+        "CorrectAnswer": "Fiziksel sistemlerin sanal simülasyonu"
+      }
+    ]
+  }
+]

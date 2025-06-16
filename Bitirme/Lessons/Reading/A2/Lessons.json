@@ -1,0 +1,257 @@
+﻿[
+  {
+    "Order": 6,
+    "Content": "A2 Turkish Reading Lesson 1",
+    "Questions": [
+      {
+        "QuestionString": "Neden geç kaldı?",
+        "ReadingSentence": "Otobüsü kaçırdığı için geç kaldı.",
+        "AnswerOne": "Alarmı çalmadı",
+        "AnswerTwo": "Otobüsü kaçırdı",
+        "AnswerThree": "Trafik vardı",
+        "AnswerFour": "Yolu kaybetti",
+        "CorrectAnswer": "Otobüsü kaçırdı"
+      },
+      {
+        "QuestionString": "Hediye olarak ne aldılar?",
+        "ReadingSentence": "Doğum günü için bir kitap aldılar.",
+        "AnswerOne": "Çiçek",
+        "AnswerTwo": "Kitap",
+        "AnswerThree": "Kolye",
+        "AnswerFour": "Kazak",
+        "CorrectAnswer": "Kitap"
+      },
+      {
+        "QuestionString": "Yarın ne yapacaklar?",
+        "ReadingSentence": "Yarın pikniğe gidecekler.",
+        "AnswerOne": "Alışveriş yapacaklar",
+        "AnswerTwo": "Pikniğe gidecekler",
+        "AnswerThree": "Ev temizleyecekler",
+        "AnswerFour": "Misafir ağırlayacaklar",
+        "CorrectAnswer": "Pikniğe gidecekler"
+      },
+      {
+        "QuestionString": "Nerede tanışmışlar?",
+        "ReadingSentence": "Üniversitede tanışmışlar.",
+        "AnswerOne": "İş yerinde",
+        "AnswerTwo": "Üniversitede",
+        "AnswerThree": "Bir partide",
+        "AnswerFour": "Sitede",
+        "CorrectAnswer": "Üniversitede"
+      },
+      {
+        "QuestionString": "Hangi takımı tutuyor?",
+        "ReadingSentence": "Fenerbahçe'yi tutuyor.",
+        "AnswerOne": "Galatasaray",
+        "AnswerTwo": "Fenerbahçe",
+        "AnswerThree": "Beşiktaş",
+        "AnswerFour": "Trabzonspor",
+        "CorrectAnswer": "Fenerbahçe"
+      }
+    ]
+  },
+  {
+    "Order": 7,
+    "Content": "A2 Turkish Reading Lesson 2",
+    "Questions": [
+      {
+        "QuestionString": "Niye üzgün görünüyor?",
+        "ReadingSentence": "Köpeği kaybolduğu için üzgün.",
+        "AnswerOne": "Sınavdan kötü not aldı",
+        "AnswerTwo": "Köpeği kayboldu",
+        "AnswerThree": "Hasta oldu",
+        "AnswerFour": "İşten çıkarıldı",
+        "CorrectAnswer": "Köpeği kayboldu"
+      },
+      {
+        "QuestionString": "Tatilde nereye gitmişler?",
+        "ReadingSentence": "Geçen yaz İtalya'ya gitmişler.",
+        "AnswerOne": "Fransa",
+        "AnswerTwo": "İspanya",
+        "AnswerThree": "İtalya",
+        "AnswerFour": "Yunanistan",
+        "CorrectAnswer": "İtalya"
+      },
+      {
+        "QuestionString": "Ne zaman taşınacaklar?",
+        "ReadingSentence": "Önümüzdeki ay yeni evlerine taşınacaklar.",
+        "AnswerOne": "Bu hafta sonu",
+        "AnswerTwo": "Önümüzdeki ay",
+        "AnswerThree": "Yaz başında",
+        "AnswerFour": "Yıl sonunda",
+        "CorrectAnswer": "Önümüzdeki ay"
+      },
+      {
+        "QuestionString": "Konserde kim vardı?",
+        "ReadingSentence": "Konserde ünlü bir piyanist vardı.",
+        "AnswerOne": "Şarkıcı",
+        "AnswerTwo": "Piyanist",
+        "AnswerThree": "Orkestra",
+        "AnswerFour": "Tiyatro grubu",
+        "CorrectAnswer": "Piyanist"
+      },
+      {
+        "QuestionString": "Nasıl bir restoran?",
+        "ReadingSentence": "Deniz manzaralı güzel bir restoran.",
+        "AnswerOne": "Ucuz ve lezzetli",
+        "AnswerTwo": "Deniz manzaralı",
+        "AnswerThree": "Çok kalabalık",
+        "AnswerFour": "Küçük ve sıcak",
+        "CorrectAnswer": "Deniz manzaralı"
+      }
+    ]
+  },
+  {
+    "Order": 8,
+    "Content": "A2 Turkish Reading Lesson 3",
+    "Questions": [
+      {
+        "QuestionString": "Neden izin aldı?",
+        "ReadingSentence": "Ameliyat olduğu için bir hafta izin aldı.",
+        "AnswerOne": "Hasta olduğu için",
+        "AnswerTwo": "Ameliyat olduğu için",
+        "AnswerThree": "Tatile gideceği için",
+        "AnswerFour": "Ailesini ziyaret edeceği için",
+        "CorrectAnswer": "Ameliyat olduğu için"
+      },
+      {
+        "QuestionString": "Hangi kursa yazılacak?",
+        "ReadingSentence": "Yazın yüzme kursuna yazılacak.",
+        "AnswerOne": "Yüzme",
+        "AnswerTwo": "Resim",
+        "AnswerThree": "Müzik",
+        "AnswerFour": "Dans",
+        "CorrectAnswer": "Yüzme"
+      },
+      {
+        "QuestionString": "Partiye kaç kişi geldi?",
+        "ReadingSentence": "Partiye yaklaşık yirmi kişi geldi.",
+        "AnswerOne": "On",
+        "AnswerTwo": "On beş",
+        "AnswerThree": "Yirmi",
+        "AnswerFour": "Yirmi beş",
+        "CorrectAnswer": "Yirmi"
+      },
+      {
+        "QuestionString": "Ne zaman evlendiler?",
+        "ReadingSentence": "Beş yıl önce evlendiler.",
+        "AnswerOne": "Bir yıl önce",
+        "AnswerTwo": "Üç yıl önce",
+        "AnswerThree": "Beş yıl önce",
+        "AnswerFour": "Yedi yıl önce",
+        "CorrectAnswer": "Beş yıl önce"
+      },
+      {
+        "QuestionString": "Hangi filmi izlediler?",
+        "ReadingSentence": "Geçen hafta yeni çıkan bir komedi filmi izlediler.",
+        "AnswerOne": "Korku",
+        "AnswerTwo": "Dram",
+        "AnswerThree": "Komedi",
+        "AnswerFour": "Bilim kurgu",
+        "CorrectAnswer": "Komedi"
+      }
+    ]
+  },
+  {
+    "Order": 9,
+    "Content": "A2 Turkish Reading Lesson 4",
+    "Questions": [
+      {
+        "QuestionString": "Nerede çalışıyor?",
+        "ReadingSentence": "Merkez bankasında çalışıyor.",
+        "AnswerOne": "Okulda",
+        "AnswerTwo": "Hastanede",
+        "AnswerThree": "Bankada",
+        "AnswerFour": "Belediyede",
+        "CorrectAnswer": "Bankada"
+      },
+      {
+        "QuestionString": "Hangi şehirden geliyor?",
+        "ReadingSentence": "Ailesi aslen Konya'dan geliyor.",
+        "AnswerOne": "Ankara",
+        "AnswerTwo": "Konya",
+        "AnswerThree": "Sivas",
+        "AnswerFour": "Kayseri",
+        "CorrectAnswer": "Konya"
+      },
+      {
+        "QuestionString": "Ne sıklıkla spor yapıyor?",
+        "ReadingSentence": "Haftada üç gün spor salonuna gidiyor.",
+        "AnswerOne": "Her gün",
+        "AnswerTwo": "Haftada üç gün",
+        "AnswerThree": "Haftada bir",
+        "AnswerFour": "Ayda bir",
+        "CorrectAnswer": "Haftada üç gün"
+      },
+      {
+        "QuestionString": "Hangi üniversitede okudu?",
+        "ReadingSentence": "ODTÜ'de mühendislik okudu.",
+        "AnswerOne": "Boğaziçi",
+        "AnswerTwo": "ODTÜ",
+        "AnswerThree": "İTÜ",
+        "AnswerFour": "Ankara Üniversitesi",
+        "CorrectAnswer": "ODTÜ"
+      },
+      {
+        "QuestionString": "Ne yemek yapacaklar?",
+        "ReadingSentence": "Akşam için mantı yapacaklar.",
+        "AnswerOne": "Kebap",
+        "AnswerTwo": "Mantı",
+        "AnswerThree": "Lahmacun",
+        "AnswerFour": "Pilav",
+        "CorrectAnswer": "Mantı"
+      }
+    ]
+  },
+  {
+    "Order": 10,
+    "Content": "A2 Turkish Reading Lesson 5",
+    "Questions": [
+      {
+        "QuestionString": "Nereye yerleşmek istiyor?",
+        "ReadingSentence": "Emekli olunca Ege'de bir sahil kasabasına yerleşmek istiyor.",
+        "AnswerOne": "İstanbul'a",
+        "AnswerTwo": "Ankara'ya",
+        "AnswerThree": "Ege'de bir sahil kasabasına",
+        "AnswerFour": "Köyüne",
+        "CorrectAnswer": "Ege'de bir sahil kasabasına"
+      },
+      {
+        "QuestionString": "Hangi enstrümanı çalıyor?",
+        "ReadingSentence": "On yıldır gitar çalıyor.",
+        "AnswerOne": "Piyano",
+        "AnswerTwo": "Keman",
+        "AnswerThree": "Gitar",
+        "AnswerFour": "Bağlama",
+        "CorrectAnswer": "Gitar"
+      },
+      {
+        "QuestionString": "Niye şaşırdı?",
+        "ReadingSentence": "Beklemediği bir hediye aldığı için şaşırdı.",
+        "AnswerOne": "Sürpriz parti yaptıkları için",
+        "AnswerTwo": "Beklemediği bir hediye aldığı için",
+        "AnswerThree": "Eski arkadaşını gördüğü için",
+        "AnswerFour": "Haberleri duyduğu için",
+        "CorrectAnswer": "Beklemediği bir hediye aldığı için"
+      },
+      {
+        "QuestionString": "Kaç yıldır bu işi yapıyor?",
+        "ReadingSentence": "On beş yıldır aynı işi yapıyor.",
+        "AnswerOne": "Beş",
+        "AnswerTwo": "On",
+        "AnswerThree": "On beş",
+        "AnswerFour": "Yirmi",
+        "CorrectAnswer": "On beş"
+      },
+      {
+        "QuestionString": "Hangi konuda konferans verdi?",
+        "ReadingSentence": "İklim değişikliği hakkında bir konferans verdi.",
+        "AnswerOne": "Teknoloji",
+        "AnswerTwo": "Sağlık",
+        "AnswerThree": "İklim değişikliği",
+        "AnswerFour": "Eğitim",
+        "CorrectAnswer": "İklim değişikliği"
+      }
+    ]
+  }
+]

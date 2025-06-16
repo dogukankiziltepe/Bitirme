@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Order": 16,
+    "Content": "B2 Turkish Writing Lesson 1",
+    "Questions": [
+      { "ListeningSentence": "While globalization has created economic opportunities, it has also led to the loss of some cultural traditions that should be preserved." },
+      { "ListeningSentence": "The education system should focus more on critical thinking skills rather than memorization because today's world requires adaptability." },
+      { "ListeningSentence": "Remote work has become increasingly popular, offering flexibility for employees while presenting new challenges for team collaboration." },
+      { "ListeningSentence": "Artificial intelligence will transform many professions, eliminating some jobs while creating new opportunities we can't yet imagine." },
+      { "ListeningSentence": "Sustainable urban planning should prioritize green spaces and public transportation to create healthier living environments." }
+    ]
+  },
+  {
+    "Order": 17,
+    "Content": "B2 Turkish Writing Lesson 2",
+    "Questions": [
+      { "ListeningSentence": "The digital divide between generations has become more apparent as technology advances, creating communication barriers in families." },
+      { "ListeningSentence": "While social media connects people globally, it has also contributed to increased loneliness and mental health issues." },
+      { "ListeningSentence": "The transition to renewable energy sources is essential, but requires careful planning to ensure economic stability during the shift." },
+      { "ListeningSentence": "Cultural diversity in the workplace brings valuable perspectives, though it may initially require more effort in team integration." },
+      { "ListeningSentence": "Modern parenting faces unique challenges due to technology's influence on children's development and social interactions." }
+    ]
+  },
+  {
+    "Order": 18,
+    "Content": "B2 Turkish Writing Lesson 3",
+    "Questions": [
+      { "ListeningSentence": "The gig economy offers flexibility for workers but often lacks the job security and benefits of traditional employment." },
+      { "ListeningSentence": "While fast fashion makes clothing affordable, its environmental impact and labor practices raise serious ethical concerns." },
+      { "ListeningSentence": "Space exploration may seem expensive, but the technological advancements it drives often benefit society in unexpected ways." },
+      { "ListeningSentence": "The concept of work-life balance has evolved with technology, blurring the boundaries between professional and personal time." },
+      { "ListeningSentence": "Traditional journalism faces challenges in the digital age, where speed sometimes outweighs accuracy in news reporting." }
+    ]
+  },
+  {
+    "Order": 19,
+    "Content": "B2 Turkish Writing Lesson 4",
+    "Questions": [
+      { "ListeningSentence": "Urbanization trends show that while cities offer economic opportunities, rural areas often struggle with population decline." },
+      { "ListeningSentence": "The sharing economy has disrupted traditional industries, offering convenience while raising regulatory questions." },
+      { "ListeningSentence": "Mental health awareness has improved significantly, though stigma still prevents many from seeking help." },
+      { "ListeningSentence": "Automation in manufacturing increases efficiency but requires workforce retraining to address job displacement." },
+      { "ListeningSentence": "Modern architecture balances aesthetic appeal with functionality, while increasingly incorporating sustainable design principles." }
+    ]
+  },
+  {
+    "Order": 20,
+    "Content": "B2 Turkish Writing Lesson 5",
+    "Questions": [
+      { "ListeningSentence": "The rise of plant-based diets reflects growing environmental concerns as well as health consciousness." },
+      { "ListeningSentence": "Digital nomadism has become a viable lifestyle, enabled by technology and changing attitudes toward work." },
+      { "ListeningSentence": "Intercultural communication skills have become essential in globalized business environments." },
+      { "ListeningSentence": "The preservation of indigenous languages is important for maintaining cultural diversity and traditional knowledge." },
+      { "ListeningSentence": "While automation threatens many jobs, it also creates opportunities in fields requiring human creativity and emotional intelligence." }
+    ]
+  }
+]

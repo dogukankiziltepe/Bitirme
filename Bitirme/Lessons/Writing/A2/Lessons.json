@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Order": 6,
+    "Content": "A2 Turkish Writing Lesson 1",
+    "Questions": [
+      { "ListeningSentence": "I exercise three times a week because I want to stay healthy." },
+      { "ListeningSentence": "Yesterday I went to the cinema with friends and we had fun." },
+      { "ListeningSentence": "I will go to the beach this summer because I love swimming." },
+      { "ListeningSentence": "I'm reading this book but it's very boring." },
+      { "ListeningSentence": "I drink my coffee without sugar because sugar is unhealthy." }
+    ]
+  },
+  {
+    "Order": 7,
+    "Content": "A2 Turkish Writing Lesson 2",
+    "Questions": [
+      { "ListeningSentence": "I was sick last week so I couldn't go to school." },
+      { "ListeningSentence": "I went to the shopping mall and bought new shoes." },
+      { "ListeningSentence": "I like cooking, especially making pasta." },
+      { "ListeningSentence": "I use public transportation because I can't afford a car." },
+      { "ListeningSentence": "I will go to a birthday party this weekend and bring a gift." }
+    ]
+  },
+  {
+    "Order": 8,
+    "Content": "A2 Turkish Writing Lesson 3",
+    "Questions": [
+      { "ListeningSentence": "I'm looking for a new job because my current job is too stressful." },
+      { "ListeningSentence": "I love Turkish coffee but I don't drink more than one cup a day." },
+      { "ListeningSentence": "I went to the theater last month and enjoyed it very much." },
+      { "ListeningSentence": "I wake up early because I need to get to work on time." },
+      { "ListeningSentence": "I liked riding bicycles as a child but I don't ride much now." }
+    ]
+  },
+  {
+    "Order": 9,
+    "Content": "A2 Turkish Writing Lesson 4",
+    "Questions": [
+      { "ListeningSentence": "I usually take a walk after work because it helps me relax." },
+      { "ListeningSentence": "I take Turkish lessons once a week because I want to improve my Turkish." },
+      { "ListeningSentence": "It was rainy yesterday so I took my umbrella with me." },
+      { "ListeningSentence": "I'm looking for a new apartment because my current one is too small." },
+      { "ListeningSentence": "My cat is very lazy; it sleeps all day." }
+    ]
+  },
+  {
+    "Order": 10,
+    "Content": "A2 Turkish Writing Lesson 5",
+    "Questions": [
+      { "ListeningSentence": "I took photos during my vacation and sent them to my family." },
+      { "ListeningSentence": "I will go to the doctor tomorrow because I don't feel well." },
+      { "ListeningSentence": "On Sundays I usually rest at home and read books." },
+      { "ListeningSentence": "I just moved to this city so I don't have any friends yet." },
+      { "ListeningSentence": "I liked chocolate very much as a child but I don't eat much now." }
+    ]
+  }
+]

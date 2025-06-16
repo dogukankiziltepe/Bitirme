@@ -1,0 +1,257 @@
+﻿[
+  {
+    "Order": 16,
+    "Content": "B2 Turkish Listening Lesson 1",
+    "Questions": [
+      {
+        "QuestionString": "Ekonomist krizi önlemek için ne öneriyor?",
+        "ListeningSentence": "Ekonomist, krizi önlemek için üretim ekonomisine geçiş yapılması ve ihracatın çeşitlendirilmesi gerektiğini savunuyor.",
+        "AnswerOne": "Faiz artırımı",
+        "AnswerTwo": "Üretim ekonomisine geçiş ve ihracat çeşitliliği",
+        "AnswerThree": "Vergi indirimi",
+        "AnswerFour": "Yabancı yatırımların teşviki",
+        "CorrectAnswer": "Üretim ekonomisine geçiş ve ihracat çeşitliliği"
+      },
+      {
+        "QuestionString": "Tartışma programında hangi görüş ağır bastı?",
+        "ListeningSentence": "Tartışma programında, eğitim sistemindeki ezberci yaklaşımın yaratıcılığı öldürdüğü görüşü ağır bastı.",
+        "AnswerOne": "Ezberci eğitimin yaratıcılığı engellediği",
+        "AnswerTwo": "Disiplinin önemli olduğu",
+        "AnswerThree": "Sınav sisteminin adil olduğu",
+        "AnswerFour": "Öğretmen eksikliğinin temel sorun olduğu",
+        "CorrectAnswer": "Ezberci eğitimin yaratıcılığı engellediği"
+      },
+      {
+        "QuestionString": "Psikolog hangi davranışın altını çizdi?",
+        "ListeningSentence": "Psikolog, ebeveynlerin çocuklarına karşı aşırı korumacı tavrının özgüven eksikliğine yol açtığını vurguladı.",
+        "AnswerOne": "Aşırı korumacılığın olumsuz etkileri",
+        "AnswerTwo": "Disiplinin önemi",
+        "AnswerThree": "Sevginin gösterilmesi",
+        "AnswerFour": "Ödül-ceza sistemi",
+        "CorrectAnswer": "Aşırı korumacılığın olumsuz etkileri"
+      },
+      {
+        "QuestionString": "Belgeselde hangi tez savunuldu?",
+        "ListeningSentence": "Belgeselde, küresel ısınmanın en çok kıyı kentlerinde yaşayan düşük gelirli grupları etkileyeceği tezi savunuldu.",
+        "AnswerOne": "Teknolojinin çözüm olacağı",
+        "AnswerTwo": "Kıyı kentlerindeki düşük gelirlilerin etkileneceği",
+        "AnswerThree": "Hükümetlerin yeterli önlem aldığı",
+        "AnswerFour": "Bireysel çabaların yetersiz olduğu",
+        "CorrectAnswer": "Kıyı kentlerindeki düşük gelirlilerin etkileneceği"
+      },
+      {
+        "QuestionString": "Yazarın eleştirdiği toplumsal eğilim ne?",
+        "ListeningSentence": "Yazar, modern toplumda insanların giderek daha fazla tüketim odaklı hale gelmesini ve manevi değerleri kaybetmesini eleştiriyor.",
+        "AnswerOne": "Bireysellik",
+        "AnswerTwo": "Tüketim odaklılık ve manevi değer kaybı",
+        "AnswerThree": "Teknoloji bağımlılığı",
+        "AnswerFour": "Geleneksel değerlerin aşırı savunulması",
+        "CorrectAnswer": "Tüketim odaklılık ve manevi değer kaybı"
+      }
+    ]
+  },
+  {
+    "Order": 17,
+    "Content": "B2 Turkish Listening Lesson 2",
+    "Questions": [
+      {
+        "QuestionString": "Konferansta hangi yenilik tanıtıldı?",
+        "ListeningSentence": "Konferansta, yapay zeka destekli bir sistemin tıbbi teşhislerde doktorlara yardımcı olmak üzere geliştirildiği açıklandı.",
+        "AnswerOne": "Yeni bir ilaç",
+        "AnswerTwo": "Yapay zeka destekli teşhis sistemi",
+        "AnswerThree": "Robotik cerrahi cihazı",
+        "AnswerFour": "Gen terapisi",
+        "CorrectAnswer": "Yapay zeka destekli teşhis sistemi"
+      },
+      {
+        "QuestionString": "Hukukçu hangi değişikliği eleştirdi?",
+        "ListeningSentence": "Hukukçu, yeni yargı paketinin yargı bağımsızlığını zedeleyeceğini ve hukuk devleti ilkesine aykırı olduğunu savundu.",
+        "AnswerOne": "Vergi düzenlemesini",
+        "AnswerTwo": "Yargı bağımsızlığını zedeleyen değişiklik",
+        "AnswerThree": "Ceza indirimlerini",
+        "AnswerFour": "Avukatlık ücretlerini",
+        "CorrectAnswer": "Yargı bağımsızlığını zedeleyen değişiklik"
+      },
+      {
+        "QuestionString": "Araştırma hangi sonucu ortaya koydu?",
+        "ListeningSentence": "Araştırma, çok dilli büyüyen çocukların problem çözme becerilerinin daha gelişmiş olduğunu ortaya koydu.",
+        "AnswerOne": "Çok dilliliğin bilişsel faydaları",
+        "AnswerTwo": "Erken yaşta eğitimin önemi",
+        "AnswerThree": "Oyunun öğrenmeye etkisi",
+        "AnswerFour": "Sosyal çevrenin dil gelişimine etkisi",
+        "CorrectAnswer": "Çok dilliliğin bilişsel faydaları"
+      },
+      {
+        "QuestionString": "Panelistler hangi konuda uzlaştı?",
+        "ListeningSentence": "Panelistler, iklim değişikliğiyle mücadelede bireysel çabaların yeterli olmadığı, sistemik değişiklikler gerektiği konusunda uzlaştılar.",
+        "AnswerOne": "Bireysel çabaların yetersizliği",
+        "AnswerTwo": "Teknolojinin çözüm olacağı",
+        "AnswerThree": "Hükümetlerin yeterli önlem aldığı",
+        "AnswerFour": "Eğitimin öncelik olması gerektiği",
+        "CorrectAnswer": "Bireysel çabaların yetersizliği"
+      },
+      {
+        "QuestionString": "Yönetmen filminde neyi anlatmayı amaçladı?",
+        "ListeningSentence": "Yönetmen, filminde göçmen bir ailenin kültürel kimliklerini korurken yeni bir topluma entegre olma çabalarını anlatmayı amaçladığını söyledi.",
+        "AnswerOne": "Tarihi bir olayı",
+        "AnswerTwo": "Göçmenlerin entegrasyon çabaları",
+        "AnswerThree": "Aşk hikayesi",
+        "AnswerFour": "Siyasi bir mücadeleyi",
+        "CorrectAnswer": "Göçmenlerin entegrasyon çabaları"
+      }
+    ]
+  },
+  {
+    "Order": 18,
+    "Content": "B2 Turkish Listening Lesson 3",
+    "Questions": [
+      {
+        "QuestionString": "Bilim insanı hangi bulguyu paylaştı?",
+        "ListeningSentence": "Bilim insanı, yapılan araştırmada Akdeniz diyetinin kalp sağlığı üzerinde olumlu etkilerinin olduğunu kanıtlayan yeni bulgular paylaştı.",
+        "AnswerOne": "Akdeniz diyetinin kalp sağlığına faydaları",
+        "AnswerTwo": "Yapay etin zararları",
+        "AnswerThree": "Vitamin takviyelerinin etkisizliği",
+        "AnswerFour": "Egzersizin önemi",
+        "CorrectAnswer": "Akdeniz diyetinin kalp sağlığına faydaları"
+      },
+      {
+        "QuestionString": "Tarihçi hangi olayı yorumladı?",
+        "ListeningSentence": "Tarihçi, imparatorluğun çöküş sürecinde yönetimdeki merkeziyetçi yapının etkilerini detaylı şekilde yorumladı.",
+        "AnswerOne": "Savaşın nedenlerini",
+        "AnswerTwo": "Merkeziyetçi yapının çöküşe etkisi",
+        "AnswerThree": "Ekonomik krizin sonuçlarını",
+        "AnswerFour": "Kültürel değişimleri",
+        "CorrectAnswer": "Merkeziyetçi yapının çöküşe etkisi"
+      },
+      {
+        "QuestionString": "Ekonomist hangi riski vurguladı?",
+        "ListeningSentence": "Ekonomist, aşırı dış borçlanmanın ülke ekonomisini dış şoklara karşı savunmasız bıraktığı riskini vurguladı.",
+        "AnswerOne": "Enflasyon tehlikesini",
+        "AnswerTwo": "Aşırı dış borçlanmanın riskleri",
+        "AnswerThree": "İşsizliği",
+        "AnswerFour": "Döviz kurundaki dalgalanmayı",
+        "CorrectAnswer": "Aşırı dış borçlanmanın riskleri"
+      },
+      {
+        "QuestionString": "Eğitimci hangi modeli savundu?",
+        "ListeningSentence": "Eğitimci, öğrencilerin bireysel öğrenme hızlarına uygun esnek eğitim modellerinin başarıyı artırdığını savundu.",
+        "AnswerOne": "Geleneksel eğitim modelini",
+        "AnswerTwo": "Esnek ve bireysel eğitim modelini",
+        "AnswerThree": "Disiplin odaklı modeli",
+        "AnswerFour": "Teknoloji destekli eğitimi",
+        "CorrectAnswer": "Esnek ve bireysel eğitim modelini"
+      },
+      {
+        "QuestionString": "Doktor hangi uyarıyı yaptı?",
+        "ListeningSentence": "Doktor, kontrolsüz antibiyotik kullanımının antibiyotik direncine yol açarak basit enfeksiyonların bile tedavi edilemez hale gelebileceği uyarısında bulundu.",
+        "AnswerOne": "Sağlıklı beslenme",
+        "AnswerTwo": "Antibiyotik direnci tehlikesi",
+        "AnswerThree": "Düzenli check-up",
+        "AnswerFour": "Aşıların önemi",
+        "CorrectAnswer": "Antibiyotik direnci tehlikesi"
+      }
+    ]
+  },
+  {
+    "Order": 19,
+    "Content": "B2 Turkish Listening Lesson 4",
+    "Questions": [
+      {
+        "QuestionString": "Çevre aktivisti hangi tehdidi vurguladı?",
+        "ListeningSentence": "Çevre aktivisti, okyanuslardaki plastik kirliliğinin deniz ekosistemini geri dönülemez şekilde tahrip etme tehdidi oluşturduğunu vurguladı.",
+        "AnswerOne": "Hava kirliliği",
+        "AnswerTwo": "Plastik kirliliğinin denizlere etkisi",
+        "AnswerThree": "Küresel ısınma",
+        "AnswerFour": "Orman yangınları",
+        "CorrectAnswer": "Plastik kirliliğinin denizlere etkisi"
+      },
+      {
+        "QuestionString": "Sosyolog hangi değişimi analiz etti?",
+        "ListeningSentence": "Sosyolog, dijitalleşmeyle birlikte aile içi iletişim kalıplarının nasıl dönüştüğünü ve yüz yüze etkileşimin azaldığını analiz etti.",
+        "AnswerOne": "Dijitalleşmenin aile iletişimine etkisi",
+        "AnswerTwo": "Ekonomik krizin aile yapısına etkisi",
+        "AnswerThree": "Göçün sosyal etkileri",
+        "AnswerFour": "Eğitim seviyesinin değişimi",
+        "CorrectAnswer": "Dijitalleşmenin aile iletişimine etkisi"
+      },
+      {
+        "QuestionString": "Mimar hangi yaklaşımı önerdi?",
+        "ListeningSentence": "Mimar, sürdürülebilir şehirler için yeşil bina konseptinin ve ortak yaşam alanlarının artırılması gerektiğini önerdi.",
+        "AnswerOne": "Tarihi dokunun korunması",
+        "AnswerTwo": "Yeşil bina ve ortak yaşam alanları",
+        "AnswerThree": "Yüksek binalar",
+        "AnswerFour": "Ulaşım ağırlıklı planlama",
+        "CorrectAnswer": "Yeşil bina ve ortak yaşam alanları"
+      },
+      {
+        "QuestionString": "Yazar hangi ikilemi ele aldı?",
+        "ListeningSentence": "Yazar, modern dünyada bireylerin kariyer başarısı ile kişisel mutluluk arasında sıkışıp kaldığı ikilemi ele aldı.",
+        "AnswerOne": "Kariyer ve mutluluk ikilemi",
+        "AnswerTwo": "Gelenek ve modernite",
+        "AnswerThree": "Birey ve toplum",
+        "AnswerFour": "Özgürlük ve güvenlik",
+        "CorrectAnswer": "Kariyer ve mutluluk ikilemi"
+      },
+      {
+        "QuestionString": "Ekonomist hangi eğilimi yorumladı?",
+        "ListeningSentence": "Ekonomist, gelişmekte olan ülkelerde genç nüfusun giderek daha fazla serbest çalışma modeline yöneldiği eğilimini yorumladı.",
+        "AnswerOne": "Serbest çalışma modeline yönelim",
+        "AnswerTwo": "Mesleki eğitim artışı",
+        "AnswerThree": "Kamu sektörü tercihi",
+        "AnswerFour": "Girişimcilik azalışı",
+        "CorrectAnswer": "Serbest çalışma modeline yönelim"
+      }
+    ]
+  },
+  {
+    "Order": 20,
+    "Content": "B2 Turkish Listening Lesson 5",
+    "Questions": [
+      {
+        "QuestionString": "Felsefeci hangi kavram üzerinde durdu?",
+        "ListeningSentence": "Felsefeci, teknolojinin insan özgürlüğünü genişletirken aynı zamanda yeni bağımlılıklar ve kontrol mekanizmaları yarattığı paradoksuna dikkat çekti.",
+        "AnswerOne": "Teknolojinin paradoksal etkileri",
+        "AnswerTwo": "Ahlakın evrimi",
+        "AnswerThree": "Bilginin sınırları",
+        "AnswerFour": "Ölüm korkusu",
+        "CorrectAnswer": "Teknolojinin paradoksal etkileri"
+      },
+      {
+        "QuestionString": "Siyaset bilimci hangi tezi savundu?",
+        "ListeningSentence": "Siyaset bilimci, sosyal medyanın siyasi katılımı artırırken aynı zamanda kutuplaşmayı derinleştirdiği tezini savundu.",
+        "AnswerOne": "Sosyal medyanın kutuplaştırıcı etkisi",
+        "AnswerTwo": "Geleneksel medyanın önemi",
+        "AnswerThree": "Seçim sistemleri",
+        "AnswerFour": "Gençlerin siyasete ilgisi",
+        "CorrectAnswer": "Sosyal medyanın kutuplaştırıcı etkisi"
+      },
+      {
+        "QuestionString": "Psikiyatr hangi sendromu açıkladı?",
+        "ListeningSentence": "Psikiyatr, özellikle büyük şehirlerde görülen tükenmişlik sendromunun belirtilerini ve başa çıkma yöntemlerini açıkladı.",
+        "AnswerOne": "Panik atak",
+        "AnswerTwo": "Tükenmişlik sendromu",
+        "AnswerThree": "Obsesif kompulsif bozukluk",
+        "AnswerFour": "Sosyal fobi",
+        "CorrectAnswer": "Tükenmişlik sendromu"
+      },
+      {
+        "QuestionString": "Antropolog hangi değişimi inceledi?",
+        "ListeningSentence": "Antropolog, küreselleşmeyle birlikte yerel kültürlerin nasıl dönüştüğünü ve bazı geleneklerin kaybolma tehlikesiyle karşı karşıya olduğunu inceledi.",
+        "AnswerOne": "Küreselleşmenin kültürel etkileri",
+        "AnswerTwo": "Dil kaybı",
+        "AnswerThree": "Göçün sosyal sonuçları",
+        "AnswerFour": "Dinlerin evrimi",
+        "CorrectAnswer": "Küreselleşmenin kültürel etkileri"
+      },
+      {
+        "QuestionString": "Yazar hangi sosyal olguyu eleştirdi?",
+        "ListeningSentence": "Yazar, modern toplumda insanların giderek daha fazla dijital kimlikleriyle var olmaya çalışırken gerçek benliklerinden uzaklaştığı sosyal olguyu eleştirdi.",
+        "AnswerOne": "Dijital kimlik ve benlik kaybı",
+        "AnswerTwo": "Tüketim çılgınlığı",
+        "AnswerThree": "Bireysellik",
+        "AnswerFour": "Toplumsal duyarsızlık",
+        "CorrectAnswer": "Dijital kimlik ve benlik kaybı"
+      }
+    ]
+  }
+]

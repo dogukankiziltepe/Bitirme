@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Order": 16,
+    "Content": "B2 Turkish Speaking Lesson 1",
+    "Questions": [
+      { "ListeningSentence": "Günümüzde geleneksel medyanın yerini sosyal medyanın aldığını düşünüyorum çünkü artık insanlar haberleri bile sosyal medya platformlarından takip ediyor." },
+      { "ListeningSentence": "Küreselleşmenin kültürel çeşitliliği tehdit ettiği görüşüne kısmen katılıyorum ancak aynı zamanda kültürler arası etkileşimi de artırdığını düşünüyorum." },
+      { "ListeningSentence": "Çalışma saatlerinin esnek olmasının hem çalışan verimliliğini artırdığını hem de iş-yaşam dengesini kolaylaştırdığını gözlemledim." },
+      { "ListeningSentence": "Teknolojinin hızla gelişmesi bir yandan hayatımızı kolaylaştırırken diğer yandan bazı mesleklerin ortadan kalkmasına neden oluyor." },
+      { "ListeningSentence": "Eğitim sistemimizin ezberci yaklaşım yerine eleştirel düşünmeyi teşvik eden bir yapıya kavuşması gerektiğine inanıyorum." }
+    ]
+  },
+  {
+    "Order": 17,
+    "Content": "B2 Turkish Speaking Lesson 2",
+    "Questions": [
+      { "ListeningSentence": "İklim değişikliğiyle mücadelede bireysel olarak yapabileceklerimizin sınırlı olduğunu kabul etmekle birlikte, herkesin üzerine düşeni yapması gerektiğini düşünüyorum." },
+      { "ListeningSentence": "Göçmenlerin yaşadığı sorunların temelinde dil bariyeri ve kültürel uyum sürecinin zorlukları yatıyor." },
+      { "ListeningSentence": "Dijitalleşmenin bankacılık sektörüne olan etkilerini incelediğimde, şube sayılarının azalmasının kaçınılmaz olduğu sonucuna vardım." },
+      { "ListeningSentence": "Sanatın toplumsal sorunlara dikkat çekmedeki rolünün giderek arttığını gözlemliyorum, özellikle genç sanatçılar bu konuda oldukça duyarlı." },
+      { "ListeningSentence": "Girişimcilik ruhunun gençler arasında yaygınlaşmasının ekonomik kalkınma için olumlu bir gelişme olduğunu düşünüyorum." }
+    ]
+  },
+  {
+    "Order": 18,
+    "Content": "B2 Turkish Speaking Lesson 3",
+    "Questions": [
+      { "ListeningSentence": "Uzaktan çalışma modelinin geleneksel ofis ortamına göre avantajları olduğu kadar, ekip çalışması ve iletişim açısından da bazı dezavantajları bulunuyor." },
+      { "ListeningSentence": "Toplumsal cinsiyet eşitliği konusunda son yıllarda önemli adımlar atılmış olsa da, önyargıların tamamen ortadan kalkması için daha fazla zaman gerekiyor." },
+      { "ListeningSentence": "Sürdürülebilir kalkınma hedeflerine ulaşmak için hem bireylerin hem de şirketlerin sorumluluk alması gerektiğine inanıyorum." },
+      { "ListeningSentence": "Yapay zekanın iş dünyasında yarattığı dönüşümün bazı meslekleri ortadan kaldıracağı kesin, ancak aynı zamanda yeni iş alanları da yaratacağını düşünüyorum." },
+      { "ListeningSentence": "Kültürel mirasın korunmasında devletin yanı sıra yerel halkın da aktif rol alması gerektiğini düşünüyorum." }
+    ]
+  },
+  {
+    "Order": 19,
+    "Content": "B2 Turkish Speaking Lesson 4",
+    "Questions": [
+      { "ListeningSentence": "Dijital okuryazarlığın günümüzde temel bir beceri haline geldiğini ve eğitim sistemimizin bu konuya daha fazla ağırlık vermesi gerektiğini düşünüyorum." },
+      { "ListeningSentence": "Çalışma hayatında mutluluğun para kadar anlamlı işler yapmaktan da geldiğini deneyimlerimle öğrendim." },
+      { "ListeningSentence": "Şehir planlamasında yeşil alanların artırılmasının hem çevre hem de insan psikolojisi açısından önemli olduğunu gözlemledim." },
+      { "ListeningSentence": "Geleneklerin modern yaşamla uyumlu hale getirilmesi gerektiğini, aksi takdirde gençler tarafından benimsenmeyeceğini düşünüyorum." },
+      { "ListeningSentence": "Küresel salgın sürecinin çalışma modellerimizi kalıcı olarak değiştirdiğini ve bu değişimin bazı olumlu yönleri olduğunu fark ettim." }
+    ]
+  },
+  {
+    "Order": 20,
+    "Content": "B2 Turkish Speaking Lesson 5",
+    "Questions": [
+      { "ListeningSentence": "Tüketici davranışlarının değişmesiyle birlikte markaların da müşteri odaklı stratejiler geliştirmek zorunda kaldığını gözlemliyorum." },
+      { "ListeningSentence": "Gönüllü çalışmalara katılmanın sadece topluma fayda sağlamakla kalmayıp kişisel gelişim için de önemli olduğunu deneyimlerimle öğrendim." },
+      { "ListeningSentence": "Yabancı dil bilmenin kariyer fırsatlarını artırdığı kadar kültürel ufku da genişlettiğini düşünüyorum." },
+      { "ListeningSentence": "İnovasyonun sadece teknoloji şirketleri için değil, geleneksel sektörler için de hayati önem taşıdığına inanıyorum." },
+      { "ListeningSentence": "Çocuklara erken yaşta okuma alışkanlığı kazandırmanın gelecekteki akademik başarıları üzerinde belirleyici bir rol oynadığını gözlemledim." }
+    ]
+  }
+]

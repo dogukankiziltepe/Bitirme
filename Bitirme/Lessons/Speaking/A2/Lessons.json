@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Order": 6,
+    "Content": "A2 Turkish Speaking Lesson 1",
+    "Questions": [
+      { "ListeningSentence": "İstanbul'da yaşıyorum çünkü burada işim var." },
+      { "ListeningSentence": "Haftada iki kez spor yapıyorum." },
+      { "ListeningSentence": "Geçen hafta arkadaşlarımla parkta piknik yaptık." },
+      { "ListeningSentence": "Yarın doktora gideceğim çünkü hasta hissediyorum." },
+      { "ListeningSentence": "En sevdiğim mevsim ilkbahar çünkü hava çok güzel oluyor." }
+    ]
+  },
+  {
+    "Order": 7,
+    "Content": "A2 Turkish Speaking Lesson 2",
+    "Questions": [
+      { "ListeningSentence": "Dün akşam film izledim ama çok sıkıcıydı." },
+      { "ListeningSentence": "Tatilde denize gittim ve çok eğlendim." },
+      { "ListeningSentence": "Bu yaz ailemle memlekete gideceğiz." },
+      { "ListeningSentence": "Köpeğimi her sabah yürüyüşe çıkarıyorum." },
+      { "ListeningSentence": "Pazar günleri genellikle evde dinleniyorum." }
+    ]
+  },
+  {
+    "Order": 8,
+    "Content": "A2 Turkish Speaking Lesson 3",
+    "Questions": [
+      { "ListeningSentence": "Yeni bir telefon almak istiyorum çünkü eski telefonum bozuldu." },
+      { "ListeningSentence": "Dün alışveriş merkezine gittim ve bir kazak aldım." },
+      { "ListeningSentence": "Hafta sonu doğum günü partisine davetliyim." },
+      { "ListeningSentence": "Yemek yapmayı seviyorum özellikle makarna yapmayı." },
+      { "ListeningSentence": "Toplu taşıma kullanıyorum çünkü araba almaya param yetmiyor." }
+    ]
+  },
+  {
+    "Order": 9,
+    "Content": "A2 Turkish Speaking Lesson 4",
+    "Questions": [
+      { "ListeningSentence": "Geçen ay tiyatroya gittim ve çok beğendim." },
+      { "ListeningSentence": "Her sabah kahvaltıdan sonra dişlerimi fırçalarım." },
+      { "ListeningSentence": "Yazın sıcak olduğu için denize gitmeyi tercih ederim." },
+      { "ListeningSentence": "Bu kitabı okudum ve çok etkilendim." },
+      { "ListeningSentence": "Çocukken bisiklete binmeyi çok severdim." }
+    ]
+  },
+  {
+    "Order": 10,
+    "Content": "A2 Turkish Speaking Lesson 5",
+    "Questions": [
+      { "ListeningSentence": "İşten sonra genellikle arkadaşlarımla buluşurum." },
+      { "ListeningSentence": "Haftada bir gün Türkçe dersi alıyorum." },
+      { "ListeningSentence": "Dün hava yağmurluydu bu yüzden şemsiye aldım." },
+      { "ListeningSentence": "Yeni bir daire arıyorum çünkü şimdiki evim çok küçük." },
+      { "ListeningSentence": "Türk kahvesini şekersiz içmeyi tercih ederim." }
+    ]
+  }
+]

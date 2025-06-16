@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Order": 11,
+    "Content": "B1 Turkish Writing Lesson 1",
+    "Questions": [
+      { "ListeningSentence": "City life has both advantages and disadvantages because while it offers many opportunities, it can also be stressful and expensive." },
+      { "ListeningSentence": "If I had more time, I would learn a new language because I've always found it interesting to learn about different cultures." },
+      { "ListeningSentence": "I think technology addiction has become a serious problem today because people now prefer virtual communication over real social interactions." },
+      { "ListeningSentence": "When I first started living alone, I realized that I had to do everything by myself, which was challenging but educational." },
+      { "ListeningSentence": "Environmental pollution worries me, so I try to pay attention to recycling and reducing waste in my daily life." }
+    ]
+  },
+  {
+    "Order": 12,
+    "Content": "B1 Turkish Writing Lesson 2",
+    "Questions": [
+      { "ListeningSentence": "I believe that education is the most important factor in a country's development because it empowers people and creates opportunities." },
+      { "ListeningSentence": "Although social media helps us stay connected, it can also be a waste of time if we don't use it carefully." },
+      { "ListeningSentence": "When I was younger I used to take more risks, but now I think more carefully before making decisions." },
+      { "ListeningSentence": "Working from home has both positive and negative aspects because while it saves time, it can also make you feel isolated." },
+      { "ListeningSentence": "If I had more money, I would travel around the world because experiencing different cultures broadens your perspective." }
+    ]
+  },
+  {
+    "Order": 13,
+    "Content": "B1 Turkish Writing Lesson 3",
+    "Questions": [
+      { "ListeningSentence": "Learning to cook is an important life skill because eating out all the time is neither healthy nor economical." },
+      { "ListeningSentence": "Public transportation should be improved in our city because traffic congestion has become a serious problem." },
+      { "ListeningSentence": "I started doing yoga to manage my stress levels, and I've noticed significant improvements in my wellbeing." },
+      { "ListeningSentence": "Reading books is better than watching movies because it stimulates your imagination more actively." },
+      { "ListeningSentence": "If I could change one thing about my city, I would create more green spaces because they improve air quality and people's mood." }
+    ]
+  },
+  {
+    "Order": 14,
+    "Content": "B1 Turkish Writing Lesson 4",
+    "Questions": [
+      { "ListeningSentence": "Learning a second language is challenging but rewarding because it opens up new career opportunities and ways of thinking." },
+      { "ListeningSentence": "Modern technology has made our lives easier in many ways, but it has also made us more dependent on devices." },
+      { "ListeningSentence": "I prefer living in a small town rather than a big city because the pace of life is slower and people are friendlier." },
+      { "ListeningSentence": "Regular exercise is important not only for physical health but also for mental wellbeing because it reduces stress." },
+      { "ListeningSentence": "If I could meet any historical figure, I would choose Albert Einstein because I admire his curiosity and intelligence." }
+    ]
+  },
+  {
+    "Order": 15,
+    "Content": "B1 Turkish Writing Lesson 5",
+    "Questions": [
+      { "ListeningSentence": "The best way to learn about a culture is to learn its language because language reflects how people think and live." },
+      { "ListeningSentence": "Online shopping is convenient but it can't replace traditional stores because sometimes you need to see products in person." },
+      { "ListeningSentence": "I believe that everyone should learn basic first aid because you never know when you might need to help someone." },
+      { "ListeningSentence": "Climate change is the most serious problem facing humanity today because its effects are already visible worldwide." },
+      { "ListeningSentence": "If I could give one piece of advice to young people, it would be to value experiences over possessions." }
+    ]
+  }
+]

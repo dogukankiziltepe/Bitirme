@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Order": 26,
+    "Content": "C2 Turkish Speaking Lesson 1",
+    "Questions": [
+      { "ListeningSentence": "Post-truth siyaset çağında nesnel gerçekliğin önemini yitirdiği iddiasına katılmıyorum çünkü uzun vadede toplumsal mutabakatın ancak ortak gerçeklik zemini üzerinde inşa edilebileceğine inanıyorum." },
+      { "ListeningSentence": "Kuantum hesaplamanın geleneksel şifreleme sistemlerini geçersiz kılma potansiyeli, siber güvenlik paradigmalarının baştan sona yeniden düşünülmesini gerektirecek kadar önemli bir dönüşüm habercisi." },
+      { "ListeningSentence": "Antroposen çağının getirdiği ekolojik kriz karşısında insanmerkezci bakış açısının terk edilerek, tüm canlıların yaşam hakkını gözeten yeni bir etik anlayışın benimsenmesi elzem hale gelmiştir." },
+      { "ListeningSentence": "Dijital kapitalizmde verinin meta olarak işlem görmesi, Marx'ın emek-değer teorisinin günümüz koşullarında yeniden yorumlanmasını gerektiren epistemolojik bir dönüşümü işaret ediyor." },
+      { "ListeningSentence": "Yapay zeka destekli sanat üretiminin estetik değer ve özgünlük kavramlarını sorgulamaya açması, insan yaratıcılığının doğasını yeniden düşünmemize yol açan ontolojik bir tartışma başlattı." }
+    ]
+  },
+  {
+    "Order": 27,
+    "Content": "C2 Turkish Speaking Lesson 2",
+    "Questions": [
+      { "ListeningSentence": "Transhümanizm hareketinin insan doğasını aşma iddiası, biyoetik açıdan olduğu kadar, teknolojinin toplumsal eşitsizlikleri derinleştirme riski nedeniyle de ciddi eleştirilere konu oluyor." },
+      { "ListeningSentence": "Blockchain teknolojisinin merkezi otoritelere duyulan ihtiyacı ortadan kaldırma potansiyeli, geleneksel devlet yapılarının dönüşümüne dair radikal öngörülere yol açıyor." },
+      { "ListeningSentence": "Dijital asistanların günlük yaşamda giderek daha fazla yer edinmesi, insanlararası etkileşimin doğasını değiştirerek yalnızlık epidemisini şiddetlendiren paradoksal bir sonuç doğuruyor." },
+      { "ListeningSentence": "Büyük veri analitiğinin sosyal bilimler metodolojisini dönüştürme potansiyeli, nicel ve nitel araştırma yöntemleri arasındaki geleneksel ayrımın anlamını yitireceği bir paradigma değişimine işaret ediyor." },
+      { "ListeningSentence": "Nörobilimdeki gelişmelerin özgür irade kavramını sorgulamaya açması, hukuk sistemlerinin temelini oluşturan sorumluluk anlayışının yeniden tanımlanmasını gerektirecek derin etik sorunlar barındırıyor." }
+    ]
+  },
+  {
+    "Order": 28,
+    "Content": "C2 Turkish Speaking Lesson 3",
+    "Questions": [
+      { "ListeningSentence": "Sentetik biyolojinin canlı organizmaları programlanabilir birimler olarak ele alması, doğa ve teknoloji arasındaki sınırları bulanıklaştırarak yeni bir ontolojik tartışma alanı yaratıyor." },
+      { "ListeningSentence": "Kuantum dolanıklığının ışık hızını aşan etkileşimleri, yerellik ilkesini sorgulamaya açarak nedensellik kavramımızı kökten değiştirme potansiyeli taşıyor." },
+      { "ListeningSentence": "Dijital ikiz teknolojilerinin endüstriyel süreçleri simüle etme yeteneği, üretim paradigmalarını optimizasyon odaklı bir yaklaşımdan öngörüsel bir modele doğru kaydırıyor." },
+      { "ListeningSentence": "Yapay genel zekanın gerçekleşme olasılığı, insanlık durumuna dair felsefi sorgulamaları yeniden gündeme getirerek teknolojik tekillik kavramını akademik tartışmaların merkezine yerleştiriyor." },
+      { "ListeningSentence": "Biyonik organların giderek yaygınlaşması, beden bütünlüğü ve insan kimliği kavramlarını yeniden tanımlamamızı gerektiren transhümanist bir geleceğin habercisi niteliğinde." }
+    ]
+  },
+  {
+    "Order": 29,
+    "Content": "C2 Turkish Speaking Lesson 4",
+    "Questions": [
+      { "ListeningSentence": "Holografik evren teorisinin bilginin yüzeyde kodlanabileceği iddiası, uzay-zaman anlayışımızı kökten değiştirerek fizik ve bilgi teorisi arasında yeni bir disiplinlerarası alanın doğmasına yol açıyor." },
+      { "ListeningSentence": "Nöroprotez teknolojilerinin hafıza ve bilişsel fonksiyonları geliştirme potansiyeli, insan zihninin sınırlarını aşma iddiasıyla transhümanizm tartışmalarını yeni bir boyuta taşıyor." },
+      { "ListeningSentence": "Kuantum biyolojisinin fotosentez ve koku alma gibi süreçlerdeki rolünü açıklama iddiası, canlı sistemlerin işleyişine dair geleneksel anlayışımızı kökten değiştirecek nitelikte." },
+      { "ListeningSentence": "Dijital ölümsüzlük kavramının kişisel verilerin yapay zeka tarafından sürdürülmesi fikri, ölüm ve bellek arasındaki geleneksel ilişkiyi sorgulamaya açarak yeni varoluşsal tartışmalara kapı aralıyor." },
+      { "ListeningSentence": "Karanlık maddenin evrenin genişlemesindeki rolüne dair güncel teoriler, kozmolojik sabit problemini yeniden ele almayı gerektiren epistemolojik bir kırılmayı işaret ediyor." }
+    ]
+  },
+  {
+    "Order": 30,
+    "Content": "C2 Turkish Speaking Lesson 5",
+    "Questions": [
+      { "ListeningSentence": "Metaverse ekosistemlerinde dijital mülkiyet kavramının NFT'ler aracılığıyla somutlaşması, sanal ve fiziksel varlık arasındaki ayrımı bulanıklaştırarak yeni bir ekonomik paradigmayı beraberinde getiriyor." },
+      { "ListeningSentence": "Kuantum kriptografinin geleneksel şifreleme yöntemlerini geçersiz kılma potansiyeli, ulusal güvenlik stratejilerinin yeniden şekillendirilmesini zorunlu kılan bir teknolojik devrim niteliğinde." },
+      { "ListeningSentence": "Yapay zeka tarafından üretilen derin sahte içeriklerin (deepfake) yaygınlaşması, gerçeklik algısını kökten değiştirerek sosyal güven mekanizmalarını tehdit eden epistemolojik bir krize yol açıyor." },
+      { "ListeningSentence": "Biyoteknolojideki CRISPR-Cas9 gibi gen düzenleme tekniklerinin insan embriyosuna uygulanma olasılığı, etik sınırların yeniden tanımlanmasını gerektiren radikal bir bilimsel dönüşümü işaret ediyor." },
+      { "ListeningSentence": "Kuantum hesaplamanın karmaşık moleküler yapıları simüle etme yeteneği, ilaç keşif süreçlerinde devrim yaratma potansiyeli taşıyarak tıp alanında çığır açıcı gelişmelere kapı aralıyor." }
+    ]
+  }
+]

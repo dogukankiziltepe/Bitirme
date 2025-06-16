@@ -1,0 +1,263 @@
+﻿[
+  {
+    "Order": 1,
+    "Level": 0,
+    "Content": "A1 Turkish Listening Lesson 1",
+    "Questions": [
+      {
+        "QuestionString": "Ayşe nerede yaşıyor?",
+        "ListeningSentence": "Ayşe İstanbul’da yaşıyor.",
+        "AnswerOne": "İzmir",
+        "AnswerTwo": "Ankara",
+        "AnswerThree": "İstanbul",
+        "AnswerFour": "Bursa",
+        "CorrectAnswer": "AnswerThree"
+      },
+      {
+        "QuestionString": "Mehmet ne iş yapıyor?",
+        "ListeningSentence": "Mehmet bir öğretmen.",
+        "AnswerOne": "Doktor",
+        "AnswerTwo": "Öğrenci",
+        "AnswerThree": "Mühendis",
+        "AnswerFour": "Öğretmen",
+        "CorrectAnswer": "AnswerFour"
+      },
+      {
+        "QuestionString": "Ali kaç yaşında?",
+        "ListeningSentence": "Ali yirmi yaşında.",
+        "AnswerOne": "18",
+        "AnswerTwo": "19",
+        "AnswerThree": "20",
+        "AnswerFour": "21",
+        "CorrectAnswer": "AnswerThree"
+      },
+      {
+        "QuestionString": "Bugün hava nasıl?",
+        "ListeningSentence": "Bugün hava yağmurlu.",
+        "AnswerOne": "Güneşli",
+        "AnswerTwo": "Rüzgarlı",
+        "AnswerThree": "Soğuk",
+        "AnswerFour": "Yağmurlu",
+        "CorrectAnswer": "AnswerFour"
+      },
+      {
+        "QuestionString": "Elif sabah ne yaptı?",
+        "ListeningSentence": "Elif sabah kahvaltı yaptı.",
+        "AnswerOne": "Uyudu",
+        "AnswerTwo": "Kahvaltı yaptı",
+        "AnswerThree": "Spor yaptı",
+        "AnswerFour": "Kitap okudu",
+        "CorrectAnswer": "AnswerTwo"
+      }
+    ]
+  },
+  {
+    "Order": 2,
+    "Level": 0,
+    "Content": "A1 Turkish Listening Lesson 2",
+    "Questions": [
+      {
+        "QuestionString": "Babam nerede çalışıyor?",
+        "ListeningSentence": "Babam bir bankada çalışıyor.",
+        "AnswerOne": "Okulda",
+        "AnswerTwo": "Market",
+        "AnswerThree": "Banka",
+        "AnswerFour": "Restoran",
+        "CorrectAnswer": "AnswerThree"
+      },
+      {
+        "QuestionString": "Cem ne alıyor?",
+        "ListeningSentence": "Cem pazardan domates alıyor.",
+        "AnswerOne": "Elma",
+        "AnswerTwo": "Salatalık",
+        "AnswerThree": "Domates",
+        "AnswerFour": "Soğan",
+        "CorrectAnswer": "AnswerThree"
+      },
+      {
+        "QuestionString": "Annem ne pişiriyor?",
+        "ListeningSentence": "Annem çorba pişiriyor.",
+        "AnswerOne": "Köfte",
+        "AnswerTwo": "Pilav",
+        "AnswerThree": "Çorba",
+        "AnswerFour": "Makarna",
+        "CorrectAnswer": "AnswerThree"
+      },
+      {
+        "QuestionString": "Çocuk ne ile oynuyor?",
+        "ListeningSentence": "Çocuk bir top ile oynuyor.",
+        "AnswerOne": "Top",
+        "AnswerTwo": "Oyuncak araba",
+        "AnswerThree": "Kedi",
+        "AnswerFour": "Kum",
+        "CorrectAnswer": "AnswerOne"
+      },
+      {
+        "QuestionString": "Bugün hangi gün?",
+        "ListeningSentence": "Bugün cuma.",
+        "AnswerOne": "Pazartesi",
+        "AnswerTwo": "Salı",
+        "AnswerThree": "Cuma",
+        "AnswerFour": "Pazar",
+        "CorrectAnswer": "AnswerThree"
+      }
+    ]
+  },
+  {
+    "Order": 3,
+    "Level": 0,
+    "Content": "A1 Turkish Listening Lesson 3",
+    "Questions": [
+      {
+        "QuestionString": "Ali ne yiyor?",
+        "ListeningSentence": "Ali bir elma yiyor.",
+        "AnswerOne": "Armut",
+        "AnswerTwo": "Elma",
+        "AnswerThree": "Muz",
+        "AnswerFour": "Karpuz",
+        "CorrectAnswer": "AnswerTwo"
+      },
+      {
+        "QuestionString": "Ayşe nereye gidiyor?",
+        "ListeningSentence": "Ayşe okula gidiyor.",
+        "AnswerOne": "Markete",
+        "AnswerTwo": "Sinema",
+        "AnswerThree": "Okula",
+        "AnswerFour": "Park",
+        "CorrectAnswer": "AnswerThree"
+      },
+      {
+        "QuestionString": "Bugün hava nasıl?",
+        "ListeningSentence": "Bugün hava güneşli.",
+        "AnswerOne": "Yağmurlu",
+        "AnswerTwo": "Bulutlu",
+        "AnswerThree": "Güneşli",
+        "AnswerFour": "Karlı",
+        "CorrectAnswer": "AnswerThree"
+      },
+      {
+        "QuestionString": "Öğretmen ne yapıyor?",
+        "ListeningSentence": "Öğretmen tahtaya yazı yazıyor.",
+        "AnswerOne": "Ders anlatıyor",
+        "AnswerTwo": "Yazı yazıyor",
+        "AnswerThree": "Okuyor",
+        "AnswerFour": "Resim yapıyor",
+        "CorrectAnswer": "AnswerTwo"
+      },
+      {
+        "QuestionString": "Fatma ne içiyor?",
+        "ListeningSentence": "Fatma süt içiyor.",
+        "AnswerOne": "Çay",
+        "AnswerTwo": "Su",
+        "AnswerThree": "Süt",
+        "AnswerFour": "Kahve",
+        "CorrectAnswer": "AnswerThree"
+      }
+    ]
+  },
+  {
+    "Order": 4,
+    "Level": 0,
+    "Content": "A1 Turkish Listening Lesson 4",
+    "Questions": [
+      {
+        "QuestionString": "Bugün hangi ay?",
+        "ListeningSentence": "Bugün mart ayı.",
+        "AnswerOne": "Ocak",
+        "AnswerTwo": "Şubat",
+        "AnswerThree": "Mart",
+        "AnswerFour": "Nisan",
+        "CorrectAnswer": "AnswerThree"
+      },
+      {
+        "QuestionString": "Ahmet nereye oturuyor?",
+        "ListeningSentence": "Ahmet Ankara’da oturuyor.",
+        "AnswerOne": "İstanbul",
+        "AnswerTwo": "İzmir",
+        "AnswerThree": "Ankara",
+        "AnswerFour": "Bursa",
+        "CorrectAnswer": "AnswerThree"
+      },
+      {
+        "QuestionString": "Annesi ne satın aldı?",
+        "ListeningSentence": "Annesi ekmek satın aldı.",
+        "AnswerOne": "Süt",
+        "AnswerTwo": "Yumurta",
+        "AnswerThree": "Ekmek",
+        "AnswerFour": "Peynir",
+        "CorrectAnswer": "AnswerThree"
+      },
+      {
+        "QuestionString": "Babası ne izliyor?",
+        "ListeningSentence": "Babası haberleri izliyor.",
+        "AnswerOne": "Film",
+        "AnswerTwo": "Haber",
+        "AnswerThree": "Belgesel",
+        "AnswerFour": "Dizi",
+        "CorrectAnswer": "AnswerTwo"
+      },
+      {
+        "QuestionString": "Kardeşi ne yapıyor?",
+        "ListeningSentence": "Kardeşi kitap okuyor.",
+        "AnswerOne": "Oyun oynuyor",
+        "AnswerTwo": "Uyuyor",
+        "AnswerThree": "Kitap okuyor",
+        "AnswerFour": "Ders çalışıyor",
+        "CorrectAnswer": "AnswerThree"
+      }
+    ]
+  },
+  {
+    "Order": 5,
+    "Level": 0,
+    "Content": "A1 Turkish Listening Lesson 5",
+    "Questions": [
+      {
+        "QuestionString": "Okul ne zaman başlıyor?",
+        "ListeningSentence": "Okul pazartesi günü başlıyor.",
+        "AnswerOne": "Salı",
+        "AnswerTwo": "Pazartesi",
+        "AnswerThree": "Çarşamba",
+        "AnswerFour": "Perşembe",
+        "CorrectAnswer": "AnswerTwo"
+      },
+      {
+        "QuestionString": "Çocuklar nerede oynuyor?",
+        "ListeningSentence": "Çocuklar parkta oynuyor.",
+        "AnswerOne": "Evde",
+        "AnswerTwo": "Okulda",
+        "AnswerThree": "Parkta",
+        "AnswerFour": "Bahçede",
+        "CorrectAnswer": "AnswerThree"
+      },
+      {
+        "QuestionString": "Ayşe ne okuyor?",
+        "ListeningSentence": "Ayşe bir hikaye kitabı okuyor.",
+        "AnswerOne": "Gazete",
+        "AnswerTwo": "Roman",
+        "AnswerThree": "Hikaye",
+        "AnswerFour": "Dergi",
+        "CorrectAnswer": "AnswerThree"
+      },
+      {
+        "QuestionString": "Köpek ne yapıyor?",
+        "ListeningSentence": "Köpek havlıyor.",
+        "AnswerOne": "Yiyor",
+        "AnswerTwo": "Uyuyor",
+        "AnswerThree": "Havlıyor",
+        "AnswerFour": "Koşuyor",
+        "CorrectAnswer": "AnswerThree"
+      },
+      {
+        "QuestionString": "Sabah ne yedin?",
+        "ListeningSentence": "Sabah peynirli tost yedim.",
+        "AnswerOne": "Zeytin",
+        "AnswerTwo": "Yumurta",
+        "AnswerThree": "Tost",
+        "AnswerFour": "Mısır gevreği",
+        "CorrectAnswer": "AnswerThree"
+      }
+    ]
+  }
+]
+

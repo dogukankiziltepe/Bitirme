@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Order": 21,
+    "Content": "C1 Turkish Speaking Lesson 1",
+    "Questions": [
+      { "ListeningSentence": "Küresel ısınmanın etkilerini azaltmak için alınacak önlemlerin ekonomik büyümeyi yavaşlatacağı iddiasına katılmıyorum çünkü yeşil teknolojilerin yeni istihdam alanları yaratma potansiyeli olduğunu düşünüyorum." },
+      { "ListeningSentence": "Dijitalleşmenin finans sektöründe yarattığı dönüşümün, geleneksel bankacılık hizmetlerinin tamamen ortadan kalkmasına yol açmayacağını, ancak hizmet sunum modellerini kökten değiştireceğini öngörüyorum." },
+      { "ListeningSentence": "Kentsel dönüşüm projelerinin sadece fiziksel iyileştirmelerle sınırlı kalmayıp sosyal dokuyu da göz önünde bulundurması gerektiğini, aksi takdirde toplumsal sorunların çözülemeyeceğini savunuyorum." },
+      { "ListeningSentence": "Üniversitelerde verilen eğitimin iş dünyasının ihtiyaçlarına cevap vermekte yetersiz kaldığını gözlemlediğim için, akademi ile endüstri arasındaki işbirliğinin artırılması gerektiğine inanıyorum." },
+      { "ListeningSentence": "Yapay zeka etiği konusunda evrensel standartlar oluşturulmasının gerekli olduğunu, çünkü teknolojik gelişmelerin insan hakları ve mahremiyet üzerinde ciddi etkileri olabileceğini düşünüyorum." }
+    ]
+  },
+  {
+    "Order": 22,
+    "Content": "C1 Turkish Speaking Lesson 2",
+    "Questions": [
+      { "ListeningSentence": "Pandemi sonrası dönemde çalışma kültüründeki değişimlerin kalıcı olacağını öngörüyorum çünkü birçok şirket uzaktan çalışmanın verimliliği artırdığını ve maliyetleri düşürdüğünü fark etti." },
+      { "ListeningSentence": "Sürdürülebilir tarım uygulamalarının yaygınlaşması için devlet teşviklerinin yanı sıra tüketici bilincinin de artırılması gerektiğini düşünüyorum." },
+      { "ListeningSentence": "Bilgi teknolojilerindeki gelişmelerin eğitim sistemini dönüştürme potansiyeli olduğunu ancak bu süreçte öğretmenlerin rolünün azalmayacağını, sadece değişeceğini savunuyorum." },
+      { "ListeningSentence": "Kültürel diplomasinin uluslararası ilişkilerde giderek daha önemli hale geldiğini gözlemliyorum çünkü yumuşak güç unsurları küresel rekabette belirleyici oluyor." },
+      { "ListeningSentence": "Döngüsel ekonomi modelinin geleneksel doğrusal ekonomiye göre çevresel sürdürülebilirlik açısından çok daha avantajlı olduğunu ve işletmelerin bu modele geçiş yapması gerektiğini düşünüyorum." }
+    ]
+  },
+  {
+    "Order": 23,
+    "Content": "C1 Turkish Speaking Lesson 3",
+    "Questions": [
+      { "ListeningSentence": "Veri gizliliği yasalarının teknolojik gelişmelerin gerisinde kaldığını ve bu durumun bireylerin temel haklarını tehdit ettiğini savunuyorum." },
+      { "ListeningSentence": "Akıllı şehir uygulamalarının sadece teknolojik altyapıyla sınırlı kalmayıp vatandaş katılımını da içermesi gerektiğini, aksi takdirde beklenen faydaların sağlanamayacağını düşünüyorum." },
+      { "ListeningSentence": "İş dünyasında çeşitlilik ve kapsayıcılığın sadece etik bir gereklilik olmadığını, aynı zamanda şirket performansını da olumlu etkilediğini gösteren araştırmalar olduğunu biliyorum." },
+      { "ListeningSentence": "Girişimcilik ekosisteminin gelişmesi için risk sermayesi yatırımlarının artırılması kadar, mentorluk sistemlerinin de yaygınlaştırılması gerektiğine inanıyorum." },
+      { "ListeningSentence": "İklim göçünün önümüzdeki yıllarda uluslararası politikada en önemli konulardan biri haline geleceğini öngörüyorum çünkü birçok bölgede yaşam koşulları giderek zorlaşıyor." }
+    ]
+  },
+  {
+    "Order": 24,
+    "Content": "C1 Turkish Speaking Lesson 4",
+    "Questions": [
+      { "ListeningSentence": "Dijital çağda mahremiyet kavramının yeniden tanımlanması gerektiğini çünkü kişisel verilerin korunmasının temel bir insan hakkı haline geldiğini savunuyorum." },
+      { "ListeningSentence": "Yapay zeka destekli karar alma mekanizmalarında şeffaflık ve hesap verebilirlik ilkelerinin gözetilmesi gerektiğini, aksi takdirde toplumsal güvenin zedelenebileceğini düşünüyorum." },
+      { "ListeningSentence": "Küresel tedarik zincirlerindeki kırılganlıkların pandemi sürecinde ortaya çıktığını ve şirketlerin artık daha esnek ve yerel çözümlere yöneldiğini gözlemliyorum." },
+      { "ListeningSentence": "Eğitimde fırsat eşitliğini sağlamak için dijital uçurumun kapatılmasının şart olduğunu, çünkü teknolojiye erişimin eğitimde başarıyı doğrudan etkilediğini biliyorum." },
+      { "ListeningSentence": "Sürdürülebilir moda anlayışının giderek yaygınlaşmasının tüketici davranışlarındaki değişimle doğrudan ilişkili olduğunu ve bu trendin kalıcı olacağını öngörüyorum." }
+    ]
+  },
+  {
+    "Order": 25,
+    "Content": "C1 Turkish Speaking Lesson 5",
+    "Questions": [
+      { "ListeningSentence": "Metaverse teknolojilerinin sosyal etkileşimleri kökten değiştirme potansiyeli olduğunu ancak bu süreçte psikolojik ve sosyolojik etkilerin iyi analiz edilmesi gerektiğini düşünüyorum." },
+      { "ListeningSentence": "Enerji dönüşüm sürecinde fosil yakıtlardan tamamen vazgeçmenin ekonomik maliyetlerinin, uzun vadede iklim değişikliğinin yaratacağı maliyetlerden daha az olacağını savunuyorum." },
+      { "ListeningSentence": "Çalışan refahı odaklı insan kaynakları politikalarının şirketlerin marka değerini artırdığını ve yetenekli çalışanları çekmede rekabet avantajı sağladığını gözlemliyorum." },
+      { "ListeningSentence": "Kültür endüstrisinin ekonomik kalkınmada giderek daha önemli bir rol oynadığını ve yaratıcı endüstrilere yapılan yatırımların uzun vadede önemli getiriler sağlayacağını öngörüyorum." },
+      { "ListeningSentence": "Dijital platformların içerik denetim mekanizmalarının ifade özgürlüğü ile nefret söylemi arasında hassas bir denge kurması gerektiğini, bu konuda evrensel standartlar oluşturulmasının zorunlu olduğunu savunuyorum." }
+    ]
+  }
+]

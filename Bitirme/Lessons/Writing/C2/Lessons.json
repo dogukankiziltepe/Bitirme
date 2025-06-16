@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Order": 26,
+    "Content": "C2 Turkish Writing Lesson 1",
+    "Questions": [
+      { "ListeningSentence": "Quantum entanglement challenges classical notions of locality and causality in physics." },
+      { "ListeningSentence": "The holographic principle suggests that information about a volume of space might be encoded on its boundary." },
+      { "ListeningSentence": "Epistemic injustice examines how knowledge systems can marginalize certain groups in society." },
+      { "ListeningSentence": "The technological singularity hypothesis posits an intelligence explosion with unpredictable consequences." },
+      { "ListeningSentence": "Neurophilosophy bridges the gap between neuroscience and traditional philosophical questions about consciousness." }
+    ]
+  },
+  {
+    "Order": 27,
+    "Content": "C2 Turkish Writing Lesson 2",
+    "Questions": [
+      { "ListeningSentence": "The hard problem of consciousness addresses why and how physical processes give rise to subjective experience." },
+      { "ListeningSentence": "Posthumanist theory challenges anthropocentric perspectives in ethics and philosophy." },
+      { "ListeningSentence": "The Fermi paradox highlights the apparent contradiction between the high probability of extraterrestrial life and our lack of evidence." },
+      { "ListeningSentence": "Topological quantum computing utilizes anyons to create fault-tolerant qubits." },
+      { "ListeningSentence": "The simulation hypothesis proposes that reality might be an artificial simulation." }
+    ]
+  },
+  {
+    "Order": 28,
+    "Content": "C2 Turkish Writing Lesson 3",
+    "Questions": [
+      { "ListeningSentence": "The measurement problem in quantum mechanics questions the role of observation in wavefunction collapse." },
+      { "ListeningSentence": "Ontological engineering develops formal representations of knowledge for artificial intelligence systems." },
+      { "ListeningSentence": "The extended mind thesis argues that cognition extends beyond the brain into the environment." },
+      { "ListeningSentence": "Biosemiotics explores sign processes and communication in living systems." },
+      { "ListeningSentence": "The multiverse interpretation suggests our universe may be one of many parallel universes." }
+    ]
+  },
+  {
+    "Order": 29,
+    "Content": "C2 Turkish Writing Lesson 4",
+    "Questions": [
+      { "ListeningSentence": "The black hole information paradox questions whether information is lost when matter enters a black hole." },
+      { "ListeningSentence": "Temporal logic provides formal systems for reasoning about propositions qualified in terms of time." },
+      { "ListeningSentence": "The Chinese room thought experiment challenges claims of strong artificial intelligence." },
+      { "ListeningSentence": "Quantum decoherence explains the transition from quantum to classical behavior in systems." },
+      { "ListeningSentence": "The hard problem of consciousness remains unresolved in philosophy of mind." }
+    ]
+  },
+  {
+    "Order": 30,
+    "Content": "C2 Turkish Writing Lesson 5",
+    "Questions": [
+      { "ListeningSentence": "The holographic universe theory suggests the universe may be a two-dimensional information structure." },
+      { "ListeningSentence": "Neuroethics examines the ethical implications of neuroscience research and applications." },
+      { "ListeningSentence": "The Boltzmann brain paradox questions the nature of consciousness and reality." },
+      { "ListeningSentence": "Quantum gravity theories attempt to reconcile general relativity with quantum mechanics." },
+      { "ListeningSentence": "The simulation argument presents a probabilistic case that we might be living in a simulation." }
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Order": 11,
+    "Content": "B1 Turkish Speaking Lesson 1",
+    "Questions": [
+      { "ListeningSentence": "Üniversitede mühendislik okuyorum ancak aslında sanatla ilgilenmeyi daha çok seviyorum." },
+      { "ListeningSentence": "Geçen sene yurtdışına seyahat etme fırsatım olduğunda kültürel farklılıkları gözlemlemek beni çok şaşırttı." },
+      { "ListeningSentence": "Eğer hava güzel olursa bu hafta sonu şehir dışına çıkmayı planlıyorum." },
+      { "ListeningSentence": "Yeni bir hobi edinmeye karar verdim çünkü rutin hayatım beni sıkmaya başlamıştı." },
+      { "ListeningSentence": "Çocukken yüzmeyi öğrenmek benim için çok zor olmuştu çünkü sudan korkuyordum." }
+    ]
+  },
+  {
+    "Order": 12,
+    "Content": "B1 Turkish Speaking Lesson 2",
+    "Questions": [
+      { "ListeningSentence": "Bir dil öğrenirken pratik yapmanın en önemli faktör olduğunu düşünüyorum." },
+      { "ListeningSentence": "Şehir hayatının avantajları olduğu kadar dezavantajları da var örneğin trafik ve gürültü en büyük sorunlar." },
+      { "ListeningSentence": "Eğer daha fazla zamanım olsaydı kendimi geliştirmek için daha fazla kitap okurdum." },
+      { "ListeningSentence": "Gelecekte kendi işimi kurmak istiyorum çünkü başkaları için çalışmaktan hoşlanmıyorum." },
+      { "ListeningSentence": "İlk defa yalnız yaşamaya başladığımda her şeyi kendim yapmak zorunda olduğumu fark ettim." }
+    ]
+  },
+  {
+    "Order": 13,
+    "Content": "B1 Turkish Speaking Lesson 3",
+    "Questions": [
+      { "ListeningSentence": "Teknoloji bağımlılığının günümüzde giderek arttığını düşünüyorum çünkü herkes elinden telefonunu düşürmüyor." },
+      { "ListeningSentence": "Bir şehri gerçekten tanımak istiyorsanız müzelerini gezmeli ve yerel yemeklerini tatmalısınız." },
+      { "ListeningSentence": "İş görüşmesine giderken çok heyecanlanmıştım ancak görüşme başladıktan sonra rahatladım." },
+      { "ListeningSentence": "Çevre kirliliği konusunda endişeliyim bu nedenle geri dönüşüme dikkat ediyorum." },
+      { "ListeningSentence": "Eğer daha erken kalkabilseydim sabah sporumu düzenli yapabilirdim ama maalesef uyanamıyorum." }
+    ]
+  },
+  {
+    "Order": 14,
+    "Content": "B1 Turkish Speaking Lesson 4",
+    "Questions": [
+      { "ListeningSentence": "İnsanların sosyal medyada çok fazla vakit geçirdiğini fark ettim, bu yüzden ben de kullanımımı sınırlamaya çalışıyorum." },
+      { "ListeningSentence": "Yemek yaparken tarifleri tam olarak takip etmem çünkü kendi yaratıcılığımı kullanmayı tercih ediyorum." },
+      { "ListeningSentence": "Bir ülkenin kalkınmasında eğitimin en önemli faktör olduğuna inanıyorum." },
+      { "ListeningSentence": "Gençken risk almayı severdim ama şimdi daha temkinli davranıyorum." },
+      { "ListeningSentence": "Eğer daha fazla param olsaydı dünyayı gezmek isterdim çünkü farklı kültürleri görmek insanın ufkunu genişletiyor." }
+    ]
+  },
+  {
+    "Order": 15,
+    "Content": "B1 Turkish Speaking Lesson 5",
+    "Questions": [
+      { "ListeningSentence": "Stresle başa çıkmak için yoga yapmaya başladım ve gerçekten çok faydasını gördüm." },
+      { "ListeningSentence": "Bir dili iyi öğrenmek için o dilde düşünmeye başlamak gerektiğini düşünüyorum." },
+      { "ListeningSentence": "İş değiştirmek kolay bir karar değil çünkü birçok faktörü dikkate almak gerekiyor." },
+      { "ListeningSentence": "Çocuk yetiştirirken sabırlı olmak gerekiyor aksi takdirde iletişim sorunları yaşanabiliyor." },
+      { "ListeningSentence": "Hayatımda yaptığım en iyi karar üniversite eğitimi almaya karar vermek olmuştu." }
+    ]
+  }
+]

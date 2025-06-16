@@ -15,7 +15,7 @@ namespace Bitirme.BLL.Models
         public string? AnswerThree { get; set; }
         public string? AnswerFour { get; set; }
         public string CorrectAnswer { get; set; }
-        public string? QuestionMediaId { get; set; }
+        public string? QuestionMediaId { get; set; }    
         public MediaViewModel? QuestionMedia { get; set; }
         public string? ListeningSentence { get; set; }
     }

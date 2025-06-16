@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Order": 1,
+    "Content": "A1 Turkish Writing Lesson 1",
+    "Questions": [
+      { "ListeningSentence": "My name is John. I am 25 years old." },
+      { "ListeningSentence": "I wake up at 7 o'clock every morning." },
+      { "ListeningSentence": "This is my blue pen." },
+      { "ListeningSentence": "The weather is very nice today." },
+      { "ListeningSentence": "I bought tomatoes from the market." }
+    ]
+  },
+  {
+    "Order": 2,
+    "Content": "A1 Turkish Writing Lesson 2",
+    "Questions": [
+      { "ListeningSentence": "I live in a big city with my family." },
+      { "ListeningSentence": "My favorite color is green." },
+      { "ListeningSentence": "I eat breakfast at 8 am every day." },
+      { "ListeningSentence": "This is my sister's book." },
+      { "ListeningSentence": "I go to school by bus." }
+    ]
+  },
+  {
+    "Order": 3,
+    "Content": "A1 Turkish Writing Lesson 3",
+    "Questions": [
+      { "ListeningSentence": "I have one brother and two sisters." },
+      { "ListeningSentence": "My dog is small and very cute." },
+      { "ListeningSentence": "I drink coffee in the morning." },
+      { "ListeningSentence": "The store is near my house." },
+      { "ListeningSentence": "Today is Monday." }
+    ]
+  },
+  {
+    "Order": 4,
+    "Content": "A1 Turkish Writing Lesson 4",
+    "Questions": [
+      { "ListeningSentence": "I like to watch TV in the evening." },
+      { "ListeningSentence": "My bag is heavy because I have many books." },
+      { "ListeningSentence": "I want to buy new shoes." },
+      { "ListeningSentence": "The restaurant is closed today." },
+      { "ListeningSentence": "I can speak two languages." }
+    ]
+  },
+  {
+    "Order": 5,
+    "Content": "A1 Turkish Writing Lesson 5",
+    "Questions": [
+      { "ListeningSentence": "I don't like cold weather." },
+      { "ListeningSentence": "My father is a teacher." },
+      { "ListeningSentence": "I have Turkish class on Wednesdays." },
+      { "ListeningSentence": "This is my first time here." },
+      { "ListeningSentence": "I need to call my friend." }
+    ]
+  }
+]

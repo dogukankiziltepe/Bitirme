@@ -1,0 +1,257 @@
+﻿[
+  {
+    "Order": 11,
+    "Content": "B1 Turkish Listening Lesson 1",
+    "Questions": [
+      {
+        "QuestionString": "Projeyi neden ertelemek zorunda kaldılar?",
+        "ListeningSentence": "Ana sponsordan yeterli desteği alamadıkları için projeyi ertelemek zorunda kaldılar.",
+        "AnswerOne": "Yeterli personel olmadığı için",
+        "AnswerTwo": "Sponsor desteği alamadıkları için",
+        "AnswerThree": "Maliyetler arttığı için",
+        "AnswerFour": "Zaman yönetimi problemi olduğu için",
+        "CorrectAnswer": "Sponsor desteği alamadıkları için"
+      },
+      {
+        "QuestionString": "Yeni politikaya göre ne değişti?",
+        "ListeningSentence": "Yeni politikaya göre çalışanlar artık haftada iki gün evden çalışabilecek.",
+        "AnswerOne": "Çalışma saatleri azaldı",
+        "AnswerTwo": "Ücretler arttı",
+        "AnswerThree": "Haftada iki gün evden çalışma hakkı",
+        "AnswerFour": "Fazla mesai yasaklandı",
+        "CorrectAnswer": "Haftada iki gün evden çalışma hakkı"
+      },
+      {
+        "QuestionString": "Festivalde hangi tür müzikler çalınacak?",
+        "ListeningSentence": "Festivalde hem geleneksel Türk müziği hem de çağdaş dünya müziği performansları olacak.",
+        "AnswerOne": "Sadece pop müzik",
+        "AnswerTwo": "Geleneksel ve çağdaş müzik",
+        "AnswerThree": "Sadece rock",
+        "AnswerFour": "Klasik müzik ağırlıklı",
+        "CorrectAnswer": "Geleneksel ve çağdaş müzik"
+      },
+      {
+        "QuestionString": "Yazarın son kitabının konusu ne?",
+        "ListeningSentence": "Yazarın son kitabı, modern kent yaşamında yalnızlık temasını işliyor.",
+        "AnswerOne": "Tarihi bir roman",
+        "AnswerTwo": "Kent yaşamında yalnızlık",
+        "AnswerThree": "Bilim kurgu",
+        "AnswerFour": "Polisiye",
+        "CorrectAnswer": "Kent yaşamında yalnızlık"
+      },
+      {
+        "QuestionString": "Toplantıda hangi karar alındı?",
+        "ListeningSentence": "Toplantıda yeni ofis için İzmir'in seçildiği açıklandı.",
+        "AnswerOne": "Personel sayısı artırılacak",
+        "AnswerTwo": "Yeni ofis İzmir'de olacak",
+        "AnswerThree": "Yeni proje iptal edildi",
+        "AnswerFour": "Şirket birleşmesi onaylandı",
+        "CorrectAnswer": "Yeni ofis İzmir'de olacak"
+      }
+    ]
+  },
+  {
+    "Order": 12,
+    "Content": "B1 Turkish Listening Lesson 2",
+    "Questions": [
+      {
+        "QuestionString": "Habere göre neden trafik kazası yaşanmış?",
+        "ListeningSentence": "Habere göre aşırı yağış nedeniyle yolda oluşan buzlanma trafik kazasına neden olmuş.",
+        "AnswerOne": "Aşırı hız",
+        "AnswerTwo": "Alkol kullanımı",
+        "AnswerThree": "Buzlanma",
+        "AnswerFour": "Araç arızası",
+        "CorrectAnswer": "Buzlanma"
+      },
+      {
+        "QuestionString": "Seminerin ana teması neydi?",
+        "ListeningSentence": "Seminerde dijital dönüşümün iş dünyasına etkileri ele alındı.",
+        "AnswerOne": "Yapay zeka",
+        "AnswerTwo": "Dijital dönüşümün etkileri",
+        "AnswerThree": "Finansal piyasalar",
+        "AnswerFour": "İnsan kaynakları yönetimi",
+        "CorrectAnswer": "Dijital dönüşümün etkileri"
+      },
+      {
+        "QuestionString": "Yeni açılan sergi nerede?",
+        "ListeningSentence": "Sanatçının retrospektif sergisi İstanbul Modern'de açıldı.",
+        "AnswerOne": "Pera Müzesi",
+        "AnswerTwo": "İstanbul Modern",
+        "AnswerThree": "Sakıp Sabancı Müzesi",
+        "AnswerFour": "Rahmi Koç Müzesi",
+        "CorrectAnswer": "İstanbul Modern"
+      },
+      {
+        "QuestionString": "Röportajda sanatçı neyi vurguladı?",
+        "ListeningSentence": "Röportajda sanatçı, ilhamının çocukluk anılarından geldiğini vurguladı.",
+        "AnswerOne": "Eğitiminin önemini",
+        "AnswerTwo": "Çocukluk anılarından ilham aldığını",
+        "AnswerThree": "Teknik becerilerini",
+        "AnswerFour": "Sanat eleştirmenlerini",
+        "CorrectAnswer": "Çocukluk anılarından ilham aldığını"
+      },
+      {
+        "QuestionString": "Belediyenin yeni projesi ne?",
+        "ListeningSentence": "Belediye, şehir merkezine bisiklet yolları yapmayı planlıyor.",
+        "AnswerOne": "Yeni metro hattı",
+        "AnswerTwo": "Bisiklet yolları",
+        "AnswerThree": "Yeşil alanlar",
+        "AnswerFour": "Kültür merkezi",
+        "CorrectAnswer": "Bisiklet yolları"
+      }
+    ]
+  },
+  {
+    "Order": 13,
+    "Content": "B1 Turkish Listening Lesson 3",
+    "Questions": [
+      {
+        "QuestionString": "Doktor hastasına ne önerdi?",
+        "ListeningSentence": "Doktor, düzenli egzersiz yapmasını ve beslenme alışkanlıklarını değiştirmesini önerdi.",
+        "AnswerOne": "İlaç kullanmasını",
+        "AnswerTwo": "Ameliyat olmasını",
+        "AnswerThree": "Egzersiz ve beslenme değişikliği",
+        "AnswerFour": "Tatile çıkmasını",
+        "CorrectAnswer": "Egzersiz ve beslenme değişikliği"
+      },
+      {
+        "QuestionString": "Şirket neden yeni bir sistem kuruyor?",
+        "ListeningSentence": "Müşteri şikayetlerini azaltmak ve hizmet kalitesini artırmak için yeni bir sistem kuruyorlar.",
+        "AnswerOne": "Maliyetleri düşürmek için",
+        "AnswerTwo": "Müşteri şikayetlerini azaltmak için",
+        "AnswerThree": "Personel sayısını azaltmak için",
+        "AnswerFour": "Rekabete ayak uydurmak için",
+        "CorrectAnswer": "Müşteri şikayetlerini azaltmak için"
+      },
+      {
+        "QuestionString": "Yarışmada birinci olan proje ne hakkındaydı?",
+        "ListeningSentence": "Yarışmada birinci olan proje, engelliler için erişilebilir şehir tasarımı hakkındaydı.",
+        "AnswerOne": "Enerji tasarrufu",
+        "AnswerTwo": "Erişilebilir şehir tasarımı",
+        "AnswerThree": "Akıllı binalar",
+        "AnswerFour": "Atık yönetimi",
+        "CorrectAnswer": "Erişilebilir şehir tasarımı"
+      },
+      {
+        "QuestionString": "Konuşmacıya göre başarının sırrı ne?",
+        "ListeningSentence": "Konuşmacı, sürekli öğrenme ve uyum sağlama yeteneğinin başarının sırrı olduğunu söyledi.",
+        "AnswerOne": "Şans",
+        "AnswerTwo": "Sürekli öğrenme ve uyum",
+        "AnswerThree": "Sert çalışma",
+        "AnswerFour": "İyi ilişkiler",
+        "CorrectAnswer": "Sürekli öğrenme ve uyum"
+      },
+      {
+        "QuestionString": "Yeni kanun neyi düzenliyor?",
+        "ListeningSentence": "Yeni kanun, gıda ürünlerindeki katkı maddelerinin kullanımını sınırlandırıyor.",
+        "AnswerOne": "Çalışma saatlerini",
+        "AnswerTwo": "Katkı maddelerini",
+        "AnswerThree": "Vergi oranlarını",
+        "AnswerFour": "İnşaat standartlarını",
+        "CorrectAnswer": "Katkı maddelerini"
+      }
+    ]
+  },
+  {
+    "Order": 14,
+    "Content": "B1 Turkish Listening Lesson 4",
+    "Questions": [
+      {
+        "QuestionString": "Haber bülteninde hangi konu ele alındı?",
+        "ListeningSentence": "Haber bülteninde genç işsizliğinin artması ve bunun sosyal etkileri ele alındı.",
+        "AnswerOne": "Ekonomik büyüme",
+        "AnswerTwo": "Genç işsizliği ve etkileri",
+        "AnswerThree": "Eğitim reformu",
+        "AnswerFour": "Teknolojik gelişmeler",
+        "CorrectAnswer": "Genç işsizliği ve etkileri"
+      },
+      {
+        "QuestionString": "Profesör hangi konuda uyarıda bulundu?",
+        "ListeningSentence": "Profesör, iklim değişikliğinin tarım üzerindeki olumsuz etkileri konusunda uyarıda bulundu.",
+        "AnswerOne": "Nüfus artışı",
+        "AnswerTwo": "İklim değişikliğinin tarıma etkisi",
+        "AnswerThree": "Su kirliliği",
+        "AnswerFour": "Enerji tüketimi",
+        "CorrectAnswer": "İklim değişikliğinin tarıma etkisi"
+      },
+      {
+        "QuestionString": "Yeni açılan tesis ne amaçla kuruldu?",
+        "ListeningSentence": "Yeni açılan tesis, geri dönüştürülebilir atıkların ayrıştırılması amacıyla kuruldu.",
+        "AnswerOne": "Enerji üretimi",
+        "AnswerTwo": "Atık ayrıştırma",
+        "AnswerThree": "Su arıtma",
+        "AnswerFour": "Tarımsal araştırma",
+        "CorrectAnswer": "Atık ayrıştırma"
+      },
+      {
+        "QuestionString": "Yazarın eleştirdiği konu ne?",
+        "ListeningSentence": "Yazar, modern toplumda insanların giderek daha fazla yalnızlaşmasını eleştirdi.",
+        "AnswerOne": "Teknoloji bağımlılığı",
+        "AnswerTwo": "Toplumsal yalnızlaşma",
+        "AnswerThree": "Eğitim sistemi",
+        "AnswerFour": "Siyasi partiler",
+        "CorrectAnswer": "Toplumsal yalnızlaşma"
+      },
+      {
+        "QuestionString": "Araştırma sonuçlarına göre ne tespit edildi?",
+        "ListeningSentence": "Araştırma sonuçlarına göre, düzenli kitap okuyan öğrencilerin sınav başarısı daha yüksek.",
+        "AnswerOne": "Kitap okuyanların başarısı daha yüksek",
+        "AnswerTwo": "Spor yapanların daha sağlıklı olduğu",
+        "AnswerThree": "Müzik dinlemenin konsantrasyonu artırdığı",
+        "AnswerFour": "Uykunun öğrenmeye etkisi",
+        "CorrectAnswer": "Kitap okuyanların başarısı daha yüksek"
+      }
+    ]
+  },
+  {
+    "Order": 15,
+    "Content": "B1 Turkish Listening Lesson 5",
+    "Questions": [
+      {
+        "QuestionString": "Panelde hangi konu tartışıldı?",
+        "ListeningSentence": "Panelde, yapay zekanın gelecekte iş dünyasında yaratacağı dönüşüm tartışıldı.",
+        "AnswerOne": "Yapay zekanın iş dünyasına etkisi",
+        "AnswerTwo": "Eğitimde teknoloji",
+        "AnswerThree": "Sosyal medyanın etkileri",
+        "AnswerFour": "Finansal krizler",
+        "CorrectAnswer": "Yapay zekanın iş dünyasına etkisi"
+      },
+      {
+        "QuestionString": "Belediye başkanının açıkladığı proje ne?",
+        "ListeningSentence": "Belediye başkanı, şehrin tarihi dokusunu korumak amacıyla yeni bir restorasyon projesi başlatacaklarını açıkladı.",
+        "AnswerOne": "Yeni metro hattı",
+        "AnswerTwo": "Tarihi restorasyon projesi",
+        "AnswerThree": "Sosyal konutlar",
+        "AnswerFour": "Yeşil alan düzenlemesi",
+        "CorrectAnswer": "Tarihi restorasyon projesi"
+      },
+      {
+        "QuestionString": "Doktor hastalıkla ilgili ne söyledi?",
+        "ListeningSentence": "Doktor, hastalığın erken teşhis edilmesi durumunda tedavinin çok daha başarılı olacağını söyledi.",
+        "AnswerOne": "Bulaşıcı olduğunu",
+        "AnswerTwo": "Erken teşhisin önemini",
+        "AnswerThree": "Ameliyat gerektiğini",
+        "AnswerFour": "Kalıtsal olduğunu",
+        "CorrectAnswer": "Erken teşhisin önemini"
+      },
+      {
+        "QuestionString": "Yeni yasaya göre ne değişecek?",
+        "ListeningSentence": "Yeni yasaya göre, plastik poşetler marketlerde ücretli olarak satılacak.",
+        "AnswerOne": "Plastik poşetler ücretli olacak",
+        "AnswerTwo": "Geri dönüşüm zorunlu olacak",
+        "AnswerThree": "Atık cezaları artacak",
+        "AnswerFour": "Çevre denetimleri sıklaşacak",
+        "CorrectAnswer": "Plastik poşetler ücretli olacak"
+      },
+      {
+        "QuestionString": "Araştırmacı hangi sonuca ulaştı?",
+        "ListeningSentence": "Araştırmacı, sosyal medya kullanımının gençlerin uyku düzenini olumsuz etkilediği sonucuna ulaştı.",
+        "AnswerOne": "Sosyal medyanın uyku düzenine etkisi",
+        "AnswerTwo": "Egzersizin faydaları",
+        "AnswerThree": "Beslenmenin önemi",
+        "AnswerFour": "Stres yönetimi",
+        "CorrectAnswer": "Sosyal medyanın uyku düzenine etkisi"
+      }
+    ]
+  }
+]

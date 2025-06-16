@@ -172,17 +172,16 @@ namespace Bitirme
                         foreach (var file in jsonFiles)
                         {
                             string json = File.ReadAllText(file);
-                            var jsonLesson = JsonSerializer .Deserialize<JsonLesson>(json);
-
-                            if (jsonLesson != null)
-                            {
-                                var lesson = new Lesson
+                            var jsonLessons = JsonSerializer.Deserialize<List<JsonLesson>>(json);
+                                foreach (var jsonLesson in jsonLessons.Select((value, index) => new { value, index }))
                                 {
-                                    Order = jsonLesson.Order,
-                                    Content = jsonLesson.Content,
+                                    var lesson = new Lesson
+                                {
+                                    Order = jsonLesson.index + 1,
+                                    Content = jsonLesson.value.Content,
                                     Class = relatedClass,
                                     CreatedDate = DateTime.UtcNow,
-                                    LessonQuestions = jsonLesson.Questions.Select(q => new Question
+                                    LessonQuestions = jsonLesson.value.Questions.Select(q => new Question
                                     {
                                         ListeningSentence = q.ListeningSentence,
                                         QuestionString = q.QuestionString,

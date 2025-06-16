@@ -1,0 +1,257 @@
+﻿[
+  {
+    "Order": 11,
+    "Content": "C2 Turkish Reading Lesson 1",
+    "Questions": [
+      {
+        "QuestionString": "Metindeki 'palimpsest' metaforu nasıl yorumlanıyor?",
+        "ListeningSentence": "Kültürel belleği bir palimpsest gibi katmanlı okumak gerektiğini savunan yazar, tarihsel olayların üst üste yazıldığı ancak alt katmanların hiçbir zaman tamamen silinmediği bir metinsellik öne sürüyor.",
+        "AnswerOne": "Tek katmanlı tarih okuması",
+        "AnswerTwo": "Katmanlı kültürel bellek",
+        "AnswerThree": "Dijital arşivleme",
+        "AnswerFour": "Edebiyat eleştirisi",
+        "CorrectAnswer": "Katmanlı kültürel bellek"
+      },
+      {
+        "QuestionString": "'Ontolojik kaygı' kavramı metinde nasıl işleniyor?",
+        "ListeningSentence": "Varoluşsal sancıların günümüz tezahürü olan ontolojik kaygı, teknolojik determinizm çağında insanın anlam arayışındaki epistemik kırılmaları ifade ediyor.",
+        "AnswerOne": "Finansal endişeler",
+        "AnswerTwo": "Varoluşsal anlam krizi",
+        "AnswerThree": "Sağlık sorunları",
+        "AnswerFour": "Kariyer stresi",
+        "CorrectAnswer": "Varoluşsal anlam krizi"
+      },
+      {
+        "QuestionString": "Yazar 'semiyotik gerilla' ile neyi kastediyor?",
+        "ListeningSentence": "Egemen anlam sistemlerini altüst eden semiyotik gerilla taktikleri, reklam tabelalarını hack'lemekten sokak sanatına kadar uzanan bir direniş estetiği oluşturuyor.",
+        "AnswerOne": "Askeri strateji",
+        "AnswerTwo": "Anlam sistemlerine müdahale",
+        "AnswerThree": "Bilgisayar korsanlığı",
+        "AnswerFour": "Dil bilimi araştırması",
+        "CorrectAnswer": "Anlam sistemlerine müdahale"
+      },
+      {
+        "QuestionString": "'Heteroglossia' kavramı metinde nasıl açıklanıyor?",
+        "ListeningSentence": "Bakhtin'in heteroglossia teorisi, tek bir dil içindeki sosyal, bölgesel ve ideolojik çeşitliliğin yarattığı çoksesliliği edebi metinler üzerinden analiz eder.",
+        "AnswerOne": "Tekdüze dil kullanımı",
+        "AnswerTwo": "Dil içi çokseslilik",
+        "AnswerThree": "Yabancı dil etkileri",
+        "AnswerFour": "Dil bilgisi kuralları",
+        "CorrectAnswer": "Dil içi çokseslilik"
+      },
+      {
+        "QuestionString": "'Post-anıtsallık' dönemi nasıl tanımlanıyor?",
+        "ListeningSentence": "Post-anıtsallık çağında mimari, otoriter semboller yerine geçici enstalasyonlara, katılımcı tasarımlara ve akışkan formlara yönelerek demokratik bir ifade biçimi kazanıyor.",
+        "AnswerOne": "Heykel sanatının sonu",
+        "AnswerTwo": "Katılımcı mimari yaklaşım",
+        "AnswerThree": "Tarihi eser restorasyonu",
+        "AnswerFour": "Devlet propagandası",
+        "CorrectAnswer": "Katılımcı mimari yaklaşım"
+      }
+    ]
+  },
+  {
+    "Order": 12,
+    "Content": "C2 Turkish Reading Lesson 2",
+    "Questions": [
+      {
+        "QuestionString": "'Ekofobi' terimi metinde nasıl ele alınıyor?",
+        "ListeningSentence": "Ekofobi, insanın doğayla kurduğu ilişkideki patolojik kopuşu, ekolojik yıkım karşısında hissettiği çaresizlik ve suçluluk duygularının bileşimini ifade eden bir kavramdır.",
+        "AnswerOne": "Doğa korkusu",
+        "AnswerTwo": "Ekolojik travma",
+        "AnswerThree": "Hayvan fobisi",
+        "AnswerFour": "Bitki alerjisi",
+        "CorrectAnswer": "Ekolojik travma"
+      },
+      {
+        "QuestionString": "Metindeki 'hauntoloji' kavramı neyi açıklıyor?",
+        "ListeningSentence": "Derrida'nın hauntolojisi, geçmişin bitmemiş işlerinin şimdiki zamanı hayaletvari şekilde etkilemesi olgusunu, özellikle tarihsel adaletsizlikler bağlamında irdeler.",
+        "AnswerOne": "Hayalet inanışları",
+        "AnswerTwo": "Geçmişin şimdiki etkisi",
+        "AnswerThree": "Arkeolojik yöntemler",
+        "AnswerFour": "Dini eskatoloji",
+        "CorrectAnswer": "Geçmişin şimdiki etkisi"
+      },
+      {
+        "QuestionString": "'Koreografik düşünce' nasıl tanımlanıyor?",
+        "ListeningSentence": "Koreografik düşünce, felsefi kavramları mekânsal hareket metaforlarıyla açıklayan, beden-zihin ikiliğini aşan bir epistemolojik yaklaşımdır.",
+        "AnswerOne": "Dans teorisi",
+        "AnswerTwo": "Hareket temelli epistemoloji",
+        "AnswerThree": "Spor felsefesi",
+        "AnswerFour": "Mimari tasarım",
+        "CorrectAnswer": "Hareket temelli epistemoloji"
+      },
+      {
+        "QuestionString": "Yazar 'transhümanist ütopya'yı nasıl eleştiriyor?",
+        "ListeningSentence": "Transhümanist ütopyaların teknolojik determinizmle sınırlı kaldığını savunan yazar, insanın ontolojik sınırlarını aşma iddiasının yeni bir antropomerkezcilik biçimi ürettiğini iddia ediyor.",
+        "AnswerOne": "Bilimsel ilerleme eleştirisi",
+        "AnswerTwo": "Yeni antropomerkezcilik",
+        "AnswerThree": "Dini değerlerin yüceltilmesi",
+        "AnswerFour": "Teknolojik gerileme",
+        "CorrectAnswer": "Yeni antropomerkezcilik"
+      },
+      {
+        "QuestionString": "'Spekülatif realizm' akımının temel vurgusu nedir?",
+        "ListeningSentence": "Spekülatif realizm, insan merkezli bilgi sistemlerini reddederek insan algısından bağımsız var olan gerçekliğin spekülatif yöntemlerle kavranabileceğini öne sürer.",
+        "AnswerOne": "İnsan algısından bağımsız gerçeklik",
+        "AnswerTwo": "Finansal spekülasyonlar",
+        "AnswerThree": "Sanatsal gerçekçilik",
+        "AnswerFour": "Deneysel psikoloji",
+        "CorrectAnswer": "İnsan algısından bağımsız gerçeklik"
+      }
+    ]
+  },
+  {
+    "Order": 13,
+    "Content": "C2 Turkish Reading Lesson 3",
+    "Questions": [
+      {
+        "QuestionString": "'Afro-pesimizm' teorisinin temel argümanı nedir?",
+        "ListeningSentence": "Afro-pesimizm, modernitenin siyah bedenleri yapısal şiddet nesneleri olarak konumlandıran epistemik çerçevesinin radikal bir eleştirisini sunar.",
+        "AnswerOne": "Irkçı yapısal şiddet",
+        "AnswerTwo": "Afrika ekonomisi",
+        "AnswerThree": "Göçmen hakları",
+        "AnswerFour": "Kültürel miras",
+        "CorrectAnswer": "Irkçı yapısal şiddet"
+      },
+      {
+        "QuestionString": "Metindeki 'xenofeminizm' kavramı nasıl açıklanıyor?",
+        "ListeningSentence": "Xenofeminizm, teknolojiyi toplumsal cinsiyet normlarını yıkmak için radikal bir araç olarak kullanmayı öneren, yabancılaşmayı politik potansiyele dönüştüren bir manifesto sunar.",
+        "AnswerOne": "Cinsiyet normlarını teknolojiyle aşma",
+        "AnswerTwo": "Yabancı düşmanlığı",
+        "AnswerThree": "Geleneksel feminizm",
+        "AnswerFour": "Biyolojik determinizm",
+        "CorrectAnswer": "Cinsiyet normlarını teknolojiyle aşma"
+      },
+      {
+        "QuestionString": "'Nesnelerin politikası' neyi ifade ediyor?",
+        "ListeningSentence": "Latour'un nesnelerin politikası teorisi, insan olmayan aktörlerin (hayvanlar, teknolojiler, doğal olaylar) toplumsal ilişkileri nasıl şekillendirdiğini araştırır.",
+        "AnswerOne": "Müzecilik stratejileri",
+        "AnswerTwo": "İnsan-dışı aktörlerin etkisi",
+        "AnswerThree": "Endüstriyel tasarım",
+        "AnswerFour": "Sanat koleksiyonculuğu",
+        "CorrectAnswer": "İnsan-dışı aktörlerin etkisi"
+      },
+      {
+        "QuestionString": "Yazar 'akeller' kavramını nasıl tanımlıyor?",
+        "ListeningSentence": "Queer teoride akeller, cinsel arzu rejimlerinin dışında kalan kimlikleri ifade eden ve üretkenlik odaklı toplumsal normları sorgulayan bir kavramdır.",
+        "AnswerOne": "Cinsel arzu dışı kimlikler",
+        "AnswerTwo": "Nörolojik bozukluk",
+        "AnswerThree": "Dijital iletişim",
+        "AnswerFour": "Sporcu performansı",
+        "CorrectAnswer": "Cinsel arzu dışı kimlikler"
+      },
+      {
+        "QuestionString": "'Dünya-sistem analizi' neyi açıklamayı hedefliyor?",
+        "ListeningSentence": "Wallerstein'in dünya-sistem analizi, kapitalist ekonominin merkez-çevre ülkeler arasında yarattığı eşitsiz değişim ilişkilerini tarihsel bir perspektifle inceler.",
+        "AnswerOne": "Küresel eşitsizlik",
+        "AnswerTwo": "İklim sistemleri",
+        "AnswerThree": "Bilgisayar ağları",
+        "AnswerFour": "Astrolojik haritalar",
+        "CorrectAnswer": "Küresel eşitsizlik"
+      }
+    ]
+  },
+  {
+    "Order": 14,
+    "Content": "C2 Turkish Reading Lesson 4",
+    "Questions": [
+      {
+        "QuestionString": "'Biyoiktidar' kavramı metinde nasıl işleniyor?",
+        "ListeningSentence": "Foucault'nun biyoiktidar analizi, modern devletin nüfusun bedenleri ve yaşam süreçleri üzerinde kurduğu ince denetim mekanizmalarını ifşa eder.",
+        "AnswerOne": "Yaşam üzerinde denetim",
+        "AnswerTwo": "Bilimsel otorite",
+        "AnswerThree": "Genetik mühendislik",
+        "AnswerFour": "Sağlık turizmi",
+        "CorrectAnswer": "Yaşam üzerinde denetim"
+      },
+      {
+        "QuestionString": "Metindeki 'solipsizm' eleştirisi neyi hedefliyor?",
+        "ListeningSentence": "Post-hümanist düşünürler, insanmerkezci solipsizmi aşarak insan olmayan varlıklarla ontolojik bir dayanışma kurmanın yollarını arar.",
+        "AnswerOne": "İnsanmerkezcilik",
+        "AnswerTwo": "Bireysel yalnızlık",
+        "AnswerThree": "Matematiksel idealizm",
+        "AnswerFour": "Dini inziva",
+        "CorrectAnswer": "İnsanmerkezcilik"
+      },
+      {
+        "QuestionString": "'Ekofeminist epistemoloji'nin temel iddiası nedir?",
+        "ListeningSentence": "Ekofeminist epistemoloji, doğanın sömürüsü ile kadın bedeninin metalaştırılması arasındaki paralellikleri, ataerkil kapitalizmin ikili tahakküm mekanizmaları olarak açıklar.",
+        "AnswerOne": "Doğa ve kadın sömürüsü bağlantısı",
+        "AnswerTwo": "Biyolojik determinizm",
+        "AnswerThree": "Kırsal yaşam ideali",
+        "AnswerFour": "Tarım politikaları",
+        "CorrectAnswer": "Doğa ve kadın sömürüsü bağlantısı"
+      },
+      {
+        "QuestionString": "Yazar 'dromokrasi'yi nasıl tanımlıyor?",
+        "ListeningSentence": "Dromokrasi, toplumsal örgütlenmenin iletişim hızı tarafından belirlendiği, politik kararların anlık medya etkileşimleriyle şekillendiği bir yönetişim biçimidir.",
+        "AnswerOne": "Hızın egemenliği",
+        "AnswerTwo": "Demokratik yavaşlık",
+        "AnswerThree": "Askeri diktatörlük",
+        "AnswerFour": "Bürokratik verimlilik",
+        "CorrectAnswer": "Hızın egemenliği"
+      },
+      {
+        "QuestionString": "'Spekülatif doğaüstücülük' neyi araştırır?",
+        "ListeningSentence": "Spekülatif doğaüstücülük, bilimsel açıklamaların ötesindeki fenomenleri materyalist bir perspektifle inceleyen yeni bir metafizik arayışıdır.",
+        "AnswerOne": "Bilimötesi fenomenler",
+        "AnswerTwo": "Dini kehanetler",
+        "AnswerThree": "Parapsikoloji",
+        "AnswerFour": "Mitolojik araştırmalar",
+        "CorrectAnswer": "Bilimötesi fenomenler"
+      }
+    ]
+  },
+  {
+    "Order": 15,
+    "Content": "C2 Turkish Reading Lesson 5",
+    "Questions": [
+      {
+        "QuestionString": "'Post-dijital estetik' nasıl tanımlanıyor?",
+        "ListeningSentence": "Post-dijital estetik, teknolojinin doğallaştığı, analog ve dijitalin hibritleştiği, arayüzlerin görünmez olduğu bir kültürel evrede sanatsal üretimin yeni hallerini inceler.",
+        "AnswerOne": "Teknolojinin doğallaşması",
+        "AnswerTwo": "Geleneksel sanat",
+        "AnswerThree": "Dijital yalnızlık",
+        "AnswerFour": "Sanal gerçeklik",
+        "CorrectAnswer": "Teknolojinin doğallaşması"
+      },
+      {
+        "QuestionString": "Metindeki 'neoludizm' kavramı neyi ifade eder?",
+        "ListeningSentence": "Neoludizm, teknolojik ilerlemeye karşı romantik bir direnişten ziyade, dijital araçların toplumsal etkilerine yönelik sistematik bir eleştirellik önerir.",
+        "AnswerOne": "Teknoloji eleştirisi",
+        "AnswerTwo": "Yeni oyun teorileri",
+        "AnswerThree": "Çocuk gelişimi",
+        "AnswerFour": "Endüstriyel tasarım",
+        "CorrectAnswer": "Teknoloji eleştirisi"
+      },
+      {
+        "QuestionString": "'Kozmopolitizm' yazar tarafından nasıl yeniden yorumlanıyor?",
+        "ListeningSentence": "Radikal kozmopolitizm, ulusötesi dayanışmayı sınır politikalarının ötesinde, gezegensel ölçekte bir etik sorumluluk olarak kavramsallaştırır.",
+        "AnswerOne": "Gezegensel etik",
+        "AnswerTwo": "Turizm endüstrisi",
+        "AnswerThree": "Kültürel asimilasyon",
+        "AnswerFour": "Diplomatik ilişkiler",
+        "CorrectAnswer": "Gezegensel etik"
+      },
+      {
+        "QuestionString": "Yazar 'transmedyal anlatı'yı nasıl açıklıyor?",
+        "ListeningSentence": "Transmedyal anlatılar, tek bir medyumla sınırlı kalmayan, kitap-film-oyun-grafik roman gibi çoklu platformlarda genişleyen ve kullanıcı katılımıyla şekillenen hikâye evrenleri yaratır.",
+        "AnswerOne": "Çok platformlu hikâyeleme",
+        "AnswerTwo": "Çeviri edebiyatı",
+        "AnswerThree": "Gazetecilik",
+        "AnswerFour": "Sözlü tarih",
+        "CorrectAnswer": "Çok platformlu hikâyeleme"
+      },
+      {
+        "QuestionString": "'Ekopoetik' yaklaşımın odak noktası nedir?",
+        "ListeningSentence": "Ekopoetik, edebi metinlerde doğanın temsil biçimlerini ekolojik bilinçle sorgulayan, insanmerkezci anlatıları yerinden eden bir eleştirel okuma yöntemidir.",
+        "AnswerOne": "Edebiyatta doğa temsilleri",
+        "AnswerTwo": "Hayvan hakları",
+        "AnswerThree": "Kırsal yaşam",
+        "AnswerFour": "Botanik şiirler",
+        "CorrectAnswer": "Edebiyatta doğa temsilleri"
+      }
+    ]
+  }
+]

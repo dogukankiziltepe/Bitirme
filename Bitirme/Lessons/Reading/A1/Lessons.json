@@ -1,0 +1,257 @@
+﻿[
+  {
+    "Order": 1,
+    "Content": "A1 Turkish Reading Lesson 1",
+    "Questions": [
+      {
+        "QuestionString": "Ayşe nerede yaşıyor?",
+        "ListeningSentence": "Ayşe İstanbul'da yaşıyor.",
+        "AnswerOne": "İzmir",
+        "AnswerTwo": "Ankara",
+        "AnswerThree": "İstanbul",
+        "AnswerFour": "Bursa",
+        "CorrectAnswer": "İstanbul"
+      },
+      {
+        "QuestionString": "Mehmet ne iş yapıyor?",
+        "ListeningSentence": "Mehmet bir öğretmen.",
+        "AnswerOne": "Doktor",
+        "AnswerTwo": "Öğrenci",
+        "AnswerThree": "Mühendis",
+        "AnswerFour": "Öğretmen",
+        "CorrectAnswer": "Öğretmen"
+      },
+      {
+        "QuestionString": "Ali kaç yaşında?",
+        "ListeningSentence": "Ali yirmi yaşında.",
+        "AnswerOne": "18",
+        "AnswerTwo": "19",
+        "AnswerThree": "20",
+        "AnswerFour": "21",
+        "CorrectAnswer": "20"
+      },
+      {
+        "QuestionString": "Bugün hava nasıl?",
+        "ListeningSentence": "Bugün hava yağmurlu.",
+        "AnswerOne": "Güneşli",
+        "AnswerTwo": "Rüzgarlı",
+        "AnswerThree": "Soğuk",
+        "AnswerFour": "Yağmurlu",
+        "CorrectAnswer": "Yağmurlu"
+      },
+      {
+        "QuestionString": "Elif sabah ne yaptı?",
+        "ListeningSentence": "Elif sabah kahvaltı yaptı.",
+        "AnswerOne": "Uyudu",
+        "AnswerTwo": "Kahvaltı yaptı",
+        "AnswerThree": "Spor yaptı",
+        "AnswerFour": "Kitap okudu",
+        "CorrectAnswer": "Kahvaltı yaptı"
+      }
+    ]
+  },
+  {
+    "Order": 2,
+    "Content": "A1 Turkish Reading Lesson 2",
+    "Questions": [
+      {
+        "QuestionString": "Market nerede?",
+        "ListeningSentence": "Market okulun yanında.",
+        "AnswerOne": "Evin karşısında",
+        "AnswerTwo": "Okulun yanında",
+        "AnswerThree": "Parkın içinde",
+        "AnswerFour": "Hastanenin arkasında",
+        "CorrectAnswer": "Okulun yanında"
+      },
+      {
+        "QuestionString": "Saat kaçta buluşacaklar?",
+        "ListeningSentence": "Saat üçte buluşacaklar.",
+        "AnswerOne": "Bir",
+        "AnswerTwo": "İki",
+        "AnswerThree": "Üç",
+        "AnswerFour": "Dört",
+        "CorrectAnswer": "Üç"
+      },
+      {
+        "QuestionString": "Hangi mevsimdeyiz?",
+        "ListeningSentence": "Şimdi kış mevsimi.",
+        "AnswerOne": "İlkbahar",
+        "AnswerTwo": "Yaz",
+        "AnswerThree": "Sonbahar",
+        "AnswerFour": "Kış",
+        "CorrectAnswer": "Kış"
+      },
+      {
+        "QuestionString": "Oya'nın favori rengi ne?",
+        "ListeningSentence": "Oya'nın favori rengi mavi.",
+        "AnswerOne": "Kırmızı",
+        "AnswerTwo": "Yeşil",
+        "AnswerThree": "Mavi",
+        "AnswerFour": "Sarı",
+        "CorrectAnswer": "Mavi"
+      },
+      {
+        "QuestionString": "Yemekte ne içtiler?",
+        "ListeningSentence": "Yemekte ayran içtiler.",
+        "AnswerOne": "Su",
+        "AnswerTwo": "Çay",
+        "AnswerThree": "Ayran",
+        "AnswerFour": "Meyve suyu",
+        "CorrectAnswer": "Ayran"
+      }
+    ]
+  },
+  {
+    "Order": 3,
+    "Content": "A1 Turkish Reading Lesson 3",
+    "Questions": [
+      {
+        "QuestionString": "Bu kimin kalemi?",
+        "ListeningSentence": "Bu Ahmet'in kalemi.",
+        "AnswerOne": "Ayşe'nin",
+        "AnswerTwo": "Ahmet'in",
+        "AnswerThree": "Öğretmenin",
+        "AnswerFour": "Benim",
+        "CorrectAnswer": "Ahmet'in"
+      },
+      {
+        "QuestionString": "Kedi nerede uyuyor?",
+        "ListeningSentence": "Kedi koltuğun üstünde uyuyor.",
+        "AnswerOne": "Yatakta",
+        "AnswerTwo": "Sandalyede",
+        "AnswerThree": "Koltuğun üstünde",
+        "AnswerFour": "Halıda",
+        "CorrectAnswer": "Koltuğun üstünde"
+      },
+      {
+        "QuestionString": "Hangi gün sinemaya gidecekler?",
+        "ListeningSentence": "Cumartesi günü sinemaya gidecekler.",
+        "AnswerOne": "Cuma",
+        "AnswerTwo": "Cumartesi",
+        "AnswerThree": "Pazar",
+        "AnswerFour": "Pazartesi",
+        "CorrectAnswer": "Cumartesi"
+      },
+      {
+        "QuestionString": "Kaç kardeşleri var?",
+        "ListeningSentence": "İki kardeşleri var.",
+        "AnswerOne": "Bir",
+        "AnswerTwo": "İki",
+        "AnswerThree": "Üç",
+        "AnswerFour": "Hiç",
+        "CorrectAnswer": "İki"
+      },
+      {
+        "QuestionString": "Ne renk bir araba aldılar?",
+        "ListeningSentence": "Siyah bir araba aldılar.",
+        "AnswerOne": "Beyaz",
+        "AnswerTwo": "Kırmızı",
+        "AnswerThree": "Mavi",
+        "AnswerFour": "Siyah",
+        "CorrectAnswer": "Siyah"
+      }
+    ]
+  },
+  {
+    "Order": 4,
+    "Content": "A1 Turkish Reading Lesson 4",
+    "Questions": [
+      {
+        "QuestionString": "Hangi aydayız?",
+        "ListeningSentence": "Şu an temmuz ayındayız.",
+        "AnswerOne": "Haziran",
+        "AnswerTwo": "Temmuz",
+        "AnswerThree": "Ağustos",
+        "AnswerFour": "Eylül",
+        "CorrectAnswer": "Temmuz"
+      },
+      {
+        "QuestionString": "Kahvaltıda ne yediler?",
+        "ListeningSentence": "Kahvaltıda peynir ve zeytin yediler.",
+        "AnswerOne": "Yumurta ve ekmek",
+        "AnswerTwo": "Peynir ve zeytin",
+        "AnswerThree": "Reçel ve tereyağı",
+        "AnswerFour": "Sosis ve domates",
+        "CorrectAnswer": "Peynir ve zeytin"
+      },
+      {
+        "QuestionString": "Otobüs kaçta kalkıyor?",
+        "ListeningSentence": "Otobüs saat 10.15'te kalkıyor.",
+        "AnswerOne": "09.30",
+        "AnswerTwo": "10.00",
+        "AnswerThree": "10.15",
+        "AnswerFour": "10.30",
+        "CorrectAnswer": "10.15"
+      },
+      {
+        "QuestionString": "Hangi dili öğreniyor?",
+        "ListeningSentence": "İspanyolca öğreniyor.",
+        "AnswerOne": "Fransızca",
+        "AnswerTwo": "Almanca",
+        "AnswerThree": "İspanyolca",
+        "AnswerFour": "İtalyanca",
+        "CorrectAnswer": "İspanyolca"
+      },
+      {
+        "QuestionString": "Nereye tatile gidecekler?",
+        "ListeningSentence": "Antalya'ya tatile gidecekler.",
+        "AnswerOne": "İzmir",
+        "AnswerTwo": "Antalya",
+        "AnswerThree": "Bodrum",
+        "AnswerFour": "Kapadokya",
+        "CorrectAnswer": "Antalya"
+      }
+    ]
+  },
+  {
+    "Order": 5,
+    "Content": "A1 Turkish Reading Lesson 5",
+    "Questions": [
+      {
+        "QuestionString": "Telefonun rengi ne?",
+        "ListeningSentence": "Telefonun rengi altın sarısı.",
+        "AnswerOne": "Gümüş",
+        "AnswerTwo": "Siyah",
+        "AnswerThree": "Mavi",
+        "AnswerFour": "Altın sarısı",
+        "CorrectAnswer": "Altın sarısı"
+      },
+      {
+        "QuestionString": "Kim gelecek?",
+        "ListeningSentence": "Dayım ve teyzem gelecek.",
+        "AnswerOne": "Amcam ve halam",
+        "AnswerTwo": "Dayım ve teyzem",
+        "AnswerThree": "Kuzenlerim",
+        "AnswerFour": "Dedem ve ninem",
+        "CorrectAnswer": "Dayım ve teyzem"
+      },
+      {
+        "QuestionString": "Ne izlediler?",
+        "ListeningSentence": "Bir belgesel izlediler.",
+        "AnswerOne": "Dizi",
+        "AnswerTwo": "Film",
+        "AnswerThree": "Belgesel",
+        "AnswerFour": "Haber",
+        "CorrectAnswer": "Belgesel"
+      },
+      {
+        "QuestionString": "Hangi meyveyi seviyor?",
+        "ListeningSentence": "Muzu çok seviyor.",
+        "AnswerOne": "Elma",
+        "AnswerTwo": "Portakal",
+        "AnswerThree": "Muz",
+        "AnswerFour": "Çilek",
+        "CorrectAnswer": "Muz"
+      },
+      {
+        "QuestionString": "Nasıl bir ev?",
+        "ListeningSentence": "Küçük ve şirin bir ev.",
+        "AnswerOne": "Büyük ve lüks",
+        "AnswerTwo": "Küçük ve şirin",
+        "AnswerThree": "Eski ve bakımsız",
+        "AnswerFour": "Geniş ve aydınlık",
+        "CorrectAnswer": "Küçük ve şirin"
+      }
+    ]
+  }
+]

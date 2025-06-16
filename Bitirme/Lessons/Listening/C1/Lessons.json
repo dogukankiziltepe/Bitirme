@@ -1,0 +1,257 @@
+﻿[
+  {
+    "Order": 21,
+    "Content": "C1 Turkish Listening Lesson 1",
+    "Questions": [
+      {
+        "QuestionString": "Profesör, bilimsel devrimlerin nasıl gerçekleştiğini açıklarken hangi kavramı vurguladı?",
+        "ListeningSentence": "Profesör, bilimsel devrimlerin mevcut paradigmaların yetersiz kaldığı anomaliler biriktiğinde ve yeni bir paradigma ortaya çıktığında gerçekleştiğini, bu sürecin Kuhn'un 'paradigma kayması' kavramıyla açıklanabileceğini belirtti.",
+        "AnswerOne": "Doğrusal ilerleme",
+        "AnswerTwo": "Paradigma kayması",
+        "AnswerThree": "Teknolojik determinizm",
+        "AnswerFour": "Sosyal inşacılık",
+        "CorrectAnswer": "Paradigma kayması"
+      },
+      {
+        "QuestionString": "Ekonomi tarihçisi, sanayi devriminin İngiltere'de başlamasını hangi faktörlere bağladı?",
+        "ListeningSentence": "Ekonomi tarihçisi, sanayi devriminin İngiltere'de başlamasını coğrafi keşiflerle artan sermaye birikimi, tarım devriminin sağladığı işgücü, kömür yataklarının varlığı ve patent sisteminin teknolojik yenilikleri teşvik etmesi gibi bir dizi faktörün birleşimine bağladı.",
+        "AnswerOne": "Sadece kömür yatakları",
+        "AnswerTwo": "Çok faktörlü bir birleşim",
+        "AnswerThree": "Sömürgecilik",
+        "AnswerFour": "Protestan ahlakı",
+        "CorrectAnswer": "Çok faktörlü bir birleşim"
+      },
+      {
+        "QuestionString": "Nörobilimci, karar alma mekanizmalarımızı nasıl tanımladı?",
+        "ListeningSentence": "Nörobilimci, karar alma mekanizmalarımızın rasyonel düşünceden ziyade duygusal süreçler tarafından yönlendirildiğini, beynin limbik sisteminin prefrontal korteksten daha hızlı tepki verdiğini ve bu nedenle ilk izlenimlerin çoğu zaman mantıklı analizlerden daha güçlü olduğunu açıkladı.",
+        "AnswerOne": "Tamamen rasyonel",
+        "AnswerTwo": "Duygusal süreçlerin baskınlığı",
+        "AnswerThree": "Genetik determinizm",
+        "AnswerFour": "Çevresel faktörlerin etkisi",
+        "CorrectAnswer": "Duygusal süreçlerin baskınlığı"
+      },
+      {
+        "QuestionString": "Uluslararası ilişkiler uzmanı küresel güç dengesindeki değişimi nasıl yorumladı?",
+        "ListeningSentence": "Uzman, tek kutuplu dünya düzeninin sona erdiğini, Çin'in yükselişi, Rusya'nın revizyonist politikaları ve ABD'nin göreceli gerilemesiyle birlikte çok kutuplu bir sistemin ortaya çıktığını, bu geçiş döneminin istikrarsızlık riskleri barındırdığını belirtti.",
+        "AnswerOne": "ABD'nin sürekli üstünlüğü",
+        "AnswerTwo": "Çok kutuplu sisteme geçiş",
+        "AnswerThree": "Avrupa Birliği'nin yükselişi",
+        "AnswerFour": "Asya'da Japonya'nın liderliği",
+        "CorrectAnswer": "Çok kutuplu sisteme geçiş"
+      },
+      {
+        "QuestionString": "Edebiyat eleştirmeni postmodern romanın temel özelliğini nasıl tanımladı?",
+        "ListeningSentence": "Eleştirmen, postmodern romanın üstkurmaca teknikleri kullanarak gerçeklik ve kurgu arasındaki sınırları belirsizleştirdiğini, tek bir hakikat yerine çoklu perspektifler sunduğunu ve okuyucuyu anlam üretim sürecine aktif olarak dahil ettiğini vurguladı.",
+        "AnswerOne": "Gerçekçi betimlemeler",
+        "AnswerTwo": "Üstkurmaca ve çoklu perspektif",
+        "AnswerThree": "Klasik anlatı yapısı",
+        "AnswerFour": "Didaktik üslup",
+        "CorrectAnswer": "Üstkurmaca ve çoklu perspektif"
+      }
+    ]
+  },
+  {
+    "Order": 22,
+    "Content": "C1 Turkish Listening Lesson 2",
+    "Questions": [
+      {
+        "QuestionString": "Fizikçi, kuantum dolanıklığını açıklarken hangi örneği verdi?",
+        "ListeningSentence": "Fizikçi, kuantum dolanıklığını açıklarken, birbiriyle dolanık iki parçacığın aralarındaki mesafe ne olursa olsun birinin durumundaki değişikliğin diğerini anında etkileyeceğini, tıpkı aynı madalyonun iki yüzü gibi birbirine bağlı olduklarını ifade etti.",
+        "AnswerOne": "Aynı madalyonun iki yüzü",
+        "AnswerTwo": "İki ayrı gezegen",
+        "AnswerThree": "Anne ve çocuk bağı",
+        "AnswerFour": "Ayna ve yansıma",
+        "CorrectAnswer": "Aynı madalyonun iki yüzü"
+      },
+      {
+        "QuestionString": "Siyaset felsefecisi, modern demokrasilerdeki temel çelişkiyi nasıl tanımladı?",
+        "ListeningSentence": "Siyaset felsefecisi, modern demokrasilerde bireysel özgürlükler ile kolektif çıkarlar arasındaki gerilimin temel bir çelişki oluşturduğunu, özellikle neoliberal politikaların bu gerilimi şiddetlendirdiğini ve yeni katılımcı modellere ihtiyaç olduğunu savundu.",
+        "AnswerOne": "Bireysel özgürlükler ve kolektif çıkarlar",
+        "AnswerTwo": "Merkeziyetçilik ve yerel yönetim",
+        "AnswerThree": "Din ve laiklik",
+        "AnswerFour": "Gelenek ve modernite",
+        "CorrectAnswer": "Bireysel özgürlükler ve kolektif çıkarlar"
+      },
+      {
+        "QuestionString": "Kültür teorisyeni, küreselleşmenin kültürel etkilerini nasıl yorumladı?",
+        "ListeningSentence": "Teorisyen, küreselleşmenin kültürel etkilerini 'glokalizasyon' kavramıyla açıkladı; küresel akımların yerel bağlamlarda yeniden yorumlandığını, homojenleşme kadar hibrit kimliklerin de ortaya çıktığını ve bu sürecin tek yönlü olmadığını vurguladı.",
+        "AnswerOne": "Tamamen homojenleşme",
+        "AnswerTwo": "Glokalizasyon ve hibrit kimlikler",
+        "AnswerThree": "Kültürel yok oluş",
+        "AnswerFour": "Batılılaşma",
+        "CorrectAnswer": "Glokalizasyon ve hibrit kimlikler"
+      },
+      {
+        "QuestionString": "Bilişsel dilbilimci, metaforların rolünü nasıl açıkladı?",
+        "ListeningSentence": "Bilişsel dilbilimci, metaforların sadece süsleme aracı olmadığını, insan düşüncesinin temel mekanizmalarından biri olduğunu, soyut kavramları somut deneyimler üzerinden anlamlandırdığımızı ve bu nedenle dilin düşünceyi şekillendirdiğini ifade etti.",
+        "AnswerOne": "Sadece edebi süs",
+        "AnswerTwo": "Düşüncenin temel mekanizması",
+        "AnswerThree": "Kültürel farklılık göstergesi",
+        "AnswerFour": "İletişim engeli",
+        "CorrectAnswer": "Düşüncenin temel mekanizması"
+      },
+      {
+        "QuestionString": "Sanat tarihçisi, Rönesans'ın temel niteliğini nasıl tanımladı?",
+        "ListeningSentence": "Sanat tarihçisi, Rönesans'ın sadece bir sanat hareketi olmadığını, antikiteye yeniden dönüş, bireyin keşfi, perspektifin bulunması ve doğanın gözlemlenmesi gibi birçok boyutu olan bütüncül bir kültürel dönüşüm olduğunu vurguladı.",
+        "AnswerOne": "Sadece resimde gelişme",
+        "AnswerTwo": "Bütüncül kültürel dönüşüm",
+        "AnswerThree": "Dini dogmaların güçlenmesi",
+        "AnswerFour": "Teknolojik ilerleme",
+        "CorrectAnswer": "Bütüncül kültürel dönüşüm"
+      }
+    ]
+  },
+  {
+    "Order": 23,
+    "Content": "C1 Turkish Listening Lesson 3",
+    "Questions": [
+      {
+        "QuestionString": "Psikoloji profesörü, travma sonrası büyüme kavramını nasıl açıkladı?",
+        "ListeningSentence": "Profesör, travma sonrası büyümenin bireylerin zorlu yaşam olaylarından sonra gelişim göstermesi, yaşam değerlerini yeniden değerlendirmesi ve kişisel güçlenme yaşaması süreci olduğunu, bu durumun travmanın olumlu sonuçlarından biri olarak görülebileceğini ifade etti.",
+        "AnswerOne": "Travmanın tamamen unutulması",
+        "AnswerTwo": "Zorlu olaylardan sonra gelişim",
+        "AnswerThree": "Profesyonel yardım almadan iyileşme",
+        "AnswerFour": "Toplumsal desteğin önemi",
+        "CorrectAnswer": "Zorlu olaylardan sonra gelişim"
+      },
+      {
+        "QuestionString": "İklim bilimci, iklim değişikliğinin geri dönüş noktalarını nasıl tanımladı?",
+        "ListeningSentence": "İklim bilimci, geri dönüş noktalarını aşıldığında geri dönüşü olmayan ve kademeli olmayan büyük iklim değişikliklerini tetikleyen eşikler olarak tanımladı; örneğin Grönland buz tabakasının tamamen erimesi veya Amazon yağmur ormanlarının savanalaşmasının bu tür kritik noktalar olduğunu belirtti.",
+        "AnswerOne": "Yavaş ve kademeli değişimler",
+        "AnswerTwo": "Geri dönüşü olmayan eşikler",
+        "AnswerThree": "Doğal iklim dalgalanmaları",
+        "AnswerFour": "Kısa vadeli hava değişimleri",
+        "CorrectAnswer": "Geri dönüşü olmayan eşikler"
+      },
+      {
+        "QuestionString": "Ekonomi teorisyeni, yaratıcı yıkım kavramını nasıl açıkladı?",
+        "ListeningSentence": "Teorisyen, yaratıcı yıkımın ekonomik ilerlemenin temel dinamiği olduğunu, eski teknolojilerin ve iş modellerinin yenileri tarafından yok edilmesiyle kaynakların daha verimli alanlara aktarıldığını, bu sürecin kısa vadede sancılı olsa da uzun vadede refah artışı sağladığını vurguladı.",
+        "AnswerOne": "Ekonominin durağanlaşması",
+        "AnswerTwo": "Eskinin yıkılıp yeninin yaratılması",
+        "AnswerThree": "Devlet müdahalesinin gerekliliği",
+        "AnswerFour": "Tekellerin güçlenmesi",
+        "CorrectAnswer": "Eskinin yıkılıp yeninin yaratılması"
+      },
+      {
+        "QuestionString": "Dilbilimci, dilin düşünceye etkisini nasıl yorumladı?",
+        "ListeningSentence": "Dilbilimci, Sapir-Whorf hipotezini referans alarak dilin düşünceyi şekillendirdiğini, farklı diller konuşan bireylerin dünyayı farklı algılayabileceğini, ancak bu etkinin mutlak olmadığını ve evrensel bilişsel süreçlerin de rol oynadığını belirtti.",
+        "AnswerOne": "Dilin düşünceyi tamamen belirlemesi",
+        "AnswerTwo": "Dilin düşünceyi kısmen şekillendirmesi",
+        "AnswerThree": "Hiçbir etkisi olmaması",
+        "AnswerFour": "Sadece kelime dağarcığında fark",
+        "CorrectAnswer": "Dilin düşünceyi kısmen şekillendirmesi"
+      },
+      {
+        "QuestionString": "Tarihçi, Fransız Devrimi'nin modern dünyaya etkilerini nasıl özetledi?",
+        "ListeningSentence": "Tarihçi, Fransız Devrimi'nin ulus-devlet kavramını, laiklik ilkesini, vatandaşlık haklarını ve milliyetçilik ideolojisini yaygınlaştırarak modern siyasi düzenin temellerini attığını, bu etkilerin günümüzde bile hissedildiğini ifade etti.",
+        "AnswerOne": "Sadece Fransa'yı etkilemesi",
+        "AnswerTwo": "Modern siyasi düzenin temelleri",
+        "AnswerThree": "Ekonomik sistemlerin değişmesi",
+        "AnswerFour": "Dini kurumların güçlenmesi",
+        "CorrectAnswer": "Modern siyasi düzenin temelleri"
+      }
+    ]
+  },
+  {
+    "Order": 24,
+    "Content": "C1 Turkish Listening Lesson 4",
+    "Questions": [
+      {
+        "QuestionString": "Nörobilimci, bilinç problemine nasıl yaklaştı?",
+        "ListeningSentence": "Nörobilimci, bilinç problemini 'zor problem' olarak tanımlayarak, nöral süreçlerin subjektif deneyimleri nasıl oluşturduğunun hala tam olarak açıklanamadığını, bu konuda fizikalist ve dualist yaklaşımlar arasında tartışmaların sürdüğünü belirtti.",
+        "AnswerOne": "Tamamen çözülmüş bir problem",
+        "AnswerTwo": "Zor problem olarak tanımlama",
+        "AnswerThree": "Sadece felsefi bir mesele",
+        "AnswerFour": "Deneysel olarak kanıtlanmış",
+        "CorrectAnswer": "Zor problem olarak tanımlama"
+      },
+      {
+        "QuestionString": "Ekoloji uzmanı, sürdürülebilir kalkınma paradoksunu nasıl açıkladı?",
+        "ListeningSentence": "Uzman, sürdürülebilir kalkınma paradoksunun, ekonomik büyümenin doğal kaynak tüketimine dayalı olmasıyla ortaya çıktığını, yeşil büyüme kavramının bu açmazı aşmaya çalıştığını ancak temel tüketim kalıplarının değişmesi gerektiğini vurguladı.",
+        "AnswerOne": "Büyüme ve kaynak tüketimi çelişkisi",
+        "AnswerTwo": "Teknolojinin her sorunu çözmesi",
+        "AnswerThree": "Nüfus artışının tek etken olması",
+        "AnswerFour": "Devlet politikalarının yetersizliği",
+        "CorrectAnswer": "Büyüme ve kaynak tüketimi çelişkisi"
+      },
+      {
+        "QuestionString": "Edebiyat teorisyeni, metinlerarasılık kavramını nasıl tanımladı?",
+        "ListeningSentence": "Teorisyen, metinlerarasılığı bir metnin diğer metinlerle kurduğu bilinçli veya bilinçsiz ilişkiler bütünü olarak tanımladı ve her metnin önceki metinlerden izler taşıdığını, tam anlamıyla özgün bir metnin mümkün olmadığını savundu.",
+        "AnswerOne": "Metinlerin tamamen özgün olması",
+        "AnswerTwo": "Metinlerin diğer metinlerle ilişkisi",
+        "AnswerThree": "Sadece alıntıların kullanılması",
+        "AnswerFour": "Yazarın niyetinin önemi",
+        "CorrectAnswer": "Metinlerin diğer metinlerle ilişkisi"
+      },
+      {
+        "QuestionString": "Siyaset bilimci, post-truth siyasetin özelliklerini nasıl sıraladı?",
+        "ListeningSentence": "Siyaset bilimci, post-truth siyasette duyguların ve kişisel inançların nesnel gerçeklerden daha etkili olduğunu, medya manipülasyonunun yaygınlaştığını ve kamusal tartışmanın kalitesinin düştüğünü belirterek bu durumun demokratik sistemler için tehlikelerine dikkat çekti.",
+        "AnswerOne": "Nesnel gerçeklerin önceliği",
+        "AnswerTwo": "Duyguların gerçeklerden daha etkili olması",
+        "AnswerThree": "Akılcı tartışmanın artması",
+        "AnswerFour": "Uzman görüşlerine saygı",
+        "CorrectAnswer": "Duyguların gerçeklerden daha etkili olması"
+      },
+      {
+        "QuestionString": "Mimarlık tarihçisi, modernizm ve postmodernizm arasındaki temel farkı nasıl açıkladı?",
+        "ListeningSentence": "Tarihçi, modernizmin evrensel doğrulara, işlevselliğe ve ilerleme inancına dayandığını, postmodernizmin ise çoğulculuğu, tarihsel referansları ve yerel bağlamları öne çıkardığını, bu nedenle iki akım arasında epistemolojik bir kopuş olduğunu ifade etti.",
+        "AnswerOne": "Sadece estetik farklılıklar",
+        "AnswerTwo": "Epistemolojik kopuş",
+        "AnswerThree": "Malzeme kullanımı",
+        "AnswerFour": "Teknolojik gelişmeler",
+        "CorrectAnswer": "Epistemolojik kopuş"
+      }
+    ]
+  },
+  {
+    "Order": 25,
+    "Content": "C1 Turkish Listening Lesson 5",
+    "Questions": [
+      {
+        "QuestionString": "Biyoetik uzmanı, transhümanizm hareketinin etik ikilemlerini nasıl değerlendirdi?",
+        "ListeningSentence": "Uzman, transhümanizmin insan ömrünü uzatma ve bilişsel kapasiteyi artırma vaatlerinin yanı sıra, teknolojik eşitsizlikleri derinleştirme, insan doğasını değiştirme ve yeni sınıf ayrımları yaratma riskleri taşıdığına dikkat çekerek bu gelişmelerin etik çerçevelerle düzenlenmesi gerektiğini vurguladı.",
+        "AnswerOne": "Sadece olumlu etkiler",
+        "AnswerTwo": "Teknolojik eşitsizlik ve etik riskler",
+        "AnswerThree": "Dini çatışmalar",
+        "AnswerFour": "Ekonomik maliyetler",
+        "CorrectAnswer": "Teknolojik eşitsizlik ve etik riskler"
+      },
+      {
+        "QuestionString": "Kuantum fizikçisi, süperpozisyon kavramını açıklamak için hangi örneği verdi?",
+        "ListeningSentence": "Fizikçi, süperpozisyonu açıklamak için Schrödinger'in kedisi düşünce deneyini örnek verdi; kuantum sisteminde bir parçacığın aynı anda birden fazla durumda bulunabildiğini, tıpkı kutudaki kedinin aynı anda hem canlı hem ölü kabul edilmesi gibi, ancak gözlem yapıldığında bu süperpozisyonun çöktüğünü ifade etti.",
+        "AnswerOne": "Schrödinger'in kedisi",
+        "AnswerTwo": "Newton'un elması",
+        "AnswerThree": "Einstein'ın saatleri",
+        "AnswerFour": "Hawking radyasyonu",
+        "CorrectAnswer": "Schrödinger'in kedisi"
+      },
+      {
+        "QuestionString": "Ekonomi sosyoloğu, dijital platform kapitalizminin özelliklerini nasıl tanımladı?",
+        "ListeningSentence": "Sosyolog, dijital platform kapitalizmini veri madenciliği, ağ etkileri, ölçeksel getiriler ve platform tekelciliği üzerine kurulu yeni bir birikim rejimi olarak tanımladı ve bu modelin geleneksel endüstriyel kapitalizmden farklı olarak maddi olmayan varlıklara dayandığını belirtti.",
+        "AnswerOne": "Geleneksel üretim araçları",
+        "AnswerTwo": "Veri madenciliği ve ağ etkileri",
+        "AnswerThree": "Yerel pazarlara odaklanma",
+        "AnswerFour": "Devlet müdahalesi",
+        "CorrectAnswer": "Veri madenciliği ve ağ etkileri"
+      },
+      {
+        "QuestionString": "Felsefeci, Kant'ın aydınlanma tanımını nasıl aktardı?",
+        "ListeningSentence": "Felsefeci, Kant'ın aydınlanmayı 'insanın kendi aklını kullanma cesareti göstermesi' olarak tanımladığını, bu sürecin bireyin kendisini vesayetten kurtarması ve kamu alanında eleştirel düşünceyi kullanması anlamına geldiğini ifade etti.",
+        "AnswerOne": "Bilimsel ilerleme",
+        "AnswerTwo": "Kendi aklını kullanma cesareti",
+        "AnswerThree": "Dini otoriteyi reddetme",
+        "AnswerFour": "Devrimci eylem",
+        "CorrectAnswer": "Kendi aklını kullanma cesareti"
+      },
+      {
+        "QuestionString": "Antropolog, kültürel relativizm ve evrensel insan hakları arasındaki gerilimi nasıl yorumladı?",
+        "ListeningSentence": "Antropolog, kültürel relativizmin her kültürün kendi bağlamında değerlendirilmesi gerektiğini savunurken, evrensel insan hakları söyleminin bazı değerlerin her kültürde geçerli olması gerektiğini iddia ettiğini, bu ikisi arasındaki gerilimin ise diyalog ve çokkültürlü yaklaşımlarla aşılabileceğini öne sürdü.",
+        "AnswerOne": "Mutlak kültürel relativizm",
+        "AnswerTwo": "Diyalog ve çokkültürlü yaklaşımlar",
+        "AnswerThree": "Batı değerlerinin üstünlüğü",
+        "AnswerFour": "Kültürel izolasyon",
+        "CorrectAnswer": "Diyalog ve çokkültürlü yaklaşımlar"
+      }
+    ]
+  }
+]

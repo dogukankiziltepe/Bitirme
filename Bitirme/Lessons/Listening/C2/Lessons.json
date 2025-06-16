@@ -1,0 +1,257 @@
+﻿[
+  {
+    "Order": 26,
+    "Content": "C2 Turkish Listening Lesson 1",
+    "Questions": [
+      {
+        "QuestionString": "Kuantum kütleçekim teorisyeni, sicim teorisinin temel varsayımını nasıl özetledi?",
+        "ListeningSentence": "Teorisyen, sicim teorisinin temel varsayımının temel parçacıkların noktasal değil, titreşen tek boyutlu sicimler olduğu ve bu titreşim modlarının farklı parçacıkları oluşturduğu şeklinde özetlenebileceğini, bu yaklaşımın kuantum mekaniği ile genel göreliliği birleştirme potansiyeli taşıdığını ifade etti.",
+        "AnswerOne": "Noktasal parçacıklar",
+        "AnswerTwo": "Titreşen tek boyutlu sicimler",
+        "AnswerThree": "Sabit enerji seviyeleri",
+        "AnswerFour": "Deterministik evren",
+        "CorrectAnswer": "Titreşen tek boyutlu sicimler"
+      },
+      {
+        "QuestionString": "Postyapısalcı filozof, dilin şiddeti kavramını nasıl açıkladı?",
+        "ListeningSentence": "Filozof, dilin şiddetini, dilin kategorileştirme ve sabitleme eyleminin kaçınılmaz olarak ötekiyi dışlayıcı ve indirgeyici bir şiddet içerdiği şeklinde açıkladı; bu bağlamda her söylemin totaliter bir eğilim taşıdığını, çünkü çoklu anlamları sabit bir yapı içinde dondurduğunu iddia etti.",
+        "AnswerOne": "Dilin barışçıl iletişim aracı olması",
+        "AnswerTwo": "Kategorileştirmenin dışlayıcı şiddeti",
+        "AnswerThree": "Evrensel anlam birliği",
+        "AnswerFour": "Dilin şeffaf iletişimi",
+        "CorrectAnswer": "Kategorileştirmenin dışlayıcı şiddeti"
+      },
+      {
+        "QuestionString": "Nörofelsefeci, qualia problemini nasıl tanımladı?",
+        "ListeningSentence": "Nörofelsefeci, qualia problemini bilincin öznel deneyimlerinin (örneğin kırmızı rengin nasıl göründüğü) nöral süreçlerle açıklanamayan niteliği olarak tanımladı ve bu 'zihinsel' ile 'fiziksel' arasındaki açıklama boşluğunun bilinç çalışmalarında temel bir engel oluşturduğunu belirtti.",
+        "AnswerOne": "Nesnel beyin süreçleri",
+        "AnswerTwo": "Öznel deneyimlerin açıklanamayan niteliği",
+        "AnswerThree": "Davranışsal tepkiler",
+        "AnswerFour": "Bilişsel hesaplamalar",
+        "CorrectAnswer": "Öznel deneyimlerin açıklanamayan niteliği"
+      },
+      {
+        "QuestionString": "Karmaşık sistemler uzmanı, kelebek etkisini nasıl yorumladı?",
+        "ListeningSentence": "Uzman, kelebek etkisini başlangıç koşullarına hassas bağımlılık gösteren kaotik sistemlerde, küçük bir değişikliğin zamanla büyük ve öngörülemez sonuçlar doğurabilmesi olarak yorumladı ve bu durumun uzun vadeli hava tahmini gibi alanlarda temel sınırlamalar oluşturduğunu vurguladı.",
+        "AnswerOne": "Doğrusal nedensellik",
+        "AnswerTwo": "Küçük değişikliklerin büyük etkileri",
+        "AnswerThree": "Statik denge durumu",
+        "AnswerFour": "Tersine çevrilebilir süreçler",
+        "CorrectAnswer": "Küçük değişikliklerin büyük etkileri"
+      },
+      {
+        "QuestionString": "Estetik teorisyeni, postmodern sanatın temel stratejisini nasıl tanımladı?",
+        "ListeningSentence": "Teorisyen, postmodern sanatın temel stratejisini üstkurmaca, pastiş ve ironi yoluyla modernizmin 'özgünlük' ve 'ilerleme' anlatılarını sorgulamak, yüksek ve popüler kültür ayrımını bulanıklaştırmak ve izleyiciyi anlam üretimine aktif olarak dahil etmek şeklinde tanımladı.",
+        "AnswerOne": "Özgün ifade arayışı",
+        "AnswerTwo": "Modernizm anlatılarını sorgulama",
+        "AnswerThree": "Geleneksel tekniklerin kullanımı",
+        "AnswerFour": "Estetik saflık",
+        "CorrectAnswer": "Modernizm anlatılarını sorgulama"
+      }
+    ]
+  },
+  {
+    "Order": 27,
+    "Content": "C2 Turkish Listening Lesson 2",
+    "Questions": [
+      {
+        "QuestionString": "Kuantum enformasyon teorisyeni, dolanıklık tabanlı iletişimin sınırını nasıl açıkladı?",
+        "ListeningSentence": "Teorisyen, kuantum dolanıklığının ışık hızını aşan etkileşimlere izin vermesine rağmen, no-teleportation teoremi nedeniyle klasik bir kanal olmaksızın bilgi aktarımına izin vermediğini, dolayısıyla dolanıklık tabanlı iletişimin görelilik teorisiyle çelişmediğini açıkladı.",
+        "AnswerOne": "Işık hızını aşan bilgi aktarımı",
+        "AnswerTwo": "Klasik kanal gerekliliği",
+        "AnswerThree": "Mutlak anlık iletişim",
+        "AnswerFour": "Zaman yolculuğu imkanı",
+        "CorrectAnswer": "Klasik kanal gerekliliği"
+      },
+      {
+        "QuestionString": "Postkolonyal teorisyen, epistemik şiddet kavramını nasıl tanımladı?",
+        "ListeningSentence": "Teorisyen, epistemik şiddeti sömürgeci bilgi sistemlerinin yerel bilgi biçimlerini yok sayması, gayrimeşru ilan etmesi veya kendine mal etmesi yoluyla oluşan sembolik şiddet olarak tanımladı ve bu sürecin sömürge sonrası toplumlarda bile devam ettiğini iddia etti.",
+        "AnswerOne": "Fiziksel baskı",
+        "AnswerTwo": "Yerel bilgi biçimlerinin yok sayılması",
+        "AnswerThree": "Ekonomik sömürü",
+        "AnswerFour": "Dini misyonerlik",
+        "CorrectAnswer": "Yerel bilgi biçimlerinin yok sayılması"
+      },
+      {
+        "QuestionString": "Bilişsel arkeolog, zihnin evrimini açıklarken hangi kavramı vurguladı?",
+        "ListeningSentence": "Bilişsel arkeolog, zihnin evriminde 'niş inşası' kavramını vurgulayarak, insanın sadece çevreye uyum sağlamakla kalmayıp aynı zamanda kültürel araçlarla kendi bilişsel nişlerini aktif olarak inşa ettiğini ve bu sürecin geri beslemeli bir evrimsel dinamiğe sahip olduğunu savundu.",
+        "AnswerOne": "Genetik determinizm",
+        "AnswerTwo": "Niş inşası ve geri besleme",
+        "AnswerThree": "Doğal seleksiyonun tek etken olması",
+        "AnswerFour": "Sabit bilişsel yapılar",
+        "CorrectAnswer": "Niş inşası ve geri besleme"
+      },
+      {
+        "QuestionString": "Ekonomi tarihçisi, Büyük Ayrılma'yı nasıl yorumladı?",
+        "ListeningSentence": "Tarihçi, Büyük Ayrılma'yı 18. yüzyılda Batı Avrupa'nın kişi başına gelirde dünyanın geri kalanına kıyasla hızlı ve sürekli artış kaydetmesi olarak yorumladı ve bu sürecin kurumsal değişimler, bilimsel devrim ve fosil yakıtların kullanımı gibi birçok faktörün birleşiminden kaynaklandığını belirtti.",
+        "AnswerOne": "Teknolojik üstünlük",
+        "AnswerTwo": "Çok faktörlü kurumsal ve ekonomik ayrılma",
+        "AnswerThree": "Coğrafi determinizm",
+        "AnswerFour": "Dini reformlar",
+        "CorrectAnswer": "Çok faktörlü kurumsal ve ekonomik ayrılma"
+      },
+      {
+        "QuestionString": "Fenomenolog, yaşanan zaman ile nesnel zaman ayrımını nasıl açıkladı?",
+        "ListeningSentence": "Fenomenolog, yaşanan zamanın (durée) bilincin akışı içinde öznel olarak deneyimlenen niteliksel ve heterojen bir süre olduğunu, nesnel zamanın ise saatlerle ölçülen homojen ve niceliksel bir kavram olduğunu; bu ikisi arasındaki ayrımın modern hayatta zaman deneyiminin yabancılaşmasına yol açtığını açıkladı.",
+        "AnswerOne": "Aynı şeyin iki yüzü",
+        "AnswerTwo": "Öznel deneyim ile nesnel ölçüm ayrımı",
+        "AnswerThree": "Sadece kültürel bir fark",
+        "AnswerFour": "Bilimsel olarak ispatlanamaz",
+        "CorrectAnswer": "Öznel deneyim ile nesnel ölçüm ayrımı"
+      }
+    ]
+  },
+  {
+    "Order": 28,
+    "Content": "C2 Turkish Listening Lesson 3",
+    "Questions": [
+      {
+        "QuestionString": "Kozmolog, karanlık enerji paradoksunu nasıl açıkladı?",
+        "ListeningSentence": "Kozmolog, karanlık enerji paradoksunu evrenin genişlemesinin beklenenin aksine hızlanmasını açıklamak için gerekli olan bu enerji formunun, kuantum alan teorisinin öngördüğü değerden 120 kat daha küçük olması şeklinde açıkladı ve bu tutarsızlığın temel fizikte bir devrime işaret edebileceğini belirtti.",
+        "AnswerOne": "Gözlem ve teori arasındaki büyük uçurum",
+        "AnswerTwo": "Deneysel ölçüm hatası",
+        "AnswerThree": "Matematiksel modelleme hatası",
+        "AnswerFour": "Geçici bir anomaliden ibaret",
+        "CorrectAnswer": "Gözlem ve teori arasındaki büyük uçurum"
+      },
+      {
+        "QuestionString": "Posthümanist teorisyen, antroposen eleştirisini nasıl temellendirdi?",
+        "ListeningSentence": "Teorisyen, antroposen kavramını insanmerkezci (antroposentrik) bir perspektifin devamı olarak eleştirdi ve insanı jeolojik bir güç olarak merkeze alan bu anlatının, aslında insan-olmayan aktörlerin karmaşık ağlarını göz ardı ettiğini; bunun yerine 'kapitalosen' veya 'plantasyonosen' gibi alternatif kavramların daha açıklayıcı olabileceğini savundu.",
+        "AnswerOne": "İnsanmerkezci perspektifin eleştirisi",
+        "AnswerTwo": "İnsanın jeolojik gücünün kabulü",
+        "AnswerThree": "Teknolojik çözümlerin yeterliliği",
+        "AnswerFour": "Doğal süreçlerin üstünlüğü",
+        "CorrectAnswer": "İnsanmerkezci perspektifin eleştirisi"
+      },
+      {
+        "QuestionString": "Bilgi felsefecisi, Gettier problemlerini nasıl özetledi?",
+        "ListeningSentence": "Felsefeci, Gettier problemlerinin geleneksel bilgi tanımını (gerekçelendirilmiş doğru inanç) sorgulayan örnekler olduğunu; bir inancın doğru olması ve gerekçelendirilmiş olmasının, onu bilgi haline getirmek için yeterli olmayabileceğini, çünkü doğruluğun gerekçelerle nedensel olarak bağlantılı olmayabileceğini açıkladı.",
+        "AnswerOne": "Gerekçelendirilmiş doğru inanç yeterliliği",
+        "AnswerTwo": "Doğruluk ve gerekçe arasındaki nedensel kopukluk",
+        "AnswerThree": "Sadece algısal yanılsamalar",
+        "AnswerFour": "Dilsel bir karmaşa",
+        "CorrectAnswer": "Doğruluk ve gerekçe arasındaki nedensel kopukluk"
+      },
+      {
+        "QuestionString": "Sibernetik uzmanı, ikinci dereceden sibernetiği nasıl tanımladı?",
+        "ListeningSentence": "Uzman, ikinci dereceden sibernetiği gözlemcinin gözlemlenen sistemin bir parçası haline geldiği, öz-düşünümsel sistemlerin incelenmesi olarak tanımladı ve bu yaklaşımın klasik sibernetikten farklı olarak bilginin nesnelliği yerine yapılandırılmış doğasını vurguladığını belirtti.",
+        "AnswerOne": "Gözlemcinin sistemin parçası olması",
+        "AnswerTwo": "Mekanik sistemlerin kontrolü",
+        "AnswerThree": "Doğrusal nedensellik",
+        "AnswerFour": "Nesnel bilgi arayışı",
+        "CorrectAnswer": "Gözlemcinin sistemin parçası olması"
+      },
+      {
+        "QuestionString": "Mimarlık teorisyeni, non-lineer mimariyi nasıl açıkladı?",
+        "ListeningSentence": "Teorisyen, non-lineer mimariyi katı geometrik formlar yerine akışkan, değişken ve karmaşık sistemlerden esinlenen bir tasarım yaklaşımı olarak açıkladı; bu yaklaşımın topolojik dönüşümler, parametrik tasarım ve kendi kendini örgütleme prensiplerini kullanarak mekansal deneyimi çoğullaştırdığını ifade etti.",
+        "AnswerOne": "Klasik geometrik formlar",
+        "AnswerTwo": "Akışkan ve karmaşık sistemlerden esinlenme",
+        "AnswerThree": "Standartlaştırılmış modüller",
+        "AnswerFour": "Tarihi referansların kopyalanması",
+        "CorrectAnswer": "Akışkan ve karmaşık sistemlerden esinlenme"
+      }
+    ]
+  },
+  {
+    "Order": 29,
+    "Content": "C2 Turkish Listening Lesson 4",
+    "Questions": [
+      {
+        "QuestionString": "Kuantum temelli bilgi teorisyeni, holografik ilkeyi nasıl açıkladı?",
+        "ListeningSentence": "Teorisyen, holografik ilkenin bir uzay bölgesindeki fiziksel bilginin, o bölgenin sınırında kodlanmış olabileceğini öne sürdüğünü; bu radikal fikrin kara delik entropi problemlerinden doğduğunu ve uzay-zamanın temel doğası hakkında yeni bir anlayışa işaret ettiğini açıkladı.",
+        "AnswerOne": "Bilginin hacimde değil yüzeyde kodlanması",
+        "AnswerTwo": "Klasik bilgi teorisinin devamı",
+        "AnswerThree": "Sadece kara delikler için geçerli",
+        "AnswerFour": "Deneysel olarak çürütülmüş",
+        "CorrectAnswer": "Bilginin hacimde değil yüzeyde kodlanması"
+      },
+      {
+        "QuestionString": "Biyosemiyotikçi, doğadaki anlam süreçlerini nasıl yorumladı?",
+        "ListeningSentence": "Biyosemiyotikçi, anlam süreçlerinin sadece insan kültürüne özgü olmadığını, tüm canlı organizmaların işaretleri yorumlama ve anlam üretme kapasitesine sahip olduğunu; örneğin bir hücrenin reseptörleri aracılığıyla kimyasal sinyalleri 'okumasının' bile ilkel bir semiyotik süreç olduğunu savundu.",
+        "AnswerOne": "Sadece insana özgü",
+        "AnswerTwo": "Tüm canlılarda görülen semiyotik süreçler",
+        "AnswerThree": "Mekanik tepkilerden ibaret",
+        "AnswerFour": "Sadece yüksek hayvanlarda",
+        "CorrectAnswer": "Tüm canlılarda görülen semiyotik süreçler"
+      },
+      {
+        "QuestionString": "Topoloji uzmanı, evrenin şeklini açıklarken hangi kavramı vurguladı?",
+        "ListeningSentence": "Uzman, evrenin şeklinin topolojik bir özellik olduğunu ve basit bağlantılı (küre benzeri) veya çoklu bağlantılı (simit benzeri) olabileceğini; bu durumun kozmolojik gözlemlerle test edilebileceğini, ancak henüz kesin bir sonuca varılamadığını belirtti.",
+        "AnswerOne": "Sadece düz geometri",
+        "AnswerTwo": "Basit veya çoklu bağlantılı topoloji",
+        "AnswerThree": "Sabit ve değişmez yapı",
+        "AnswerFour": "Gözlemlenemez bir özellik",
+        "CorrectAnswer": "Basit veya çoklu bağlantılı topoloji"
+      },
+      {
+        "QuestionString": "Ontoloji filozofu, düzlemsel ontolojiyi nasıl tanımladı?",
+        "ListeningSentence": "Filozof, düzlemsel ontolojiyi insanları diğer varlıklardan ontolojik olarak üstün görmeyen, tüm varlıkların eşit ontolojik statüde olduğu bir yaklaşım olarak tanımladı ve bu görüşün ekolojik kriz karşısında yeni bir etik perspektif sunduğunu iddia etti.",
+        "AnswerOne": "İnsanmerkezci hiyerarşi",
+        "AnswerTwo": "Tüm varlıkların eşit ontolojik statüsü",
+        "AnswerThree": "Sadece canlı varlıkların değeri",
+        "AnswerFour": "Dini temelli bir sınıflandırma",
+        "CorrectAnswer": "Tüm varlıkların eşit ontolojik statüsü"
+      },
+      {
+        "QuestionString": "Karmaşık ağ teorisyeni, küçük dünya fenomenini nasıl açıkladı?",
+        "ListeningSentence": "Teorisyen, küçük dünya fenomeninin birbirine uzak görünen düğümlerin birkaç ara bağlantıyla birleştirilebilmesi olduğunu; bu özelliğin sosyal ağlardan nöral ağlara kadar birçok sistemde görüldüğünü ve hem lokal kümeleşme hem de rastgele uzun bağlantıların bir arada bulunmasıyla açıklanabileceğini ifade etti.",
+        "AnswerOne": "Tamamen rastgele bağlantılar",
+        "AnswerTwo": "Lokal kümeleşme ve rastgele uzun bağlantılar",
+        "AnswerThree": "Merkezi hiyerarşik yapı",
+        "AnswerFour": "İzole alt gruplar",
+        "CorrectAnswer": "Lokal kümeleşme ve rastgele uzun bağlantılar"
+      }
+    ]
+  },
+  {
+    "Order": 30,
+    "Content": "C2 Turkish Listening Lesson 5",
+    "Questions": [
+      {
+        "QuestionString": "Kuantum hesaplama uzmanı, kuantum üstünlüğünü nasıl tanımladı?",
+        "ListeningSentence": "Uzman, kuantum üstünlüğünü bir kuantum bilgisayarın klasik süper bilgisayarların pratikte çözemeyeceği bir problemi çözme yeteneği olarak tanımladı; bunun genellikle rastgele kuantum devrelerinin çıktılarını örnekleme gibi özel tasarlanmış problemlerde gösterildiğini ve genel amaçlı üstünlük anlamına gelmediğini vurguladı.",
+        "AnswerOne": "Tüm problemlerde üstünlük",
+        "AnswerTwo": "Özel tasarlanmış problemlerde üstünlük",
+        "AnswerThree": "Sadece teorik bir olasılık",
+        "AnswerFour": "Klasik bilgisayarlarla eşdeğerlik",
+        "CorrectAnswer": "Özel tasarlanmış problemlerde üstünlük"
+      },
+      {
+        "QuestionString": "Spekülatif realizm filozofu, korelasyonizmi nasıl eleştirdi?",
+        "ListeningSentence": "Filozof, korelasyonizmi insan düşüncesi ile var olan arasındaki ilişkiyi aşamayacağımızı savunan Kantçı geleneği eleştirerek, insan-merkezci olmayan bir realizmin mümkün olduğunu; düşüncenin ötesinde 'kendinde şey'e ulaşabileceğimizi iddia etti ve bu yaklaşımı 'spekülatif realizm' olarak adlandırdı.",
+        "AnswerOne": "Kantçı geleneğin devamı",
+        "AnswerTwo": "İnsan-merkezci olmayan realizm",
+        "AnswerThree": "Sadece fenomenolojik yaklaşım",
+        "AnswerFour": "Dini temelli bir realizm",
+        "CorrectAnswer": "İnsan-merkezci olmayan realizm"
+      },
+      {
+        "QuestionString": "Nöroestetikçi, sanat deneyiminin nöral temellerini nasıl açıkladı?",
+        "ListeningSentence": "Nöroestetikçi, sanat deneyiminin ödül sistemleri, ayna nöronlar ve varsayımsal çıkarım mekanizmalarının karmaşık etkileşiminden kaynaklandığını; beynin belirsizliği çözme ve örüntüleri tamamlama eğiliminin estetik hazza yol açtığını ve bu süreçlerin evrimsel kökleri olabileceğini belirtti.",
+        "AnswerOne": "Sadece kültürel öğrenme",
+        "AnswerTwo": "Çoklu nöral sistemlerin etkileşimi",
+        "AnswerThree": "Genetik determinizm",
+        "AnswerFour": "Rastgele nöral aktivite",
+        "CorrectAnswer": "Çoklu nöral sistemlerin etkileşimi"
+      },
+      {
+        "QuestionString": "Kuantum alan teorisyeni, vakum enerjisi paradoksunu nasıl özetledi?",
+        "ListeningSentence": "Teorisyen, vakum enerjisi paradoksunu kuantum alan teorisinin öngördüğü vakum enerjisi yoğunluğu ile kozmolojik gözlemlerden çıkan değer arasındaki 120 mertebesindeki uçurum olarak özetledi ve bu tutarsızlığın ya kuantum teorisinde ya da genel görelilikte temel bir revizyon gerektirdiğini ifade etti.",
+        "AnswerOne": "Küçük bir hesaplama hatası",
+        "AnswerTwo": "120 mertebesinde uçurum",
+        "AnswerThree": "Deneysel ölçüm hatası",
+        "AnswerFour": "Sadece teorik bir problem",
+        "CorrectAnswer": "120 mertebesinde uçurum"
+      },
+      {
+        "QuestionString": "Dijital ontoloji uzmanı, nesnelerin internetinin felsefi etkilerini nasıl yorumladı?",
+        "ListeningSentence": "Uzman, nesnelerin internetinin aktif olarak veri üreten ve ileten akıllı nesnelerin yaygınlaşmasıyla, geleneksel özne-nesne ayrımını bulanıklaştırdığını; bu durumun yeni bir ontolojik kategori olarak 'dijital nesnelerin' ortaya çıkışına işaret ettiğini ve varlık anlayışımızı dönüştürdüğünü savundu.",
+        "AnswerOne": "Teknolojik determinizm",
+        "AnswerTwo": "Özne-nesne ayrımının bulanıklaşması",
+        "AnswerThree": "Geleneksel ontolojinin yeterliliği",
+        "AnswerFour": "Sadece pratik etkileri var",
+        "CorrectAnswer": "Özne-nesne ayrımının bulanıklaşması"
+      }
+    ]
+  }
+]
