@@ -102,7 +102,7 @@ namespace Bitirme.BLL.Services
                 {
                     Id = Guid.NewGuid().ToString(),
                     Code = code.ToString(),
-                    Type = 0,
+                    Type = 1,
                     UserId = newTeacher.Id
                 });
                 var body = "Registration Code: " + code;
@@ -132,7 +132,7 @@ namespace Bitirme.BLL.Services
                 {
                     Id = Guid.NewGuid().ToString(),
                     Code = code.ToString(),
-                    Type = 0,
+                    Type = 1,
                     UserId = newStudent.Id
                 });
                 var body = "Registration Code: " + code;
@@ -155,7 +155,7 @@ namespace Bitirme.BLL.Services
 
         public bool VerifyEmail(string userId,string code)
         {
-            var userCode = _userMailCodeRepository.FindWithInclude(x => x.UserId == userId).FirstOrDefault();
+            var userCode = _userMailCodeRepository.FindWithInclude(x => x.UserId == userId && x.Type == 1).FirstOrDefault();
             if (userCode == null)
             {
                 return false;
@@ -215,6 +215,12 @@ namespace Bitirme.BLL.Services
             if (student != null)
             {
                 EmailService.SendEmail(student.Email,"Forgot Password Code","Your Code: "+ code);
+                var oldCode = _userMailCodeRepository.FindWithInclude(x => x.UserId == student.Id && x.Type == 0).FirstOrDefault();
+                if (oldCode != null)
+                {
+                    _userMailCodeRepository.Delete(oldCode.Id);
+                    _context.SaveChanges();
+                }
                 _userMailCodeRepository.Add(new UserMailCode
                 {
                     Id = Guid.NewGuid().ToString(),
@@ -233,6 +239,12 @@ namespace Bitirme.BLL.Services
                     return "";
                 }
                 EmailService.SendEmail(teacher.Email, "Forgot Password Code", "Your Code: " + code);
+                var oldCode = _userMailCodeRepository.FindWithInclude(x => x.UserId == teacher.Id && x.Type == 0).FirstOrDefault();
+                if (oldCode != null)
+                {
+                    _userMailCodeRepository.Delete(oldCode.Id);
+                    _context.SaveChanges();
+                }
                 _userMailCodeRepository.Add(new UserMailCode
                 {
                     Id = Guid.NewGuid().ToString(),
