@@ -85,10 +85,6 @@ namespace Bitirme.BLL.Services
                 {
                     var dbclassStudent = _classStudentRepository.FindWithInclude(x => x.Class.Id == lesson.Class.Id && x.Student.Id == studentId, x=> x.Student, x => x.Class).FirstOrDefault();
                     var dbclassStudents = _classStudentRepository.FindWithInclude(x => x.Class.Id == lesson.Class.Id && x.Student.Id == studentId, x => x.Student, x => x.Class).ToList();
-
-                    dbclassStudent.RecordStatus = DAL.Entities.RecordStatus.Completed;
-                    _classStudentRepository.Update(dbclassStudent);
-                    _classStudentRepository.SaveChanges();
                     if (next)
                     {
                         var isTheEnd = Enum.IsDefined(typeof(RecordStatus), (int)dbclassStudent.Class.Level + 1);
@@ -101,6 +97,10 @@ namespace Bitirme.BLL.Services
                         var newClass = _classRepository.FindWithInclude(x => x.Level == (Level)newLevel && x.Course.Id == dbclass.CourseId).FirstOrDefault();
                         AddStudentToClass(newClass.Id, studentId);
                     }
+                    dbclassStudent.RecordStatus = DAL.Entities.RecordStatus.Completed;
+                    _classStudentRepository.Update(dbclassStudent);
+                    _classStudentRepository.SaveChanges();
+
 
                 }
                 return true;

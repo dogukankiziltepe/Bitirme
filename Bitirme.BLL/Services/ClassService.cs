@@ -204,6 +204,25 @@ namespace Bitirme.BLL.Services
             {
                 var lessonIds = item.Lessons.Select(x => x.Id).ToList();
                 var studentLessons = _lessonStudentRepository.FindWithInclude(x => lessonIds.Any(a => a == x.LessonId) && x.StudentId == studentId).ToList();
+                var lessons = new List<LessonViewModel>();
+                var dbLessons = _lessonService.GetLessonsWithClassId(item.Id);
+                foreach (var les in dbLessons)
+                {
+                    var questions = _lessonService.GetLessonQuestions(les.Id);
+                    if (questions.Count < 1)
+                    {
+                        continue;
+                    }
+                    lessons.Add(new LessonViewModel
+                    {
+                        ClassId = item.Id,
+                        Content = les.Content,
+                        Id = les.Id,
+                        Order = les.Order,
+                        IsCompleted = _lessonStudentRepository.FindWithInclude(x => x.LessonId == les.Id && x.StudentId == studentId && x.Status == RecordStatus.Completed).FirstOrDefault() != null ? true : false,
+                        QuestionCount = questions.Count,
+                    });
+                }
                 modelClasses.Add(new ClassViewModel
                 {
                     Id = item.Id,
@@ -211,14 +230,7 @@ namespace Bitirme.BLL.Services
                     Name = item.Name,
                     CourseName = item.Course.Name,
                     CourseId = item.CourseId,
-                    Lessons = item.Lessons.Select(a => new LessonViewModel
-                    {
-                        ClassId = item.Id,
-                        Content = a.Content,
-                        Id = a.Id,
-                        Order = a.Order,
-                        IsCompleted = _lessonStudentRepository.FindWithInclude(x => x.LessonId == a.Id && x.StudentId == studentId && x.Status == RecordStatus.Completed).FirstOrDefault() != null ? true : false
-                    }).ToList(),
+                    Lessons = lessons,
                     StudentStatus = studentLessons.Count() == 0 ? StudentClassProgress.NotStarted : studentLessons.Count() == item.Lessons.Count() ? StudentClassProgress.Completed : StudentClassProgress.Continue
                 });
             }
@@ -274,22 +286,37 @@ namespace Bitirme.BLL.Services
 
         public List<ClassViewModel> GetTeacherClasses(string teacherId,string courseId)
         {
-            var classes = _classRepository.FindWithInclude(c => c.Teacher.Id == teacherId && c.CourseId == courseId , c => c.Students, c => c.Teacher, c => c.Lessons, c => c.Course).ToList().Select(x => new ClassViewModel
+            var classes = _classRepository.FindWithInclude(c => c.Teacher.Id == teacherId && c.CourseId == courseId, c => c.Students, c => c.Teacher, c => c.Lessons, c => c.Course).ToList();
+            var modelClasses = new List<ClassViewModel>();
+            foreach (var item in classes)
             {
-                Id = x.Id,
-                Lessons = x.Lessons.Select(a => new LessonViewModel
+                var lessonIds = item.Lessons.Select(x => x.Id).ToList();
+                var lessons = new List<LessonViewModel>();
+                var dbLessons = _lessonService.GetLessonsWithClassId(item.Id);
+                foreach (var les in dbLessons)
                 {
-                    ClassId = x.Id,
-                    Content = a.Content,
-                    Id = a.Id,
-                    Order = a.Order
-                }).ToList(),
-                Level = x.Level,
-                Name = x.Name,
-                CourseId = x.Course.Id,
-                CourseName = x.Course.Name,
-            }).ToList();
-            return classes;
+                    var questions = _lessonService.GetLessonQuestions(les.Id);
+         
+                    lessons.Add(new LessonViewModel
+                    {
+                        ClassId = item.Id,
+                        Content = les.Content,
+                        Id = les.Id,
+                        Order = les.Order,
+                        QuestionCount = questions.Count,
+                    });
+                }
+                modelClasses.Add(new ClassViewModel
+                {
+                    Id = item.Id,
+                    Level = item.Level,
+                    Name = item.Name,
+                    CourseName = item.Course.Name,
+                    CourseId = item.CourseId,
+                    Lessons = lessons,
+                });
+            }
+            return modelClasses;
         }
     }
 }
