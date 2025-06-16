@@ -99,22 +99,7 @@ namespace Bitirme.BLL.Services
         public IEnumerable<ClassViewModel> GetClassesByStudentId(string studentId)
         {
             var classviewModels = new List<ClassViewModel>();
-            var classes  = _classRepository.FindWithInclude(c => c.Students.Any(s => s.Student.Id == studentId), c => c.Students, c => c.Teacher, c => c.Lessons, c=> c.Course).ToList().Select(x => new ClassViewModel
-            {
-                Id = x.Id,
-                Lessons = x.Lessons.Select(a => new LessonViewModel
-                {
-                    ClassId = x.Id,
-                    Content = a.Content,
-                    Id = a.Id,
-                    Order = a.Order,
-                    IsCompleted = _lessonStudentRepository.FindWithInclude(x => x.LessonId == a.Id && x.StudentId == studentId && x.Status == RecordStatus.Completed).FirstOrDefault() != null ? true : false
-                }).ToList(),
-                Level = x.Level,
-                Name = x.Name,
-                CourseId = x.Course.Id,
-                CourseName = x.Course.Name,
-            }).ToList();
+            var classes  = _classRepository.FindWithInclude(c => c.Students.Any(s => s.Student.Id == studentId), c => c.Students, c => c.Teacher, c => c.Lessons, c=> c.Course).ToList();
 
             foreach (var classViewModel in classes)
             {
@@ -125,7 +110,32 @@ namespace Bitirme.BLL.Services
                 }
                 if(studentClass.RecordStatus != RecordStatus.Completed)
                 {
-                    classviewModels.Add(classViewModel);
+                    var lessons = _lessonService.GetLessonsWithClassId(classViewModel.Id);
+                    var lessonViewModels = new List<LessonViewModel>();
+                    foreach (var lesson in lessons)
+                    {
+                        var questions = _lessonService.GetLessonQuestions(lesson.Id);
+                        if(questions.Count() > 0)
+                        {
+                            lessonViewModels.Add(new LessonViewModel
+                            {
+                                ClassId = classViewModel.Id,
+                                Content = lesson.Content,
+                                Id = lesson.Id,
+                                Order = lesson.Order,
+                                IsCompleted = _lessonStudentRepository.FindWithInclude(classViewModel => classViewModel.LessonId == lesson.Id && classViewModel.StudentId == studentId && classViewModel.Status == RecordStatus.Completed).FirstOrDefault() != null ? true : false
+                            });
+                        }
+                    }
+                    classviewModels.Add(new ClassViewModel
+                    {
+                        Id = classViewModel.Id,
+                        Lessons = lessonViewModels,
+                        Level = classViewModel.Level,
+                        Name = classViewModel.Name,
+                        CourseId = classViewModel.Course.Id,
+                        CourseName = classViewModel.Course.Name,
+                    });
                 }
             }
             return classviewModels;
