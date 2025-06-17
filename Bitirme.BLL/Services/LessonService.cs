@@ -229,5 +229,27 @@ namespace Bitirme.BLL.Services
                 throw ex;
             }
         }
+
+        public bool DeleteLessonQuestion(string questionId)
+        {
+            _questionRepository.Delete(questionId);
+            _questionRepository.SaveChanges();
+            return true;
+        }
+
+        public bool UpdateLessonQuestion(QuestionViewModel model)
+        {
+           var dbQuestion = _questionRepository.GetById(model.Id);
+            dbQuestion.AnswerOne = model.AnswerOne;
+            dbQuestion.AnswerTwo = model.AnswerTwo;
+            dbQuestion.AnswerThree = model.AnswerThree;
+            dbQuestion.AnswerFour = model.AnswerFour;
+            dbQuestion.QuestionString = model.QuestionString;
+            dbQuestion.CorrectAnswer = model.CorrectAnswer;
+            dbQuestion.ListeningSentence = model.ListeningSentence;
+            _questionRepository.Update(dbQuestion);
+            _questionRepository.SaveChanges();
+            return true;
+        }
     }
 }

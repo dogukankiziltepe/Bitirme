@@ -58,5 +58,26 @@ namespace Bitirme.Controllers
                 return BadRequest();
         }
 
+        [HttpGet("DeleteLessonQuestion/{questionId}")]
+        public IActionResult DeleteLessonQuestion(string questionId)
+        {
+            var result = _lessonService.DeleteLessonQuestion(questionId);
+            if(result)
+                return Ok(result);
+            return BadRequest();
+        }
+
+        [HttpPost("UpdateLessonQuestion")]
+        public IActionResult UpdateLessonQuestion(QuestionViewModel model)
+        {
+            var result = _lessonService.UpdateLessonQuestion(model);
+            if (result)
+            {
+                return Ok(result);
+            }
+            return BadRequest();
+                
+        } 
+
     }
 }
