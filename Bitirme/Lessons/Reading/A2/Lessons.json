@@ -5,7 +5,7 @@
     "Questions": [
       {
         "QuestionString": "Neden geç kaldı?",
-        "ReadingSentence": "Otobüsü kaçırdığı için geç kaldı.",
+        "ListeningSentence": "Otobüsü kaçırdığı için geç kaldı.",
         "AnswerOne": "Alarmı çalmadı",
         "AnswerTwo": "Otobüsü kaçırdı",
         "AnswerThree": "Trafik vardı",
@@ -14,7 +14,7 @@
       },
       {
         "QuestionString": "Hediye olarak ne aldılar?",
-        "ReadingSentence": "Doğum günü için bir kitap aldılar.",
+        "ListeningSentence": "Doğum günü için bir kitap aldılar.",
         "AnswerOne": "Çiçek",
         "AnswerTwo": "Kitap",
         "AnswerThree": "Kolye",
@@ -23,7 +23,7 @@
       },
       {
         "QuestionString": "Yarın ne yapacaklar?",
-        "ReadingSentence": "Yarın pikniğe gidecekler.",
+        "ListeningSentence": "Yarın pikniğe gidecekler.",
         "AnswerOne": "Alışveriş yapacaklar",
         "AnswerTwo": "Pikniğe gidecekler",
         "AnswerThree": "Ev temizleyecekler",
@@ -32,7 +32,7 @@
       },
       {
         "QuestionString": "Nerede tanışmışlar?",
-        "ReadingSentence": "Üniversitede tanışmışlar.",
+        "ListeningSentence": "Üniversitede tanışmışlar.",
         "AnswerOne": "İş yerinde",
         "AnswerTwo": "Üniversitede",
         "AnswerThree": "Bir partide",
@@ -41,7 +41,7 @@
       },
       {
         "QuestionString": "Hangi takımı tutuyor?",
-        "ReadingSentence": "Fenerbahçe'yi tutuyor.",
+        "ListeningSentence": "Fenerbahçe'yi tutuyor.",
         "AnswerOne": "Galatasaray",
         "AnswerTwo": "Fenerbahçe",
         "AnswerThree": "Beşiktaş",
@@ -56,7 +56,7 @@
     "Questions": [
       {
         "QuestionString": "Niye üzgün görünüyor?",
-        "ReadingSentence": "Köpeği kaybolduğu için üzgün.",
+        "ListeningSentence": "Köpeği kaybolduğu için üzgün.",
         "AnswerOne": "Sınavdan kötü not aldı",
         "AnswerTwo": "Köpeği kayboldu",
         "AnswerThree": "Hasta oldu",
@@ -65,7 +65,7 @@
       },
       {
         "QuestionString": "Tatilde nereye gitmişler?",
-        "ReadingSentence": "Geçen yaz İtalya'ya gitmişler.",
+        "ListeningSentence": "Geçen yaz İtalya'ya gitmişler.",
         "AnswerOne": "Fransa",
         "AnswerTwo": "İspanya",
         "AnswerThree": "İtalya",
@@ -74,7 +74,7 @@
       },
       {
         "QuestionString": "Ne zaman taşınacaklar?",
-        "ReadingSentence": "Önümüzdeki ay yeni evlerine taşınacaklar.",
+        "ListeningSentence": "Önümüzdeki ay yeni evlerine taşınacaklar.",
         "AnswerOne": "Bu hafta sonu",
         "AnswerTwo": "Önümüzdeki ay",
         "AnswerThree": "Yaz başında",
@@ -83,7 +83,7 @@
       },
       {
         "QuestionString": "Konserde kim vardı?",
-        "ReadingSentence": "Konserde ünlü bir piyanist vardı.",
+        "ListeningSentence": "Konserde ünlü bir piyanist vardı.",
         "AnswerOne": "Şarkıcı",
         "AnswerTwo": "Piyanist",
         "AnswerThree": "Orkestra",
@@ -92,7 +92,7 @@
       },
       {
         "QuestionString": "Nasıl bir restoran?",
-        "ReadingSentence": "Deniz manzaralı güzel bir restoran.",
+        "ListeningSentence": "Deniz manzaralı güzel bir restoran.",
         "AnswerOne": "Ucuz ve lezzetli",
         "AnswerTwo": "Deniz manzaralı",
         "AnswerThree": "Çok kalabalık",
@@ -107,7 +107,7 @@
     "Questions": [
       {
         "QuestionString": "Neden izin aldı?",
-        "ReadingSentence": "Ameliyat olduğu için bir hafta izin aldı.",
+        "ListeningSentence": "Ameliyat olduğu için bir hafta izin aldı.",
         "AnswerOne": "Hasta olduğu için",
         "AnswerTwo": "Ameliyat olduğu için",
         "AnswerThree": "Tatile gideceği için",
@@ -116,7 +116,7 @@
       },
       {
         "QuestionString": "Hangi kursa yazılacak?",
-        "ReadingSentence": "Yazın yüzme kursuna yazılacak.",
+        "ListeningSentence": "Yazın yüzme kursuna yazılacak.",
         "AnswerOne": "Yüzme",
         "AnswerTwo": "Resim",
         "AnswerThree": "Müzik",
@@ -125,7 +125,7 @@
       },
       {
         "QuestionString": "Partiye kaç kişi geldi?",
-        "ReadingSentence": "Partiye yaklaşık yirmi kişi geldi.",
+        "ListeningSentence": "Partiye yaklaşık yirmi kişi geldi.",
         "AnswerOne": "On",
         "AnswerTwo": "On beş",
         "AnswerThree": "Yirmi",
@@ -134,7 +134,7 @@
       },
       {
         "QuestionString": "Ne zaman evlendiler?",
-        "ReadingSentence": "Beş yıl önce evlendiler.",
+        "ListeningSentence": "Beş yıl önce evlendiler.",
         "AnswerOne": "Bir yıl önce",
         "AnswerTwo": "Üç yıl önce",
         "AnswerThree": "Beş yıl önce",
@@ -143,7 +143,7 @@
       },
       {
         "QuestionString": "Hangi filmi izlediler?",
-        "ReadingSentence": "Geçen hafta yeni çıkan bir komedi filmi izlediler.",
+        "ListeningSentence": "Geçen hafta yeni çıkan bir komedi filmi izlediler.",
         "AnswerOne": "Korku",
         "AnswerTwo": "Dram",
         "AnswerThree": "Komedi",
@@ -158,7 +158,7 @@
     "Questions": [
       {
         "QuestionString": "Nerede çalışıyor?",
-        "ReadingSentence": "Merkez bankasında çalışıyor.",
+        "ListeningSentence": "Merkez bankasında çalışıyor.",
         "AnswerOne": "Okulda",
         "AnswerTwo": "Hastanede",
         "AnswerThree": "Bankada",
@@ -167,7 +167,7 @@
       },
       {
         "QuestionString": "Hangi şehirden geliyor?",
-        "ReadingSentence": "Ailesi aslen Konya'dan geliyor.",
+        "ListeningSentence": "Ailesi aslen Konya'dan geliyor.",
         "AnswerOne": "Ankara",
         "AnswerTwo": "Konya",
         "AnswerThree": "Sivas",
@@ -176,7 +176,7 @@
       },
       {
         "QuestionString": "Ne sıklıkla spor yapıyor?",
-        "ReadingSentence": "Haftada üç gün spor salonuna gidiyor.",
+        "ListeningSentence": "Haftada üç gün spor salonuna gidiyor.",
         "AnswerOne": "Her gün",
         "AnswerTwo": "Haftada üç gün",
         "AnswerThree": "Haftada bir",
@@ -185,7 +185,7 @@
       },
       {
         "QuestionString": "Hangi üniversitede okudu?",
-        "ReadingSentence": "ODTÜ'de mühendislik okudu.",
+        "ListeningSentence": "ODTÜ'de mühendislik okudu.",
         "AnswerOne": "Boğaziçi",
         "AnswerTwo": "ODTÜ",
         "AnswerThree": "İTÜ",
@@ -194,7 +194,7 @@
       },
       {
         "QuestionString": "Ne yemek yapacaklar?",
-        "ReadingSentence": "Akşam için mantı yapacaklar.",
+        "ListeningSentence": "Akşam için mantı yapacaklar.",
         "AnswerOne": "Kebap",
         "AnswerTwo": "Mantı",
         "AnswerThree": "Lahmacun",
@@ -209,7 +209,7 @@
     "Questions": [
       {
         "QuestionString": "Nereye yerleşmek istiyor?",
-        "ReadingSentence": "Emekli olunca Ege'de bir sahil kasabasına yerleşmek istiyor.",
+        "ListeningSentence": "Emekli olunca Ege'de bir sahil kasabasına yerleşmek istiyor.",
         "AnswerOne": "İstanbul'a",
         "AnswerTwo": "Ankara'ya",
         "AnswerThree": "Ege'de bir sahil kasabasına",
@@ -218,7 +218,7 @@
       },
       {
         "QuestionString": "Hangi enstrümanı çalıyor?",
-        "ReadingSentence": "On yıldır gitar çalıyor.",
+        "ListeningSentence": "On yıldır gitar çalıyor.",
         "AnswerOne": "Piyano",
         "AnswerTwo": "Keman",
         "AnswerThree": "Gitar",
@@ -227,7 +227,7 @@
       },
       {
         "QuestionString": "Niye şaşırdı?",
-        "ReadingSentence": "Beklemediği bir hediye aldığı için şaşırdı.",
+        "ListeningSentence": "Beklemediği bir hediye aldığı için şaşırdı.",
         "AnswerOne": "Sürpriz parti yaptıkları için",
         "AnswerTwo": "Beklemediği bir hediye aldığı için",
         "AnswerThree": "Eski arkadaşını gördüğü için",
@@ -236,7 +236,7 @@
       },
       {
         "QuestionString": "Kaç yıldır bu işi yapıyor?",
-        "ReadingSentence": "On beş yıldır aynı işi yapıyor.",
+        "ListeningSentence": "On beş yıldır aynı işi yapıyor.",
         "AnswerOne": "Beş",
         "AnswerTwo": "On",
         "AnswerThree": "On beş",
@@ -245,7 +245,7 @@
       },
       {
         "QuestionString": "Hangi konuda konferans verdi?",
-        "ReadingSentence": "İklim değişikliği hakkında bir konferans verdi.",
+        "ListeningSentence": "İklim değişikliği hakkında bir konferans verdi.",
         "AnswerOne": "Teknoloji",
         "AnswerTwo": "Sağlık",
         "AnswerThree": "İklim değişikliği",
