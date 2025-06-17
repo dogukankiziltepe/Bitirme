@@ -251,5 +251,12 @@ namespace Bitirme.BLL.Services
             _questionRepository.SaveChanges();
             return true;
         }
+
+        public bool DeleteLesson(string lessonId)
+        {
+            _lessonRepository.Delete(lessonId);
+            _lessonRepository.SaveChanges();
+            return true;
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Bitirme.BLL.Interfaces;
 using Bitirme.BLL.Models;
+using Bitirme.DAL.Entities.Courses;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -77,7 +78,16 @@ namespace Bitirme.Controllers
             }
             return BadRequest();
                 
-        } 
+        }
+
+        [HttpGet("DeleteLesson/{lessonId}")]
+        public IActionResult DeleteLesson(string lessonId)
+        {
+            var result = _lessonService.DeleteLesson(lessonId);
+            if (result)
+                return Ok(result);
+            return BadRequest();
+        }
 
     }
 }
