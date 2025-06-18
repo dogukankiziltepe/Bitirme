@@ -1,5 +1,6 @@
 ﻿using Bitirme.BLL.Interfaces;
 using Bitirme.BLL.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,6 +8,7 @@ namespace Bitirme.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class BookController : ControllerBase
     {
         private readonly IBookService _bookService;

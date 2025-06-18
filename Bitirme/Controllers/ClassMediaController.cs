@@ -6,10 +6,12 @@ using Bitirme.BLL.Interfaces;
 using Bitirme.DAL.Entities.Medias;
 using Bitirme.DAL.Entities.Courses;
 using System.Reflection.Metadata.Ecma335;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Bitirme.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/[controller]")]
     public class ClassMediaController : ControllerBase
     {

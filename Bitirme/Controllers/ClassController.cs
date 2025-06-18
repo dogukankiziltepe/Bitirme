@@ -2,6 +2,7 @@ using Bitirme.BLL.Interfaces;
 using Bitirme.BLL.Models;
 using Bitirme.BLL.Services;
 using Bitirme.DAL.Entities.Courses;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ using System.Linq;
 namespace Bitirme.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/[controller]")]
     public class ClassController : ControllerBase
     {

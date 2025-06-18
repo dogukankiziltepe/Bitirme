@@ -17,6 +17,7 @@ namespace Bitirme
             {
                 new Claim(JwtRegisteredClaimNames.Sub, userId),
                 new Claim(ClaimTypes.Role, userRole),
+                new Claim(ClaimTypes.Role,"User"),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
 

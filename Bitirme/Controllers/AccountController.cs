@@ -1,12 +1,14 @@
 using Bitirme.BLL.Interfaces;
 using Bitirme.BLL.Services;
 using Bitirme.DAL.Entities.User;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Bitirme.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/[controller]")]
     public class AccountController : ControllerBase
     {
@@ -19,6 +21,7 @@ namespace Bitirme.Controllers
         }
 
         [HttpPost("login")]
+        [AllowAnonymous]
         public IActionResult Login([FromBody] LoginRequest request)
         {
             var result = _accountService.Login(request.EMail, request.Password);
@@ -32,6 +35,7 @@ namespace Bitirme.Controllers
         }
 
         [HttpPost("signup")]
+        [AllowAnonymous]
         public IActionResult SignUp([FromBody] SignUpRequest request)
         {
             if(string.IsNullOrEmpty(request.Name) || string.IsNullOrEmpty(request.Password) || string.IsNullOrEmpty(request.Email))
@@ -47,7 +51,8 @@ namespace Bitirme.Controllers
             return Ok("Sign up successful.");
         }
 
-        [HttpPost("VerifyEmail")] 
+        [HttpPost("VerifyEmail")]
+        [AllowAnonymous]
         public IActionResult VerifyEmail(CodeCheckModel codeCheckModel) 
         { 
             var result = _accountService.VerifyEmail(codeCheckModel.UserId,codeCheckModel.Code); 
@@ -70,6 +75,7 @@ namespace Bitirme.Controllers
         }
 
         [HttpPost("ResetPassword")]
+        [AllowAnonymous]
         public IActionResult ResetPassword(ResetPasswordRequest request)
         {
             var result = _accountService.ResetPassword(request.StudentId,request.OldPassword,request.NewPassword);
@@ -86,6 +92,7 @@ namespace Bitirme.Controllers
         /// <param name="model"></param>
         /// <returns></returns>
         [HttpPost("ForgotPasswordMail")]
+        [AllowAnonymous]
         public IActionResult ForgotPasswordMail(ForgotPasswordMail model)
         {
             var result = _accountService.ForgotPasswordMail(model.Email);
@@ -102,6 +109,7 @@ namespace Bitirme.Controllers
         /// <param name="model"></param>
         /// <returns></returns>
         [HttpPost("ForgotPasswordCodeCheck")]
+        [AllowAnonymous]
         public IActionResult ForgotPasswordCodeCheck(CodeCheckModel model)
         {
             var result = _accountService.ForgotPasswordCodeControl(model.UserId,model.Code);
@@ -118,6 +126,7 @@ namespace Bitirme.Controllers
         /// <param name="model"></param>
         /// <returns></returns>
         [HttpPost("ForgotPasswordChange")]
+        [AllowAnonymous]
         public IActionResult ForgotPasswordChange(ForgotPasswordChangeModel model)
         {
             var result = _accountService.ForgotPasswordChange(model.UserId, model.NewPassword);

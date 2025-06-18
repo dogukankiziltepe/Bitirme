@@ -1,12 +1,14 @@
 ﻿using Bitirme.BLL.Interfaces;
 using Bitirme.BLL.Models;
 using Bitirme.DAL.Entities.Courses;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Bitirme.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class LessonController : ControllerBase
     {
