@@ -254,6 +254,18 @@ namespace Bitirme.BLL.Services
 
         public bool DeleteLesson(string lessonId)
         {
+            var lessonStudents = _lessonStudentRepository.FindWithInclude(x => x.LessonId == lessonId);
+            foreach (var lessonStudent in lessonStudents)
+            {
+                _lessonStudentRepository.Delete(lessonStudent.Id);
+            }
+            _lessonStudentRepository.SaveChanges();
+            var lessonQuestions = _questionRepository.FindWithInclude(x => x.LessonId == lessonId);
+            foreach (var lessonQuestion in lessonQuestions)
+            {
+                _questionRepository.Delete(lessonQuestion.Id);
+            }
+            _questionRepository.SaveChanges();
             _lessonRepository.Delete(lessonId);
             _lessonRepository.SaveChanges();
             return true;
