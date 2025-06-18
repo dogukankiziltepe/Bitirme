@@ -41,7 +41,7 @@ namespace Bitirme.Controllers
             var result = _accountService.SignUp(request.Password, request.Email,request.Name, request.UserType);
             if (!result)
             {
-                return BadRequest("Sign up failed. Please try again.");
+                return BadRequest("This email already exist.");
             }
 
             return Ok("Sign up successful.");

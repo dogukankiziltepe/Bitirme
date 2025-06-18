@@ -77,10 +77,13 @@ namespace Bitirme.BLL.Services
         public bool SignUp(string password, string email,string name, UserType userType)
         {
             // Check if the user already exists
-            if (_context.Teachers.Any(t => t.Email == email))
+            if (_context.Teachers.Any(t => t.Email.ToLower() == email.ToLower()))
             {
                 return false; // User already exists
             }
+            if (_context.Students.Any(s => s.Email.ToLower() == email.ToLower()))
+                return false;
+
             if (userType == UserType.Teacher)
             {
                 var random = new Random();
