@@ -11,7 +11,7 @@
         "AnswerTwo": "Ankara",
         "AnswerThree": "İstanbul",
         "AnswerFour": "Bursa",
-        "CorrectAnswer": "AnswerThree"
+        "CorrectAnswer": "İstanbul"
       },
       {
         "QuestionString": "Mehmet ne iş yapıyor?",
@@ -20,7 +20,7 @@
         "AnswerTwo": "Öğrenci",
         "AnswerThree": "Mühendis",
         "AnswerFour": "Öğretmen",
-        "CorrectAnswer": "AnswerFour"
+        "CorrectAnswer": "Öğretmen"
       },
       {
         "QuestionString": "Ali kaç yaşında?",
@@ -29,7 +29,7 @@
         "AnswerTwo": "19",
         "AnswerThree": "20",
         "AnswerFour": "21",
-        "CorrectAnswer": "AnswerThree"
+        "CorrectAnswer": "20"
       },
       {
         "QuestionString": "Bugün hava nasıl?",
@@ -38,7 +38,7 @@
         "AnswerTwo": "Rüzgarlı",
         "AnswerThree": "Soğuk",
         "AnswerFour": "Yağmurlu",
-        "CorrectAnswer": "AnswerFour"
+        "CorrectAnswer": "Yağmurlu"
       },
       {
         "QuestionString": "Elif sabah ne yaptı?",
@@ -47,7 +47,7 @@
         "AnswerTwo": "Kahvaltı yaptı",
         "AnswerThree": "Spor yaptı",
         "AnswerFour": "Kitap okudu",
-        "CorrectAnswer": "AnswerTwo"
+        "CorrectAnswer": "Kahvaltı yaptı"
       }
     ]
   },
@@ -63,7 +63,7 @@
         "AnswerTwo": "Market",
         "AnswerThree": "Banka",
         "AnswerFour": "Restoran",
-        "CorrectAnswer": "AnswerThree"
+        "CorrectAnswer": "Banka"
       },
       {
         "QuestionString": "Cem ne alıyor?",
@@ -72,7 +72,7 @@
         "AnswerTwo": "Salatalık",
         "AnswerThree": "Domates",
         "AnswerFour": "Soğan",
-        "CorrectAnswer": "AnswerThree"
+        "CorrectAnswer": "Domates"
       },
       {
         "QuestionString": "Annem ne pişiriyor?",
@@ -81,7 +81,7 @@
         "AnswerTwo": "Pilav",
         "AnswerThree": "Çorba",
         "AnswerFour": "Makarna",
-        "CorrectAnswer": "AnswerThree"
+        "CorrectAnswer": "Çorba"
       },
       {
         "QuestionString": "Çocuk ne ile oynuyor?",
@@ -90,7 +90,7 @@
         "AnswerTwo": "Oyuncak araba",
         "AnswerThree": "Kedi",
         "AnswerFour": "Kum",
-        "CorrectAnswer": "AnswerOne"
+        "CorrectAnswer": "Top"
       },
       {
         "QuestionString": "Bugün hangi gün?",
@@ -99,7 +99,7 @@
         "AnswerTwo": "Salı",
         "AnswerThree": "Cuma",
         "AnswerFour": "Pazar",
-        "CorrectAnswer": "AnswerThree"
+        "CorrectAnswer": "Cuma"
       }
     ]
   },
