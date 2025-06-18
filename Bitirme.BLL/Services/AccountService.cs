@@ -264,7 +264,7 @@ namespace Bitirme.BLL.Services
 
         public bool ForgotPasswordCodeControl(string userId,string code)
         {
-            var userMailCode = _userMailCodeRepository.FindWithInclude(x => x.UserId == userId).FirstOrDefault();
+            var userMailCode = _userMailCodeRepository.FindWithInclude(x => x.UserId == userId && x.Type == 0).FirstOrDefault();
             if(userMailCode == null)
             {
                 return false;
