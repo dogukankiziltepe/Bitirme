@@ -1,6 +1,6 @@
 # 🎓 Bitirme Projesi - .NET 8 + Docker + Katmanlı Mimari
 
-Bu proje, Doğukan Kızıltepe tarafından mezuniyet çalışması olarak geliştirilmiş, Docker destekli, .NET 8 ile yazılmış bir web API mimarisidir. Temiz kod, test edilebilirlik ve sürdürülebilirlik esas alınarak modern bir katmanlı yapı kurulmuştur.
+Bu proje, mezuniyet çalışması olarak geliştirilmiş, Docker destekli, .NET 8 ile yazılmış bir web API mimarisidir. Temiz kod, test edilebilirlik ve sürdürülebilirlik esas alınarak modern bir katmanlı yapı kurulmuştur.
 
 ---
 
